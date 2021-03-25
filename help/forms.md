@@ -1,22 +1,22 @@
 ---
-title: Forms。
+title: 表單
 description: 模式偵測器程式碼說明頁面
 translation-type: tm+mt
-source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
+source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '1143'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL FORMS] {#forms}
+# [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## 背景 {#background}
 
-`FORMS` 確定作為Cloud Service從Adobe Experience Manager Forms遷移到Adobe Experience Manager Forms的潛在問題。在移轉至Cloud Service之前解決這些問題。
+`FORMS` 識別與從遷移到遷移 [!DNL Adobe Experience Manager Forms] 的 [!DNL Adobe Experience Manager Form]潛在問題 [!DNL Cloud Service]。移轉至[!DNL Cloud Service]之前，請先解決這些問題。
 
 下列子類型可協助您識別不同類型的問題：
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 可能的影響和風險{#implications-and-risks}
 
-在移轉至Adobe Experience Manager Forms作為Cloud Service之前，先解決以下問題。 當下列含義和風險未解決時，某些功能在Cloud Service環境中無法如預期般運作。
+移轉至[!DNL Adobe Experience Manager Forms as a Cloud Service]之前，請解決下列問題。 當下列含義和風險未解決時，某些功能在Cloud Service環境中無法如預期般運作。
 
 * 規則編輯器功能的代碼編輯器功能不可用。 (CODE_EDITOR)
 
@@ -37,17 +37,17 @@ ht-degree: 0%
 
 * **[!UICONTROL 電子郵件PDF]**&#x200B;提交動作不可用。(EMAIL_PDF_SUBMIT_ACTION)
 
-* 目前尚未支援以XDP為基礎的調適性表單。 (XDP_BASED_FORM)
+* 尚未支援基於XFA的自適應Forms。 (XFA_BASED_FORM、XDP_BASED_FORM)
 
-* 提交表格時會立即叫用提交動作，而不是等待所有簽署者完成簽署。 因此，最適化表單簽名檔案(Adobe Sign合約PDF傳送給簽署者)無法提交要使用或處理的動作。 (FORM_SIGN_INTEGRATION)
+* 表單提交時會立即叫用「提交動作」，而不是等待所有簽署者完成簽署。 因此，傳送給簽署者的Adobe Sign合約PDF不適用於「提交動作」使用或處理。 (FORM_SIGN_INTEGRATION)
 
 * 「簽名」步驟不可用。 (SIGNATURE_STEP)
 
 * 驗證步驟不可用。 (VERIFY_STEP)
 
-* Forms門戶網站功能和&#x200B;**[!UICONTROL Forms門戶網站提交操作]**&#x200B;不可用。 您無法使用Forms入口網站來列出表單、儲存草稿或顯示已提交的表單。 您不能將(使用&#x200B;**[!UICONTROL Forms門戶提交操作]**)提交到適應性表單的資料發送到Forms門戶。 [!UICONTROL 目前不] 支援另 [!UICONTROL 存] 為草稿和自動儲存最適化表單功能。(FORMS._PORTAL_SUBMISSION,FORMS._PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* 尚未提供Forms門戶功能和&#x200B;**[!UICONTROL Forms門戶提交操作]**。 (FORMS._PORTAL_SUBMISSION,FORMS._PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
-* **[!UICONTROL 提交到Forms工作流]**&#x200B;提交操作不可用。 在AEM6.5Forms及舊版中，提交動作用於提交針對JEE工作流程和LiveCycle Workflow的適應性表單資料給舊版AEM Forms。 (LC_WORKFLOW_SUBMISSION)
+* **[!UICONTROL 提交至Forms Workflow]**&#x200B;提交操作不可用。 在[!DNL AEM 6.5 Forms]和舊版中，「提交動作」可用來將最適化表單資料提交至舊版[!DNL AEM Forms on JEE]工作流程和LiveCycle Workflow。 (LC_WORKFLOW_SUBMISSION)
 
 * 無法使用「互動式通訊」功能。  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)。
 
@@ -55,34 +55,42 @@ ht-degree: 0%
 
 * 中繼資料accordion無法使用。 (METADATA_ACCORDION_FORM_CONTAINER)
 
-* 依預設，CAPTCHA元件現在使用Google reCAPTCHA服務來驗證CAPTCHA。 無法使用Adobe Experience Manager驗證驗證驗證驗證驗證碼的選項。 (FORMS_CAPTCHA)
+* 依預設，CAPTCHA元件現在使用Google reCAPTCHA服務來驗證CAPTCHA。 不建議使用Adobe Experience Manager驗證CAPTCHA的選項。 (FORMS_CAPTCHA)
+
+* [!DNL AEM Forms] 應用程式無法 [!DNL Cloud Services]使用。(AEM_FORMS._APP)
+
+* [「工](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) 作流程」中不提供「檔案服務」AEM步驟。(WORKFLOW_DOCSERVICES)
 
 ## 可能的解決方案{#solutions}
 
 * 使用移轉公用程式，將您環境上的所有規則指令碼轉換為可重複使用的函式。 您可以搭配使用可重複使用的函式和視覺化規則編輯器，以繼續取得使用規則指令碼取得的結果。 (CODE_EDITOR)
 
-* 請與支援團隊聯繫，為您的環境啟用電子郵件（開啟SMTP埠）功能。 預設情況下，僅啟用傳出HTTP和HTTPS連接。 (EMAIL_SERVICE_CONFIGURATION)
+* 請與支援團隊聯繫，為您的環境啟用電子郵件（開啟SMTP埠）功能。 預設情況下，僅啟用傳出HTTP和HTTPS連接。 （EMAIL_SERVICE_CONFIGURATION，電子郵件步驟）
 
-* 使用&#x200B;**[!UICONTROL Email]**&#x200B;提交動作，而非&#x200B;**[!UICONTROL Email PDF]**。 **[!UICONTROL Email]**&#x200B;提交操作提供了發送附件和附加記錄文檔(DoR)的選項。 (EMAIL_PDF_SUBMIT_ACTION)
+* 使用&#x200B;**[!UICONTROL Email]** Submit Action而非&#x200B;**[!UICONTROL Email PDF]**。 **[!UICONTROL Email]** Submit Action（電子郵件提交操作）提供了發送附件和附加記錄文檔(DoR)的選項。 (EMAIL_PDF_SUBMIT_ACTION)
 
-* 請勿將基於XDP的自適應表單遷移到Cloud Service環境。 請留意每月的版本注意事項，以瞭解功能的可用性。 (XDP_BASED_FORM)
+* 已提交的資料包含Adobe Sign合約ID。 如有需要，您可以使用簽署合約ID來擷取簽署合約PDF。  (FORM_SIGN_INTEGRATION)
 
-* 已提交的資料包含簽署合約ID。 如有需要，您可以使用簽署合約ID來擷取簽署合約PDF。  (FORM_SIGN_INTEGRATION)
+* 從現有的最適化表單移除簽名步驟。 設定您的最適化表單，使用[瀏覽器內簽署體驗](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)。 它顯示Adobe Sign同意在瀏覽器內簽署提交最適化表單的協定。 瀏覽器內簽署體驗有助於提供更快速的簽署體驗，並為簽署者節省時間。 (SIGNATURE_STEP)
 
-* 在同一視窗中，以「簽署最適化表單貼文提交」選項取代最適化表單中的「簽名」步驟。 它可協助您繼續提供[瀏覽器內簽署體驗](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)。 (SIGNATURE_STEP)
+* 在將這些表單移動到[!DNL Cloud Service]環境之前，請先從現有的自適應Forms中刪除驗證步驟。 (VERIFY_STEP)
 
-* 將現有的可調式表單移至Cloud Service環境之前，先移除驗證步驟。 (VERIFY_STEP)
+* 修改您現有的自適應表單，使用[提交到REST端點](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint)、[發送電子郵件](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email)、[使用表單資料模型](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)和[調用工作流](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)提交操作。 Forms門戶網站和Forms門戶網站提交操作尚未推出。 請留意每月的版本注意事項，以瞭解功能的可用性。 (FORMS._PORTAL_SUBMISSION,FORMS._PORTAL)
 
-* 除了&#x200B;**[!UICONTROL Forms門戶提交行動]**&#x200B;之外，別無他法。 一旦針對Cloud Service發佈了Forms門戶功能，您就可以使用此提交操作。 請留意每月的版本注意事項，以瞭解功能的可用性。 (FORMS._PORTAL_SUBMISSION,FORMS._PORTAL)
+* 您可以開發AEM「工作流」並修改現有的最適化表單，以使用[AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Submit Action將資料傳送至AEMWorkflow，而不使用&#x200B;**[!UICONTROL Submit toForms Workflow]** Submit Action。 您可以開發自訂「提交動作」，將資料、附件或記錄檔案(DoR)傳送至LiveCycle程式，而不是使用「提交至Forms Workflow」[!UICONTROL 。 ](LC_WORKFLOW_SUBMISSION)
 
-* 沒有替代的提交操作可提交至Forms工作流&#x200B;]**提交操作。**[!UICONTROL &#x200B;您可以開發自訂提交動作，將資料、附件或記錄檔案(DoR)傳送至LiveCycle程式。 (LC_WORKFLOW_SUBMISSION)
+* 請留意每月的發行說明，瞭解互動式通訊功能的可用性。 在功能不可用之前，請勿將您的互動式通訊、信件和相關字典移轉至Cloud Service環境。 (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* 請勿將您的互動式通訊、信件和相關字典移轉至Cloud Service環境。 (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
-
-* 在將最適化表單移轉至Cloud Service之前，停用最適化表單中的「另存為草稿&#x200B;]**」和「啟用自動儲存]**」選項。 **[!UICONTROL **[!UICONTROL &#x200B;在為Cloud Service發佈Forms門戶功能後，您可以啟用這些選項。 請留意每月的版本注意事項，以瞭解功能的可用性。 (DRAFT_AUTO_SAVE,DRAFT_SAVE)
+* 在將草稿&#x200B;]**和**[!UICONTROL &#x200B;自動保存&#x200B;]**選項遷移到Cloud Service之前，請禁用自適應Forms中的**[!UICONTROL &#x200B;另存為草稿和啟用自動保存選項。 在為Cloud Service發佈Forms門戶功能後，您可以啟用這些選項。 請留意每月的版本注意事項，以瞭解功能的可用性。 (DRAFT_AUTO_SAVE,DRAFT_SAVE)
 
 * 中繼資料accordion沒有替代項目。 將表單移除，再移轉至Cloud Service。(METADATA_ACCORDION_FORM_CONTAINER)
 
 * 使用Google reCaptcha，而非Adobe Experience Manager提供的CAPTCHA服務。 (FORMS_CAPTCHA)
+
+* 適應性Forms提供自適應設計。 這些表單會根據基礎裝置改變外觀、設計和互動功能。 您可以在行動裝置上繼續使用Adaptive Forms，同時在每月發行說明中查看[!DNL AEM Forms]應用程式的可用性。 (AEM_FORMS._APP)
+
+* 請勿移轉使用「文AEM件服務工作流程」步驟的「工作流程」模型。 此外，在遷移表單之前，請勿遷移或更新將用戶資料發送到使用「文檔服務」工作流步驟的「工作流模型」的Adaptive Forms，或將「提交操作」更改為[支援的](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)。 (WORKFLOW_DOCSERVICES)
+
+* 不提供對基於XFA的自適應Forms的支援。 如果您打算使用基於XFA的Adaptive Forms，請與Adobe支援部門聯繫，以瞭解您的使用案例和具體要求。((XFA_BASED_FORM、XDP_BASED_FORM)
 
 請聯絡[Adobe支援](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以取得說明或解決疑慮。
