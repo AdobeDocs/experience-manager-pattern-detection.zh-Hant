@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 product: adobe experience manager
 solution: Experience Manager
-type: 文件
+type: Documentation
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-pattern-detection.zh-Hant
 index: n

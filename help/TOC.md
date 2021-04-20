@@ -4,8 +4,8 @@ user-guide-title: Experience Manager圖樣偵測指南
 breadcrumb-title: 圖AEM樣偵測
 user-guide-description: 瞭解Adobe Experience Manager模式偵測。
 feature-set: Experience Manager
-feature: 開發人員工具
-role: 開發人員
+feature: Developer Tools
+role: Developer
 translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: tm+mt
