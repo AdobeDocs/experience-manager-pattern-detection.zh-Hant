@@ -1,20 +1,25 @@
 ---
 title: IOI
 description: 模式偵測器程式碼說明頁面
+exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 translation-type: tm+mt
-source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # IOI {#ioi}
 
 內部Oak匯入
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ioi_overview"
+>title="內部Oak匯入"
+>abstract="IOI程式碼可識別客戶對內部Oak套件的使用，並透過OSGi匯入。 它們通常匯出時不含任何特定版本，僅供其他Oak組合或低階服務使AEM用。"
 
 `IOI` 識別客戶對內部Oak套件的使用，並透過OSGi匯入。它們通常匯出時不含任何特定版本，僅供其他Oak組合或低階服務使AEM用。
 
@@ -26,6 +31,12 @@ ht-degree: 0%
 * 內部匯出中的API可能會變更。
 
 ## 可能的解決方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ioi_guidance"
+>title="實施指南"
+>abstract="客戶應檢閱其自訂程式碼，以識別此類API的使用情形，並重新調整其與之相容AEM為Cloud Service。 聯絡Adobe支援以取得說明"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支援"
 
 * 使用Sling Resource API（或JCR API），而非低階存取。
 * 請避免依任何公用API或SPI中不包含的內部封裝而定。
