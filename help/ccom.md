@@ -1,20 +1,25 @@
 ---
 title: CCOM
 description: 模式偵測器程式碼說明頁面
+exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 6%
 
 ---
-
 
 # CCOM {#ccom}
 
 自訂元件
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ccom_overview"
+>title="自訂元件"
+>abstract="CCOM識別已安裝的自訂元件AEM。 提供此資訊的目的是評估最佳做法"
 
 `CCOM` 標識已安裝在上的自定義組AEM件。提供此資訊的目的是評估最佳實務。
 
@@ -30,6 +35,13 @@ ht-degree: 3%
 * 最佳實務是將自訂元件的數量減到最少、運用核心元件，並搭配Style System使用核心元件以降低技術負擔。
 
 ## 可能的解決方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ccom_guidance"
+>title="實施指南"
+>abstract="最佳實務是將自訂元件的數量減到最少、運用核心元件，並搭配Style System使用核心元件以降低技術負擔。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="核心元件"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring" text="樣式系統"
 
 * 有關核心元件的詳細資訊，請參閱[核心元件簡介](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hant)。
 * 有關樣式系統的更多資訊，請訪問[使用樣式系統](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=en#page-authoring)。
