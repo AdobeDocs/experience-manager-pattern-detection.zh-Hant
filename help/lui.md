@@ -1,20 +1,26 @@
 ---
 title: 呂
 description: 模式偵測器程式碼說明頁面
+exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 4%
+source-wordcount: '554'
+ht-degree: 5%
 
 ---
-
 
 # LUI {#lui}
 
 舊版使用者介面
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_overview"
+>title="舊版使用者介面"
+>abstract="LUI將不建議使用或不支援的過時使用者介面元素用AEM作AEMCloud Service。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="顯著變AEM更——作為Cloud Service"
 
 `LUI` 識別在舊版和舊版中不建議或不支援的已過時使用者介面元AEM素的AEM使用方式。
 
@@ -37,10 +43,23 @@ ht-degree: 4%
 
 ## 可能的影響和風險{#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_guidance"
+>title="實施指南"
+>abstract="Classic UI已不再以Cloud ServiceAEM形式提供，而製作的標準介面是可觸控的UI。 最佳實務是將所有不支援的介面和連結的自訂項目，重新分解為與Cloud Service相容的較新AEM功能／功能。 客戶可以利用現AEM有的Meduration Suite來協助減少AEM Sites實作現代化所需的工作。"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 現代化工具"
+
 * Classic UI已不再提供AEM為Cloud Service。 製作的標準介面是可觸控的UI。
 * 依賴舊式自訂元件可能會隨著時間增加維護成本。
 
 ## 可能的解決方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_tools"
+>title="工具與資源"
+>abstract="借助Meduration Suite，客AEM戶可將Classic(ExtJS)對話方塊轉換為Coral Dialog。 其目的是協助客戶從不受支援或舊有的功能，轉向強穩、現代化的AEM產品。 這些工具具備可設定性、可感知組態和可擴充性。 此外，探索使用一套標準化核心元件來取代自訂元件，以加速開發時間並降低應用程式的維護成本。"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="元件轉換器"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="核心元件"
 
 * 運用[Meduration Tools suiteAEM](https://opensource.adobe.com/aem-modernize-tools/)來減少AEM Sites實作最新化所需的工作。 這些工具包括：
    * Coral對話方塊的傳統(ExtJS)對話方塊
