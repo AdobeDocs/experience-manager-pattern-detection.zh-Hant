@@ -1,20 +1,26 @@
 ---
 title: 表單
 description: 模式偵測器程式碼說明頁面
+exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 translation-type: tm+mt
-source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_overview"
+>title="Forms。"
+>abstract="Forms。代碼確定與從Adobe Experience Manager Forms遷移到Adobe Experience Manager Forms作為Cloud Service相關的潛在問題。 在移轉至Cloud Service之前，先審查可能的暗示和相關風險並解決這些問題。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="可能的影響和風險"
 
 `FORMS` 識別與從遷移到遷移 [!DNL Adobe Experience Manager Forms] 的 [!DNL Adobe Experience Manager Form]潛在問題 [!DNL Cloud Service]。移轉至[!DNL Cloud Service]之前，請先解決這些問題。
 
@@ -62,6 +68,12 @@ ht-degree: 0%
 * [「工](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) 作流程」中不提供「檔案服務」AEM步驟。(WORKFLOW_DOCSERVICES)
 
 ## 可能的解決方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_guidance"
+>title="實施指南"
+>abstract="透過FORMS公開的資訊。程式碼可提供更換和其他必要動作的指引，讓某些功能和API與Cloud Service相容。 聯絡Adobe支援以取得說明"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支援"
 
 * 使用移轉公用程式，將您環境上的所有規則指令碼轉換為可重複使用的函式。 您可以搭配使用可重複使用的函式和視覺化規則編輯器，以繼續取得使用規則指令碼取得的結果。 (CODE_EDITOR)
 
