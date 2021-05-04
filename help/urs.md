@@ -1,18 +1,24 @@
 ---
 title: URS
 description: 模式偵測器程式碼說明頁面
+exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 translation-type: tm+mt
-source-git-commit: 5a83dd8d08da974a5d775032b8dbea2593be9d15
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-
 # URS {#urs}
 
 不支援的儲存庫結構
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_overview"
+>title="不支援的儲存庫結構"
+>abstract="URS標識不支援的儲存庫結構。 這樣可以呈現資訊，以避免產AEM品代碼和客戶代碼之間的衝突，將內容從/etc重構到儲存庫中的其他資料夾等。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="儲存庫重組"
 
 ## 背景 {#background}
 
@@ -34,6 +40,13 @@ ht-degree: 0%
 * 同時包含可變內容和不可變內容的軟體包在部署過程中可能會出現問題。
 
 ## 可能的解決方案{#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_guidance"
+>title="實施指南"
+>abstract="最佳做法是審查代碼項目，確保它遵守項目結AEM構指導原則，並避免代碼依賴較舊／不受支援的儲存庫路徑，這些路徑可能會導致Cloud Service中不AEM希望的行為。 聯絡Adobe支援以取得說明"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="項AEM目結構指南"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支援"
 
 * 有關準備作為Cloud Service的指導，請參閱[Repository Restructing](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html)AEM。
 * 另請參閱[AEM Project Structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)以進一步瞭解儲存庫的可變和不可變區域。
