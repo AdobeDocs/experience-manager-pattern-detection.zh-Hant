@@ -6,9 +6,9 @@ user-guide-description: 了解Adobe Experience Manager模式偵測。
 feature-set: Experience Manager
 feature: 開發人員工具
 role: Developer
-source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
+source-git-commit: aaa66b80725dc92fc3e21c198f820f0cf6255da5
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '46'
 ht-degree: 6%
 
 ---
@@ -41,3 +41,4 @@ ht-degree: 6%
 + [URC](urc.md)
 + [URS](urs.md)
 + [工作](wrk.md)
++ [CIF](cif.md)
