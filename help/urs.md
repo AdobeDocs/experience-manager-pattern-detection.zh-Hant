@@ -2,9 +2,9 @@
 title: URS
 description: 模式偵測器程式碼說明頁面
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,9 @@ ht-degree: 0%
 * `node.location`:安裝後 `/etc` 修改的節點。
 * `workflow.location`:底下的工作流模型或啟動 `/etc/workflow`器。
 * `package.structure`:包含可變內容和不可變內容的包。
+* `node.name.length`:長度不受支援的節點名。
 
-## 可能的影響和風險{#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 * 依賴較舊路徑的自訂程式碼可能會造成不適當的行為，並影響產品功能。
 * 同時包含可變內容和不可變內容的軟體包在部署期間很可能導致問題。
