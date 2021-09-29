@@ -2,9 +2,9 @@
 title: URS
 description: 模式偵測器程式碼說明頁面
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
+source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,16 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="不支援的儲存庫結構"
->abstract="URS可識別不支援的儲存庫結構。 這會顯示資訊，以避免AEM產品代碼和客戶代碼之間的衝突、從/etc重組到存放庫中的其他資料夾等。"
+>abstract="URS可識別不支援的儲存庫結構和節點特性。 這會顯示資訊，以避免AEM產品代碼和客戶代碼之間的衝突、從/etc重組到存放庫中的其他資料夾等。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="存放庫重組"
 
 ## 背景 {#background}
 
-`URS` 識別不支援的存放庫結構。自AEM 6.4起，已提供重新調整存放庫內容的准則。 透過清楚定義AEM產品代碼和客戶代碼的階層，並避免兩者之間發生衝突，系統會依照下列高階規則，將內容從`/etc`重組為存放庫中的其他資料夾：
+`URS` 識別不支援的儲存庫結構和節點特性。自AEM 6.4起，已提供重新調整存放庫內容的准則。 透過清楚定義AEM產品代碼和客戶代碼的階層，並避免兩者之間發生衝突，系統會依照下列高階規則，將內容從`/etc`重組為存放庫中的其他資料夾：
 
-* AEM產品代碼將一律放置在`/libs`中，且不得由自訂代碼覆寫自訂代碼應放置在`/apps`、`/content`和`/conf`中。
+* AEM產品代碼將一律放置在`/libs`中，且不得由自訂代碼覆寫。
+* 自訂程式碼應放置在`/apps`、`/content`和`/conf`中。
+* AEM as aCloud Service不支援長節點名稱（>150位元組）。
 * 強烈建議AEM作為Cloud Service時遵循這些准則。
 
 子類型用於識別應解決的特定儲存庫問題類型：
