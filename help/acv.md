@@ -39,7 +39,7 @@ Assets Content Validator
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="實施指南"
->abstract="Adobe建議檢閱內容結構，以防止依賴繼承屬性的工作流程中斷。 如需協助，請連絡客戶服務」。
+>abstract="Adobe建議檢閱內容結構，以防止依賴繼承屬性的工作流程中斷。 如需協助，請連絡客戶服務」。"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支援"
 
 * 如果資料夾缺少子節點，則分析該資料夾。 如果資料夾的數量是可管理的，請手動建立節點，否則請使用指令碼。
