@@ -4,12 +4,12 @@ user-guide-title: Experience Manager圖樣偵測指南
 breadcrumb-title: AEM模式偵測
 user-guide-description: 了解Adobe Experience Manager模式偵測。
 feature-set: Experience Manager
-feature: 開發人員工具
+feature: Developer Tools
 role: Developer
-source-git-commit: 600ae605e2a3ce707fccca389e9474e6e74099d6
+source-git-commit: cf5f2f8a9bcc4d745f424570875d21001e2f26f6
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 6%
 + [CAV](cav.md)
 + [CCL](ccl.md)
 + [CCOM](ccom.md)
++ [CIF](cif.md)
 + [CTEM](ctem.md)
 + [DG](dg.md)
 + [DM](dm.md)
@@ -33,13 +34,14 @@ ht-degree: 6%
 + [呂](lui.md)
 + [MSM](msm.md)
 + [NBCC](nbcc.md)
++ [NCC](ncc.md)
 + [奧伊](oaui.md)
 + [OCU](ocu.md)
 + [OID](oid.md)
++ [歐](ou.md)
 + [PCX](pcx.md)
 + [[!DNL REP]](rep.md)
 + [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
 + [工作](wrk.md)
-+ [CIF](cif.md)
