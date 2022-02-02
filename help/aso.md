@@ -1,53 +1,57 @@
 ---
-title: ASO
-description: 模式偵測器程式碼說明頁面
+title: 麻生
+description: 模式檢測器代碼幫助頁
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
+source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '359'
 ht-degree: 4%
 
 ---
 
-# ASO {#aso}
+# 麻生 {#aso}
 
-AEM系統概述
+系統AEM概述
 
 ## 背景 {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
->title="AEM系統概述"
->abstract="ASO程式碼可識別AEM例項的一般資訊。 每個結果都提供特定類型系統資訊的一個值，可協助您進行移轉規劃和重構工作。"
+>title="系統AEM概述"
+>abstract="ASO代碼標識有關實例的一般AEM資訊。 每個查找結果都提供特定類型系統資訊的一個值，這些值有助於您的遷移規劃和重構工作。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEMas a Cloud Service — 發行說明"
 
-`ASO` 識別AEM例項的一般資訊。 每個結果提供特定類型系統資訊的一個值。
+`ASO` 標識有關實例的一般AEM資訊。 每個查找結果都提供特定類型的系統資訊的一個值。
 
-子類型用於識別不同類型的資訊：
+子類型用於標識不同類型的資訊：
 
-* `aem.version`:AEM版本。
-* `aem.product`:偵測AEM產品(商務、Forms等)的使用。
-* `node.count`:特定類型（頁面、資產等）的約略節點計數 和總節點數。
-* `node.store`:節點儲存實施類型(SegmentNodeStore、DocumentNodeStore)及其大小。
-* `data.store`:資料儲存實作類型(FileDataStore、S3DataStore、AzureDataStore)。
+* `aem.version`:版本AEM。
+* `aem.product`:檢測產品(商AEM業、Forms等)的使用。
+* `node.count`:某類型（頁、資產等）的近似節點計數 以及節點總數。
+* `node.store`:節點儲存實現類型(SegmentNodeStore、DocumentNodeStore)及其大小。
+* `data.store`:資料儲存實現類型(FileDataStore、S3DataStore、AzureDataStore)。
 * `maintenance.task`:維護任務。
 * `slow.query`:查詢速度慢。
-* `group.membership`:組中的用戶和子組（僅直接/聲明成員）數。
+* `group.membership`:組中的用戶和子組（僅限直接/聲明的成員）數。
+* `cqtag.count`:CQ標籤的資產數。
+* `smarttag.count`:Smart標籤的資產數。
+* `ccom.version`:核心元件包的版本。
+* `instance.type`:實例AEM類型（作者|發佈）。
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* AEM版本、節點計數、群組成員資格以及節點存放區和資料存放區實作類型僅供參考。
-* 自訂應用程式可能需仰賴AEM as a Cloud Service中未提供的產品或功能。
-* 使用不支援的功能進行升級可能會導致升級失敗和應用程式無法正常運作。
+* 提AEM供了版本、節點計數、組成員、節點儲存、資料儲存實現類型、CQ標籤計數、智慧標籤計數、核心元件版本AEM和實例類型供參考。
+* 定制應用程式可能依賴於在as a Cloud Service中不可用的產AEM品或功能。
+* 使用不受支援的功能進行升級可能會導致升級失敗和應用程式無法正常工作。
 
 ## 可能的解決方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="實施指南"
->abstract="透過ASO程式碼公開的資訊提供AEM環境的一般資訊，包括版本、產品附加元件、系統層級資訊，且應針對AEMas a Cloud Service中任何不支援的產品或功能進行審閱。 請聯絡Adobe支援以取得說明和說明。"
+>abstract="通過ASO代碼公開的資訊提供了您的環境的一般資訊AEM，包括版本、產品附加模組、系統級資訊，應對as a Cloud Service中任何不受支援的產品或功能進行AEM檢查。 聯繫Adobe支援以獲得幫助和澄清。"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支援"
 
-* 不建議使用不支援的產品或功能進行AEM升級，也可能不支援。
-* 檢閱 [發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant) 了解AEM as a Cloud Service的最新變更。
-* 請聯繫我們的 [AEM支援團隊](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 以取得澄清或處理關注。
+* 不AEM建議使用不受支援的產品或功能進行升級，可能不受支援。
+* 查看 [發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant) 瞭解最新的AEMas a Cloud Service。
+* 請聯繫我們 [支AEM持團隊](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 澄清或解決問題。
