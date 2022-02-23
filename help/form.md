@@ -2,7 +2,7 @@
 title: FORM
 description: 模式偵測器程式碼說明頁面
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 75024e4af3be2d58edf8b77de9a5e6b397bbdf5c
+source-git-commit: 6b4d13ba49aba72be60f01eb040b0cb7e7741694
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 97%
@@ -58,9 +58,9 @@ ht-degree: 97%
 
 * 驗證碼元件現在預設會使用 Google reCAPTCHA 服務來進行驗證碼驗證。使用 Adobe Experience Manager 進行驗證碼驗證的選項已棄用。(FORMS_CAPTCHA)
 
-* [!DNL AEM Forms] 應用程式不可用於 [!DNL Cloud Services]。(AEM_FORMS_APP)
-
 * [文件服務](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology)步驟不可用於 AEM Workflow。(WORKFLOW_DOCSERVICES)
+
+* [!DNL AEM Forms] 應用程式不可用於 [!DNL Cloud Services]。(AEM_FORMS_APP)
 
 ## 可能的解決方案 {#solutions}
 
@@ -92,10 +92,10 @@ ht-degree: 97%
 
 * 請使用 Google reCaptcha 服務，而不使用 Adobe Experience Manager 所提供的驗證碼服務。(FORMS._驗證碼)
 
-* 最適化表單提供回應式設計。這些表單會根據基礎裝置變更外觀、設計和互動。您可以在行動裝置上繼續使用最適化表單。請查看每月發行說明，以了解 [!DNL AEM Forms] 應用程式可用性相關資訊。(AEM_FORMS._APP)
-
 * 請勿移轉使用文件服務工作流程步驟的 AEM 工作流程模型。此外，如果最適化表單將使用者資料傳送至使用文件服務工作流程步驟的工作流程模型，請勿移轉或更新這些最適化表單，或在移轉表單之前先將提交動作變更為[支援的提交動作](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)。(WORKFLOW_DOCSERVICES)
 
 * 未提供開箱即用的 XFA 型最適化表單支援。如果您打算使用 XFA 型最適化表單，請聯絡 Adobe 支援並附上使用案例和特定要求的詳細資料。(XFA_BASED_FORM、XDP_BASED_FORM)
+
+* 最適化表單提供回應式設計。這些表單會根據基礎裝置變更外觀、設計和互動。您可以在行動裝置上繼續使用最適化表單。請查看每月發行說明，以了解 [!DNL AEM Forms] 應用程式可用性相關資訊。(AEM_FORMS._APP)
 
 請聯繫 [Adobe 支援](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
