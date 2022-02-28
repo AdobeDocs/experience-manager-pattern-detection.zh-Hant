@@ -3,9 +3,9 @@ title: CTEM
 description: 模式偵測器程式碼說明頁面
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="自訂範本"
->abstract="CTEM可識別AEM上已安裝的自訂元件。 提供這些資訊是為了評估最佳做法"
+>abstract="CTEM 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。"
 
-`CTEM` 識別AEM上已安裝的自訂範本。這些資訊是為最佳做法評估而提供的。
+`CTEM` 會識別 AEM 上已安裝的自訂範本。提供這項資訊是為了最佳實務評估目的。
 
-範本是以「cq:Template」的主要類型值來識別。 子類型與此代碼一起使用，以標識模板的類別：
+範本是由主要類型值 &quot;cq:Template&quot; 所識別。此程式碼使用子類型來識別範本類別：
 
-* `custom.editable.template`:範本的路徑不以「/apps」開頭。
-* `custom.static.template`:範本的路徑以「/apps」開頭。
+* `custom.editable.template`：範本的路徑開頭不是 &quot;/apps&quot;。
+* `custom.static.template`：範本的路徑開頭是 &quot;/apps&quot;。
 
-## 可能的影響和風險{#implications-and-risks}
+## 可能影響和風險 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
->title="實施指南"
->abstract="最佳實務是將所有靜態範本移至可編輯的範本。 客戶可以利用現有的AEM現代化工具，將靜態範本移轉至可編輯的範本。"
+>title="實施指導"
+>abstract="最佳實務是將所有靜態範本移至可編輯的範本。客戶可以善用現有的 AEM 現代化工具，將靜態範本移轉至可編輯的範本。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html" text="可編輯的範本"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 現代化工具"
 
@@ -43,10 +43,10 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="工具和資源"
->abstract="在AEM現代化套裝的協助下，客戶可以控制頁面結構（從靜態定義到可編輯的範本）。 其目的是協助客戶從舊版功能的有限功能，轉變為強大、現代的AEM產品。 這些工具可設定、可感知配置且可擴充。 請洽詢Adobe支援以取得說明和說明"
+>abstract="借助 AEM 現代化套件，客戶可以操縱頁面結構，從靜態範本移至可編輯的範本。目的是協助客戶從功能有限的舊版功能轉換為強大現代的 AEM 供應項目。這些是可設定的、可感知設定和可擴充的工具。請聯繫 Adobe 支援以尋求協助與澄清。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="頁面結構轉換器"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支援"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
-* 運用[AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/)將靜態範本移轉至可編輯的範本。
-* 如需可編輯範本的詳細資訊，請前往[範本](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)。
-* 請洽詢我們的[AEM支援團隊](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以取得說明或解決問題。
+* 請善用 [AEM 現代化工具](https://opensource.adobe.com/aem-modernize-tools/)，將靜態範本移轉至可編輯的範本。
+* 如需可編輯範本的詳細資訊，請參閱[範本](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)。
+* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
