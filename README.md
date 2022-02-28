@@ -1,14 +1,13 @@
 ---
 source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
-# Adobe Experience Manager模式檢測
+# Adobe Experience Manager 模式偵測
 
-這是「Adobe Experience Manager模式檢測」的儲存庫。
+這是 Adobe Experience Manager 模式偵測的存放庫。
 
 歡迎您協助撰寫本說明文件。請參閱下列資源：
 
