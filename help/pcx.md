@@ -3,9 +3,9 @@ title: PCX
 description: 模式偵測器程式碼說明頁面
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -18,33 +18,33 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_overview"
 >title="頁面複雜度"
->abstract="PCX標識其結構中包含大量節點的頁。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="重大變更 — AEM as aCloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="AEM as aCloud Service — 發行說明"
+>abstract="PCX 會識別結構中有大量節點的頁面。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="重大變更 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="AEM as a Cloud Service - 發行說明"
 
-`PCX` 識別結構中包含大量節點的頁面。
+`PCX` 會識別結構中有大量節點的頁面。
 
 子類型用於識別不同類型的資訊：
 
-* `page.complexity.medium`:頁面包含的節點數量適中，可能會影響呈現效能。
-* `page.complexity.high`:頁面包含的節點數量非常多，很可能會影響呈現效能。
+* `page.complexity.medium`：頁面包含中等偏高的節點數目，可能會影響轉譯效能。
+* `page.complexity.high`：頁面包含非常高的節點數目，極有可能會影響轉譯效能。
 
-## 可能的影響和風險{#implications-and-risks}
+## 可能影響和風險 {#implications-and-risks}
 
-* 頁面中的大量節點可能會影響其呈現效能。
+* 頁面內的大量節點可能會影響其轉譯效能。
 
 ## 可能的解決方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
->title="實施指南"
->abstract="最佳實務是檢閱內容結構，以降低頁面複雜度，進而協助改善頁面呈現效能。 請洽詢Adobe支援以取得說明和說明"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支援"
+>title="實施指導"
+>abstract="最佳實務是檢閱內容結構以降低頁面複雜度，這有助於改進頁面轉譯效能。請聯繫 Adobe 支援以尋求協助與澄清。"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
-* 採取措施減少頁面內的節點總數，包括：
+* 採取步驟減少頁面內的節點總數，包括：
    * 確認沒有不必要的容器。
-   * 測試透過較少的容器，是否能達到相同的版面。
+   * 測試是否能以較少的容器實現相同的版面。
    * 簡化頁面內容。
    * 減少節點結構的深度。
-   * 為簡單起見，重新調整任何包含的體驗片段。
-* 請洽詢我們的[AEM支援團隊](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以取得說明或解決問題。
+   * 為了簡單起見，重構任何包含的體驗片段。
+* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
