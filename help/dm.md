@@ -3,9 +3,9 @@ title: DM
 description: 模式偵測器程式碼說明頁面
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -18,34 +18,34 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DM程式碼可識別您目前實作中AEM Assets Dynamic Media的使用情形。 Dynamic Media模式由執行模式偵測。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM開發 — 准則和最佳作法"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service 開發方針"
+>abstract="DM 程式碼會識別 AEM Assets Dynamic Media 在目前實施中的使用方式。Dynamic Media 模式是由執行模式所偵測。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM 開發 - 指導方針與最佳實務"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service 開發指導方針"
 
-`DM` 識別AEM Assets Dynamic Media的使用情形。Dynamic Media模式由執行模式偵測。
+`DM` 會識別 AEM Assets Dynamic Media 的使用。Dynamic Media 模式是由執行模式所偵測。
 
-子類型與此代碼一起使用：
+此程式碼使用子類型：
 
-* `dynamic.media.runmode`:如果提供了此子類型的關聯值，則其為：
-   * `dynamicmedia`:Dynamic Media — 混合模式
-   * `dynamicmedia_scene7`:Dynamic Media - Scene 7模式
+* `dynamic.media.runmode`：此子類型的關聯值 (如果提供) 是下列其中一值：
+   * `dynamicmedia`：Dynamic Media - 混合模式
+   * `dynamicmedia_scene7`：Dynamic Media - Scene 7 模式
 
-## 可能的影響和風險{#implications-and-risks}
+## 可能影響和風險 {#implications-and-risks}
 
 * `dynamic.media.runmode`
-   * 可能會有與Dynamic Media相關的升級問題。
+   * Dynamic Media 可能有相關的升級問題。
 
 ## 可能的解決方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
->title="實施指南"
->abstract="AEM as aCloud Service僅支援dynamicmedia_scene7 runmode。 請檢閱目前設定，並聯絡Adobe支援團隊以取得說明和說明。"
+>title="實施指導"
+>abstract="AEM as a Cloud Service 只支援 dynamicmedia_scene7 執行模式。請檢閱目前設定，並聯繫 Adobe 支援團隊以尋求協助與澄清。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="建立 Dynamic Media"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud支援"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 
 * `dynamic.media.runmode`
-   * 如需詳細資訊，請參閱[設定Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html)。
+   * 如需詳細資訊，請參閱[設定 Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html)。
 
-* 請洽詢我們的[AEM支援團隊](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以取得說明或解決問題。
+* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
