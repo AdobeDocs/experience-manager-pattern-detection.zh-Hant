@@ -2,14 +2,14 @@
 title: LUI
 description: 模式偵測器程式碼說明頁面
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 73%
 
 ---
 
-# LUI {#lui}
+# 呂 {#lui}
 
 舊版使用者介面
 
@@ -25,20 +25,24 @@ ht-degree: 100%
 
 子類型用於識別應該或必須升級的不同使用者介面元素類型：
 
-* `legacy.dialog.classic`：基於 ExtJS 的 Classic UI 對話框，必須變更為 Coral。
+* `legacy.dialog.classic`:基於ExtJS的經典UI對話框必須更改為Coral。
    * 當對話框名稱是 &quot;dialog&quot; 或 &quot;design_dialog&quot;，並在
 `jcr:primaryType` 屬性值或 `xtype` 屬性值是 &quot;cq:Dialog&quot; 時偵測到它。
-* `legacy.dialog.coral2`：Coral 2 對話框，應更新為使用 Coral 3。
+* `legacy.dialog.coral2`:應更新Coral 2對話框以使用Coral 3。
    * 當對話框及其子內容節點名稱是 &quot;cq:dialog/content&quot;、
 &quot;cq:design_dialog/content&quot;、&quot;cq:dialog.coral2/content&quot; 或 &quot;cq:design_dialog.coral2/content&quot;，
 而且 `sling:resourceType` 屬性值不包含
 &quot;granite/ui/components/coral/foundation&quot; 時偵測到它。
-* `legacy.custom.component`：從 `foundation/components` 繼承而來的元件應更新為使用核心元件。
+* `legacy.custom.component`:繼承自的元件 `foundation/components` 應更新以使用核心元件。
    * 當 `jcr:primaryType` 屬性值是 &quot;cq:Component&quot;，而且
       `sling:resourceSuperType` 屬性值包含 &quot;foundation/components&quot;，或者超級類型元件鏈結的任何
       `sling:resourceSuperType` 屬性值包含 &quot;foundation/components&quot; 時偵測到它。
-* `legacy.static.template`：靜態範本，應升級為可編輯的範本。
+* `legacy.static.template`:靜態模板應升級為可編輯模板。
    * 當 `jcr:primaryType` 屬性值是 &quot;cq:Template&quot; 時偵測到它。
+* `content.fragment.template`:內容片段模板應建立片段模型以替換片段模板。
+   * 可以在以下位置找到內容片段模板：
+      * 現成內容片段模板儲存在 `/libs/settings/dam/cfm/templates`
+      * 它們可以疊在  `/apps/settings/dam/cfm/templates`  或  `/conf/.../settings/dam/cfm/templates`(...=全局或「租戶」)
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -50,6 +54,7 @@ ht-degree: 100%
 
 * Classic UI 無法再用於 AEM as a Cloud Service。標準製作介面是已啟用觸控的 UI。
 * 依賴舊版自訂元件可能會隨著時間增加維護成本。
+* 內容片段模板被6.3中的內容片段模AEM型取代。將基於舊版模板的內容片段遷移到AEMas a Cloud Service將保持這些片段的功能，但將無法基於舊版模板建立新片段。 使用GraphQL也無法傳遞這些片段AEM，因為GraphQL要求內容片段模型作為模式。
 
 ## 可能的解決方案 {#solutions}
 
@@ -58,7 +63,7 @@ ht-degree: 100%
 >title="工具和資源"
 >abstract="借助 AEM 現代化套件，客戶可以將 Classic(ExtJS) 對話框轉換為 Coral 對話框。目的是協助客戶從不支援或舊版功能轉換為強大現代的 AEM 供應項目。這些是可設定的、可感知設定和可擴充的工具。此外，請嘗試將自訂元件取代為標準核心元件集，以加快開發時間並降低應用程式維護成本。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="元件轉換器"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hant" text="核心元件"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="核心元件"
 
 * 善用 [AEM 現代化工具套件](https://opensource.adobe.com/aem-modernize-tools/)，以減少 AEM Sites 實施現代化所需的工作。這些工具包含下列轉換：
    * 從 Classic (ExtJS) 對話框轉換為 Coral 對話框
@@ -66,4 +71,5 @@ ht-degree: 100%
    * 從靜態範本和資料行控制轉換為可編輯的範本與回應式格線
    * 從設計與設計對話框轉換為可編輯的範本原則
 * 請檢閱專案的自訂元件程式庫，並轉變為標準[核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hant)集 (如有可能)，以加快開發時間並降低應用程式維護成本。
+* 建議建立內容片段模型，其功能與舊版模板相同，並使用這些模型進行內容片段的建立。請參閱 [內容片段模型](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) 的子菜單。
 * 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
