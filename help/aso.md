@@ -2,14 +2,14 @@
 title: ASO
 description: 模式偵測器程式碼說明頁面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a6bb7df8d0fbad0a233db6972bbb82902aa60c4b
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 77%
 
 ---
 
-# ASO {#aso}
+# 麻生 {#aso}
 
 AEM 系統總覽
 
@@ -19,7 +19,7 @@ AEM 系統總覽
 >id="aemcloud_bpa_aso_overview"
 >title="AEM 系統總覽"
 >abstract="ASO 程式碼會識別 AEM 例項的一般資訊。每個發現都會提供某特定系統資訊類型的一個值，以協助您進行移轉規劃和重構。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="AEM as a Cloud Service - 發行說明"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 發行說明"
 
 `ASO` 會識別 AEM 例項的一般資訊。每個發現都會提供某特定系統資訊類型的一個值。
 
@@ -42,7 +42,8 @@ AEM 系統總覽
 
 ## 可能影響和風險 {#implications-and-risks}
 
-* AEM 版本、節點數、群組成員資格、節點存放區、資料存放區實施類型、CQ 標記數、智慧標記數、核心元件版本和 AEM 例項類型僅供參考。
+* 提AEM供了版本、節點計數、組成員身份、節點儲存、資料儲存實現類型、CQ標籤計數、智慧標籤計數、核心元件版本、實例類型AEM和未處理資產計數，以供參考。
+* 虛擬URL(>1000)的數量越多，就會給Dispatcher和Publish伺服器載入昂貴的查詢。
 * 自訂應用程式可能依賴 AEM as a Cloud Service 中未提供的產品或功能。
 * 升級若包含不支援的功能，可能會導致升級失敗和應用程式無作用。
 
@@ -52,8 +53,10 @@ AEM 系統總覽
 >id="aemcloud_bpa_aso_guidance"
 >title="實施指導"
 >abstract="透過 ASO 程式碼公開的資訊會提供 AEM 環境的一般資訊，包括版本、產品附加元件、系統等級資訊，應檢閱這些資訊以了解 AEM as a Cloud Service 不支援的任何產品或功能。請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 不建議對不支援的產品或功能進行 AEM 升級，這可能不受支援。
+* 必須處理未處理的資產，並且必須將資產的jcr:content節點上的dam:assetState屬性設定為「已處理」，或在遷移到AEMaaCS之前從遷移集中刪除這些資產。
+* 虛擬URL可以替換為Apache重寫。
 * 請檢閱[發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant)以了解 AEM as a Cloud Service 最新變更。
 * 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
