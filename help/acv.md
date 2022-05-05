@@ -2,9 +2,9 @@
 title: ACV
 description: 模式偵測器程式碼說明頁面
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
+source-git-commit: 09e6149b971dc975dff517d98f8b2faaa8138b51
 workflow-type: ht
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -22,17 +22,19 @@ Assets 內容驗證器
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="重大變更 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="Experience Manager as a Cloud Service - 發行說明"
 
-`ACV` (Assets 內容驗證器) 會識別資產內容中缺少的必要節點。這可能會導致 Experience Manager as a Cloud Service 中的某些 Assets 功能失敗。
+`ACV` Assets 內容驗證器會識別資產內容中缺少的必要節點和違規行為。這可能會導致 Experience Manager as a Cloud Service 中的某些 Assets 功能失敗。
 
 子類型用於識別不同類型的資訊，例如：
 
 * `missing.jcrcontent`：識別存放庫中有缺少必要節點的檔案夾。識別存放庫中有任何缺少的內容，有助於防止任何損壞的功能或使用案例。
 * `missing.original.rendition`：識別存放庫中有缺少必要原始轉譯的資產。
+* `metadata.descendants.violation`：識別在存放庫的資產中繼資料節點下具有超過 100 個子系的資產。
 
 ## 可能影響和風險 {#implications-and-risks}
 
 * 這可能會導致某些依賴 Experience Manager as a Cloud Service 繼承屬性的 Assets 功能失敗。
 * AEM Assets 依賴原始轉譯的存在。如果缺少原始轉譯，Cloud Service 的資產處理將會進入迴圈。
+* 中繼資料節點下的大量子系可能會減慢載入包含違反此規則之資產的檔案夾的速度。
 
 ## 可能的解決方案 {#solutions}
 
