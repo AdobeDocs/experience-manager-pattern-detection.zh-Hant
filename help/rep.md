@@ -2,9 +2,9 @@
 title: REP
 description: 模式偵測器程式碼說明頁面
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 254d530763c2fbddcb8203895662bfe1c7f66483
 workflow-type: ht
-source-wordcount: '426'
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,13 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents" text="開發指導方針"
 
 `REP` 會識別已啟用的複寫代理。由於在升級為 AEM as a Cloud Service 時可能存在應解決的問題，因此報告了這些複寫代理。
+
+子類型用於識別不同類型的資訊：
+
+* `forward.replication`：識別已啟用的正向複寫代理。
+* `reverse.replication`：識別已啟用的反向複寫代理。
+* `standard.replication.agent.modification`：識別已啟用的修改後標準複寫代理。
+* `custom.replication.agent.detection`：識別已啟用的自訂複寫代理。
 
 AEM as a Cloud Service 使用 [Sling 內容發佈](https://sling.apache.org/documentation/bundles/content-distribution.html)，將內容從作者環境散發到發佈環境。這是在 AEM 執行階段之外使用 Adobe I/O 管線服務完成的，並在已佈建的 AEM as a Cloud Service 環境中自動設定的。
 
