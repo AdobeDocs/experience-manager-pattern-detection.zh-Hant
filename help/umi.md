@@ -3,13 +3,13 @@ title: UMI
 description: 模式偵測器程式碼說明頁面
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: b19818f3f043641328b68adfe37a9c9cb09d1143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# 海 {#umi}
+# UMI {#umi}
 
 升級設定錯誤問題
 
@@ -19,8 +19,8 @@ ht-degree: 86%
 >id="aemcloud_bpa_umi_overview"
 >title="升級設定錯誤問題"
 >abstract="UMI 會識別某些 OSGi 設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=zh-Hant" text="重大變更 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="AEM as a Cloud Service - 發行說明"
+>additional-url="UMI 會識別某些 OSGi 設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。" text="重大變更 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 發行說明"
 
 `UMI` 會識別某些 OSGi 設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。
 
@@ -48,9 +48,9 @@ ht-degree: 86%
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 請勿變更或移除上述四個設定。
-   * 如果發生以下違規：\
-      「缺少OSGi配置&#39;xyz-configuration&#39;的必需屬性：&quot;[屬性–1，屬性–2...]「」\
-      請確認這些刪除是否合法，因為這些OSGI配置是OOTB，並且可能從未從OSGi配置管理器中修改/保存。
+   * 如果發生以下違規情況：\
+      「遺失 OSGi 設定『xyz-configuration』的必要屬性：『[property-1,property-2...]』」。\
+      請確認這些刪除是否合法，因為這些 OSGI 設定是 OOTB，而且可能從未透過 OSGi 設定管理員進行修改/儲存。
 * 如果已經變更設定，應將其還原為預期值。這些值顯示在 `UMI` 訊息中。
-* 對於 `com.day.cq.commons.impl.ExternalizerImpl`，請參閱[文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=zh-Hant)以了解如何使用 AEM as a Cloud Service 中的 Cloud Manager 環境變數來進行外部器設定。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 對於 `com.day.cq.commons.impl.ExternalizerImpl`，請參閱[文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=en)以了解如何使用 AEM as a Cloud Service 中的 Cloud Manager 環境變數來進行外部器設定。
+* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
