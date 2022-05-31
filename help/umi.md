@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_umi_overview"
 >title="升級設定錯誤問題"
 >abstract="UMI 會識別某些 OSGi 設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。"
->additional-url="UMI 會識別某些 OSGi 設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。" text="重大變更 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=zh-Hant" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 發行說明"
 
 `UMI` 會識別某些 OSGi 設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。
