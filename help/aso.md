@@ -3,13 +3,13 @@ title: ASO
 description: 模式偵測器程式碼說明頁面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 麻生 {#aso}
+# ASO {#aso}
 
 AEM 系統總覽
 
@@ -19,7 +19,7 @@ AEM 系統總覽
 >id="aemcloud_bpa_aso_overview"
 >title="AEM 系統總覽"
 >abstract="ASO 程式碼會識別 AEM 例項的一般資訊。每個發現都會提供某特定系統資訊類型的一個值，以協助您進行移轉規劃和重構。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 發行說明"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="AEM as a Cloud Service - 發行說明"
 
 `ASO` 會識別 AEM 例項的一般資訊。每個發現都會提供某特定系統資訊類型的一個值。
 
@@ -39,7 +39,7 @@ AEM 系統總覽
 * `instance.type`：AEM 例項類型 (作者|發佈)。
 * `unprocessed.asset.count`：未處理的資產數目。
 * `vanity.url.count`：虛名 URL 的數量。
-* `index.size`:可遷移Lucene索引總大小。
+* `index.size`：總計可移轉 Lucene 指數大小。
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -54,7 +54,7 @@ AEM 系統總覽
 >id="aemcloud_bpa_aso_guidance"
 >title="實施指導"
 >abstract="透過 ASO 程式碼公開的資訊會提供 AEM 環境的一般資訊，包括版本、產品附加元件、系統等級資訊，應檢閱這些資訊以了解 AEM as a Cloud Service 不支援的任何產品或功能。請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 不建議對不支援的產品或功能進行 AEM 升級，這可能不受支援。
 * 未處理的資產必須加以處理，並且必須將資產 jcr:content 節點上的 dam:assetState 屬性設定為「已處理」，或者在遷移到 AEMaaCS 之前先從遷移集中移除這些資產。
