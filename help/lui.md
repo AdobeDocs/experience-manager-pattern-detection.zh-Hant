@@ -2,14 +2,14 @@
 title: LUI
 description: 模式偵測器程式碼說明頁面
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
-workflow-type: ht
+source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
+workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# LUI {#lui}
+# 呂 {#lui}
 
 舊版使用者介面
 
@@ -61,9 +61,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="工具和資源"
->abstract="借助 AEM 現代化套件，客戶可以將 Classic(ExtJS) 對話框轉換為 Coral 對話框。目的是協助客戶從不支援或舊版功能轉換為強大現代的 AEM 供應項目。這些是可設定的、可感知設定和可擴充的工具。此外，請嘗試將自訂元件取代為標準核心元件集，以加快開發時間並降低應用程式維護成本。"
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="元件轉換器"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hant" text="核心元件"
+>abstract="借助 AEM 現代化套件，客戶可以將 Classic(ExtJS) 對話框轉換為 Coral 對話框。目的是協助客戶從不支援或舊版功能轉換為強大現代的 AEM 供應項目。這些工具是可配置的、可感知配置的和可擴展的。 此外，請嘗試將自訂元件取代為標準核心元件集，以加快開發時間並降低應用程式維護成本。"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="元件轉換器"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="核心元件"
 
 * 善用 [AEM 現代化工具套件](https://opensource.adobe.com/aem-modernize-tools/)，以減少 AEM Sites 實施現代化所需的工作。這些工具包含下列轉換：
    * 從 Classic (ExtJS) 對話框轉換為 Coral 對話框
