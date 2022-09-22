@@ -2,10 +2,10 @@
 title: UMI
 description: 模式偵測器程式碼說明頁面
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: b19818f3f043641328b68adfe37a9c9cb09d1143
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: 145df7128ba80cae7416778ef373b5ed723c56fa
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 82%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 100%
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
+* `org.apache.sling.commons.log.LogManager.factory.config` :識別 `org.apache.sling.commons.log.file` 自訂記錄器的屬性指向 `logs/error.log` 檔案。
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -38,6 +39,7 @@ ht-degree: 100%
    * 升級後授權問題可能隨之而來 (`org.apache.sling.engine.impl.auth.SlingAuthenticator`)。
    * 某些功能可能無法如預期運作。例如變更 `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` 可能會導致 JSP 檔案未編譯，最終結果是失去功能。
    * 外部器設定 `com.day.cq.commons.impl.ExternalizerImpl` 的值是由 AEM as a Cloud Service 中的 Cloud Manager 環境變數所設定。
+   * AEM as aCloud Services不支援自訂記錄檔。 寫入自訂命名記錄檔的記錄檔將無法從AEM as a Cloud Service存取。
 
 ## 可能的解決方案 {#solutions}
 
@@ -53,4 +55,5 @@ ht-degree: 100%
       請確認這些刪除是否合法，因為這些 OSGI 設定是 OOTB，而且可能從未透過 OSGi 設定管理員進行修改/儲存。
 * 如果已經變更設定，應將其還原為預期值。這些值顯示在 `UMI` 訊息中。
 * 對於 `com.day.cq.commons.impl.ExternalizerImpl`，請參閱[文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=en)以了解如何使用 AEM as a Cloud Service 中的 Cloud Manager 環境變數來進行外部器設定。
+* 針對 `org.apache.sling.commons.log.LogManager.factory.config`，變更OSGI設定，將自訂記錄器傳送至 `logs/error.log` 檔案。 請參閱 [檔案](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs.html) 來重新指向 `logs/error.log` 檔案。
 * 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
