@@ -3,9 +3,9 @@ title: ACV
 description: 模式偵測器程式碼說明頁面
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: e7096efc1d9da7f5aad5a5b353ba622c879cc4a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ Assets 內容驗證器
 子類型用於識別不同類型的資訊，例如：
 
 * `missing.jcrcontent`：識別存放庫中有缺少必要節點的檔案夾。識別存放庫中有任何缺少的內容，有助於防止任何損壞的功能或使用案例。
-* `missing.original.rendition`：識別存放庫中有缺少必要原始轉譯的資產。請注意，預覽PDF的頁面不需要在AEMaaCS中產生子資產。 因此，對於PDF資產，會隱藏遺失原始轉譯的子資產報表。
+* `missing.original.rendition`：識別存放庫中有缺少必要原始轉譯的資產。請注意預覽 PDF 頁面不需要在 AEMaaCS 中產生子資產。因此，對於 PDF 資產，將禁止報告缺少原始轉譯的子資產。
 * `metadata.descendants.violation`：識別在存放庫的資產中繼資料節點下具有超過 100 個子系的資產。
 
 ## 可能影響和風險 {#implications-and-risks}
 
 * 這可能會導致某些依賴 Experience Manager as a Cloud Service 繼承屬性的 Assets 功能失敗。
-* AEM Assets 依賴原始轉譯的存在。如果缺少原始轉譯，Cloud Service 的資產處理將會進入迴圈。AEMaaCS不支援產生子資產。
+* AEM Assets 依賴原始轉譯的存在。如果缺少原始轉譯，Cloud Service 的資產處理將會進入迴圈。AEMaaCS 不支援產生子資產。
 * 中繼資料節點下的大量子系可能會減慢載入包含違反此規則之資產的檔案夾的速度。
 
 ## 可能的解決方案 {#solutions}
@@ -42,9 +42,9 @@ Assets 內容驗證器
 >id="aemcloud_bpa_acv_guidance"
 >title="實施指導"
 >abstract="Adobe 建議檢閱內容結構，以防止依賴繼承屬性的工作流程損壞。請聯絡客戶服務以尋求協助。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 如果檔案夾缺少子節點，請分析該檔案夾。如果檔案夾數目在可控範圍內，請手動建立節點，否則請使用指令碼。
 * 對於缺少原始轉譯的資產，請在移轉前重新上傳資產或予以刪除。
-* 遺失子資產原始轉譯無需任何動作。
+* 缺少子資產原始轉譯無需採取任何動作。
 * 請聯繫我們的 [Experience Manager 客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
