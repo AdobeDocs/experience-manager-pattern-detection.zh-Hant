@@ -2,10 +2,10 @@
 title: DG
 description: 模式偵測器程式碼說明頁面
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 * `maintenance.task.configuration`：某種定期維護活動的設定。
 * `sling.commons.scheduler`：Sling Commons Scheduler API 用於已排程任務。
 * `unsupported.asset.api`：在應用程式程式碼中使用不受支援的 Asset Manager API。
+* `javax.jcr.observation.EventListener`:在應用程式代碼中使用事件偵聽器。
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -51,6 +52,10 @@ ht-degree: 100%
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
+
+* `javax.jcr.observation.EventListener`
+   * 依賴事件偵聽器的應用程式可能無法正常工作，因為無法保證執行。
+
 
 ## 可能的解決方案 {#solutions}
 
@@ -75,4 +80,7 @@ ht-degree: 100%
 
 * `unsupported.asset.api`
    * 不要再使用不受支援的 Asset Manager API，請改為使用 [aem-upload](https://github.com/adobe/aem-upload)。
+
+* `javax.jcr.observation.EventListener`
+   * 建議您將事件處理機制重構為 [Sling作業](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) 因為它提供了處理的保證。
 * 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
