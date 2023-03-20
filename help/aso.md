@@ -3,7 +3,7 @@ title: ASO
 description: 模式偵測器程式碼說明頁面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 

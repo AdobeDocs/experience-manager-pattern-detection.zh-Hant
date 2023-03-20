@@ -3,7 +3,7 @@ title: OAUI
 description: 模式偵測器程式碼說明頁面
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

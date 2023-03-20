@@ -3,7 +3,7 @@ title: WRK
 description: 模式偵測器程式碼說明頁面
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 

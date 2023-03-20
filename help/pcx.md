@@ -3,7 +3,7 @@ title: PCX
 description: 模式偵測器程式碼說明頁面
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="頁面複雜度"
 >abstract="PCX 會識別結構中有大量節點的頁面。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="重大變更 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="AEM as a Cloud Service - 發行說明"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - 發行說明"
 
 `PCX` 會識別結構中有大量節點的頁面。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_pcx_guidance"
 >title="實施指導"
 >abstract="最佳實務是檢閱內容結構以降低頁面複雜度，這有助於改進頁面轉譯效能。請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 採取步驟減少頁面內的節點總數，包括：
    * 確認沒有不必要的容器。

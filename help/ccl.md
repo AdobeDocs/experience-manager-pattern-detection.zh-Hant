@@ -3,7 +3,7 @@ title: CCL
 description: 模式偵測器程式碼說明頁面
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
@@ -35,6 +35,6 @@ ht-degree: 100%
 >id="aemcloud_bpa_ccl_guidance"
 >title="實施指導"
 >abstract="應檢閱由 CCL 所識別之 AEM 的新增用戶端程式庫，確保沒有重複並使用最新版。請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。

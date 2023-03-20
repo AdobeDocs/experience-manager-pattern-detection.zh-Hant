@@ -3,7 +3,7 @@ title: LOCP
 description: 模式偵測器程式碼說明頁面
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
