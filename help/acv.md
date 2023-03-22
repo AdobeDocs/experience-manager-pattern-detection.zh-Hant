@@ -2,7 +2,7 @@
 title: ACV
 description: 模式偵測器程式碼說明頁面
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
+source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
@@ -52,5 +52,5 @@ Assets 內容驗證器
 * 對於缺少原始轉譯的資產，請在移轉前重新上傳資產或予以刪除。
 * 缺少子資產原始轉譯無需採取任何動作。
 * 如果存在衝突節點，則在移轉到 AEM as a Cloud Service 之前，應該加以解決或者可能需要將其刪除。
-* 如果您計劃處理很多大型 PSD 或 PSB 檔案，請聯絡 Adobe 客戶支援。Experience Manager 可能無法處理超過 30000 x 23000 像素的極高解析度 PSB 檔案。請參閱[文件](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html)。
+* 如果您計劃處理很多大型 PSD 或 PSB 檔案，請聯絡 Adobe 客戶支援。Experience Manager 可能無法處理超過 30000 x 23000 像素的極高解析度 PSB 檔案。請參閱[文件](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html)。
 * 請聯繫我們的 [Experience Manager 客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
