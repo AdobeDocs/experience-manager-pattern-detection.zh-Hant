@@ -3,9 +3,9 @@ title: ASO
 description: 模式偵測器程式碼說明頁面
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ AEM 系統總覽
 * `cqtag.count`：CQ 標記資產數目。
 * `smarttag.count`：智慧標記資產數目。
 * `ccom.version`：核心元件套件的版本。
-* `instance.type`：AEM 例項類型 (作者|發佈)。
+* `instance.type`：AEM 例項類型 (編寫|發佈)。
 * `unprocessed.asset.count`：未處理的資產數目。
 * `vanity.url.count`：虛名 URL 的數量。
 * `index.size`：總計可移轉 Lucene 指數大小。
-* `workflow.count`:執行中和過時狀態的作者工作流程數量。
+* `workflow.count`：處於執行和過時狀態的編寫工作流程數量。
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -48,7 +48,7 @@ AEM 系統總覽
 * 更多的虛名 URL (>1000) 可能會給 Dispatcher 和查詢成本昂貴的 Publish 伺服器帶來負擔。
 * 自訂應用程式可能依賴 AEM as a Cloud Service 中未提供的產品或功能。
 * 升級若包含不支援的功能，可能會導致升級失敗和應用程式無作用。
-* 執行中或過時狀態的製作工作流程數量很多，可能會降低效能。
+* 處於執行或過時狀態的編寫工作流程數量過大可能會降低性能。
 
 ## 可能的解決方案 {#solutions}
 
