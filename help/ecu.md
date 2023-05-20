@@ -3,7 +3,7 @@ title: ECU
 description: 模式偵測器程式碼說明頁面
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: cbd43bca20831c19eb30703cc1ec528c75f2a2ef
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
