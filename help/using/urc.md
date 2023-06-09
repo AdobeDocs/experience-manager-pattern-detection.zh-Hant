@@ -3,7 +3,7 @@ title: URC
 description: 模式偵測器程式碼說明頁面
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 

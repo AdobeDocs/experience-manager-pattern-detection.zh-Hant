@@ -3,7 +3,7 @@ title: IOI
 description: 模式偵測器程式碼說明頁面
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 

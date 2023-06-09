@@ -3,7 +3,7 @@ title: PCX
 description: 模式偵測器程式碼說明頁面
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 

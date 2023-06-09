@@ -3,7 +3,7 @@ title: ACV
 description: 模式偵測器程式碼說明頁面
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 

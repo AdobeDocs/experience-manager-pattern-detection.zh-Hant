@@ -3,7 +3,7 @@ title: UMI
 description: 模式偵測器程式碼說明頁面
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 
