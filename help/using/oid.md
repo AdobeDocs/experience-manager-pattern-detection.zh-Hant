@@ -2,10 +2,10 @@
 title: OID
 description: 模式偵測器程式碼說明頁面
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Oak 索引定義
 
 子類型用於識別不同類型的資訊：
 
-* `index.rule.violation`：不相容於 AEM as a Cloud Service 的自訂 Oak 索引。
+* `index.rule.violation`：不相容於AEMas a Cloud Service的自訂Oak索引
 * `standard.index.modification`：對標準 Oak 索引的修改。
 
 ## 可能影響和風險 {#implications-and-risks}
