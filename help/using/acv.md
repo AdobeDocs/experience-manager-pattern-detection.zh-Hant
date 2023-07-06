@@ -2,10 +2,10 @@
 title: ACV
 description: 模式偵測器程式碼說明頁面
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ Assets 內容驗證器
 * `metadata.descendants.violation`：識別在存放庫的資產中繼資料節點下具有超過 100 個子系的資產。
 * `conflict.node`：識別 /content/dam/ 路徑下的存放庫中是否存在衝突節點。
 * `psb.file.large`：識別大於 2 GB 的大型 PSB 檔案 (dc:format: application/vnd.3gpp.pic-bw-small)。
+* `invalid.asset.name`：識別包含無效字元的資產[* / ： [\] | # % { } ？ &amp;]在名稱中。
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -39,6 +40,7 @@ Assets 內容驗證器
 * 中繼資料節點下的大量子系可能會減慢載入包含違反此規則之資產的檔案夾的速度。
 * 衝突節點的存在可能導致 AEM as a Cloud Service 上擷取失敗。
 * Experience Manager 可能無法處理極高解析度的 PSB 檔案。如果未對 Experience Manager 伺服器進行適當的基準測試，使用 ImageMagick 處理大型檔案的客戶可能會碰到效能問題。
+* 資產名稱中的無效字元可能會在移轉至AEMas a Cloud Service時導致失敗。
 
 ## 可能的解決方案 {#solutions}
 
