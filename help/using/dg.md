@@ -2,10 +2,10 @@
 title: DG
 description: 模式偵測器程式碼說明頁面
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
 * `sling.commons.scheduler`：Sling Commons Scheduler API 用於已排程任務。
 * `unsupported.asset.api`：在應用程式程式碼中使用不受支援的 Asset Manager API。
 * `javax.jcr.observation.EventListener`：在應用程式的程式碼中使用事件監聽程式。
+* `custom.guava.cache`：在應用程式程式碼中使用Guava快取。
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -55,6 +56,9 @@ ht-degree: 100%
 
 * `javax.jcr.observation.EventListener`
    * 依賴於事件監聽程式的應用程式可能無法如預期般運作，因為無法保證執行。
+
+* `custom.guava.cache`
+   * 使用Guava快取可能會導致AEM的效能問題。
 
 
 ## 可能的解決方案 {#solutions}
@@ -83,4 +87,7 @@ ht-degree: 100%
 
 * `javax.jcr.observation.EventListener`
    * 與其使用事件監聽程式，建議將事件處理機制重構為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，因為它提供了處理的保證。
+
+* `custom.guava.cache`
+   * 如有需要，應在AEM外部建立快取。 可考慮使用外部快取解決方案。
 * 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
