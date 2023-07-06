@@ -2,9 +2,9 @@
 title: URS
 description: 模式偵測器程式碼說明頁面
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 
 * AEM 產品程式碼永遠都會放在 `/libs` 中，自訂程式碼不可予以覆寫。
 * 自訂程式碼應放在 `/apps`、`/content` 和 `/conf` 中。
-* AEM as a Cloud Service 不支援長的節點名稱 (>150 位元組)。
 * 對於 AEM as a Cloud Service，強烈建議遵循這些指導方針。
 
 子類型用於識別應解決的特定存放庫問題類型：
