@@ -3,9 +3,9 @@ title: CDW
 description: 模式偵測器程式碼說明頁面
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 88%
 >title="自訂對話框 Widget"
 >abstract="CDW 可識別應該更新的自訂對話框 Widget，以便使其與 AEM as a Cloud Service 相容。"
 
-`CDW`  自訂對話方塊Widget可識別自訂傳統對話方塊Widget。 應該更新這些 Widget，以便使其與 AEM as a Cloud Service 相容。
+`CDW` 自訂對話框 Widget 可識別自訂的傳統對話框 Widget。這些 Widget 應該更新為與 AEM as a Cloud Service 相容。
 
-子型別用於識別資訊，例如：
+子類型是用來識別資訊，例如：
 
 * `custom.classic.widget`：識別以 ExtJs 為根據的自訂對話框 Widget。
 
