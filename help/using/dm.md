@@ -20,7 +20,7 @@ Dynamic Media
 >title="Dynamic Media"
 >abstract="DM 程式碼會識別 AEM Assets Dynamic Media 在目前實施中的使用方式。Dynamic Media 模式是由執行模式所偵測。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM 開發 - 指導方針與最佳實務"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service 開發指導方針"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=zh-Hant" text="AEM as a Cloud Service 開發指導方針"
 
 `DM` 會識別 AEM Assets Dynamic Media 的使用。Dynamic Media 模式是由執行模式所偵測。
 

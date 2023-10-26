@@ -1,7 +1,8 @@
 ---
 title: MI
 description: 模式偵測器程式碼說明頁面
-source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
+exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
+source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
