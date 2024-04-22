@@ -1,11 +1,11 @@
 ---
 title: IOI
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '222'
+ht-degree: 92%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 100%
 
 * 使用 Sling Resource API (或 JCR API)，而非低階存取。
 * 避免依賴不屬於任何公用 API 或 SPI 的內部套件。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

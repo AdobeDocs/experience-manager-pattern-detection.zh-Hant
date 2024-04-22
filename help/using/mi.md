@@ -1,11 +1,11 @@
 ---
 title: MI
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="設定錯誤問題"
 >abstract="MI 會識別 AEM 執行個體的設定問題"
 
-`MI` 設定錯誤問題會識別 AEM 執行個體的設定問題。
+MI設定錯誤問題會識別AEM執行個體上的設定問題。
 
 子類型用於識別不同類型的資訊，例如：
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * `sling.job.max.parallel`
-   * 建議將該值設為 0.5，以便利用一半的可用處理器。
+   * Adobe建議將此值設定為0.5，以充分利用一半的可用處理器。
 * `missing.maintenance.configuration`
-   * 修訂清除：請參閱[修訂清除](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html)。關於設定的重要部分位於：[修訂清除 - 設定尾部和完全壓縮](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html#how-to-configure-full-and-tail-compaction)。
-   * Lucene 二進位檔案清除：請參閱[作業儀表板 - Lucene 二進位檔案清除](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#lucene-binaries-cleanup)。
-   * 資料存放區垃圾收集：請參閱[資料存放區垃圾收集](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html)。
-   * 工作流程清除：請參閱[定期清除工作流程實例](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html#regular-purging-of-workflow-instances)。
-   * 稽核記錄維護任務：請參閱[稽核記錄維護](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html)。
-* 請聯繫我們的 [Experience Manager 客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
+   * 修訂清除：請參閱 [修訂清除](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). 關於設定的重要部分位於：[修訂清除 - 設定尾部和完全壓縮](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)。
+   * Lucene二進位清理：請參閱 [操作控制面板 — Lucene二進位清理](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * 資料存放區記憶體回收：請參閱 [資料存放區記憶體回收](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * 工作流程永久刪除：請參閱 [定期清除工作流程執行個體](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * AuditLog維護作業：請參閱 [稽核記錄維護](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* 聯絡 [Experience Manager客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

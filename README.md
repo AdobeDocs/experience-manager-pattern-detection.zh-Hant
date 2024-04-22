@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: ht
-source-wordcount: '73'
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '72'
 ht-degree: 100%
 
 ---
@@ -13,4 +13,4 @@ ht-degree: 100%
 
 * [contributing.md](contributing.md) 如何協助撰寫本說明文件的概述。
 * [Guidelines.md](guidelines.md) 預期貢獻內容以及如何協助編寫說明文件的概述。
-* [code-of-conduct.md](code-of-conduct.md) 我們期望在您貢獻本說明文件專案時的行為標準概述。
+* [code-of-conduct.md](code-of-conduct.md) 在您協助編寫本文件專案時，我們期望的行為標準概述。

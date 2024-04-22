@@ -1,11 +1,11 @@
 ---
 title: NBCC
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '204'
+ht-degree: 91%
 
 ---
 
@@ -40,4 +40,4 @@ ht-degree: 100%
 
 * 只覆蓋或參考向後相容的 Sling 元件。
 * 考慮在 AEM 升級後調整來自 `/libs` 或套件組合的資源。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

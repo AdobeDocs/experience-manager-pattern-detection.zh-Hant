@@ -1,11 +1,11 @@
 ---
 title: REP
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
@@ -52,4 +52,4 @@ AEM as a Cloud Service 使用 [Sling 內容發佈](https://sling.apache.org/docu
 * 請參閱 AEM as a Cloud Service [開發指導方針](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents)和[複寫代理](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents)的發行說明。
 * 檢閱、重構和最佳化直接相依於複寫代理的功能以執行商業任務。
 * 了解[複寫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication)如何受到 AEM as a Cloud Service 部署影響。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

@@ -1,11 +1,11 @@
 ---
 title: OID
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 95%
 
 ---
 
@@ -54,5 +54,5 @@ Oak 索引定義
 * 遵循 AEM as a Cloud Service [封裝指導方針](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html)，以部署新的或自訂的 Oak 索引定義。
 * 自訂 AEM 標準索引和新的自訂 Oak 索引定義都應遵循 AEM as Cloud Service [內容編製索引指導方針](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html#preparing-the-new-index-definition)。
 * 請檢閱 [WKND 舊版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid)專案，了解如何更正 [OID 違規](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid)，使其與 AEM as a Cloud Service 相容。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
 * 善用[索引轉換器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools)，將現有的自訂 Oak 索引定義移轉為 AEM as a Cloud Service 相容的自訂 Oak 索引定義。

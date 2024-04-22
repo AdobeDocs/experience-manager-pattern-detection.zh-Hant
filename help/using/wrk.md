@@ -1,11 +1,11 @@
 ---
 title: WRK
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 92%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >abstract="由於資產微服務會自動支援標準資產工作流程，因此最佳實務是檢閱所有自訂資產工作流程模型或啟動器，以了解在轉變為 AEM as a Cloud Service 後是否需要它們。資產工作流程的自訂須透過資產工作流程移轉工具進行移轉，才能用於 AEM as a Cloud Service。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html" text="快速入門 - 資產微服務"
 
-* 資產處理傳統上是在 AEM 作者例項上透過資產工作流程所執行。在 AEM as a Cloud Service，資產處理現在是由資產微服務所執行。如需詳細資訊，請參閱[資產微服務總覽](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html)。
+* 資產處理傳統上是在 AEM 作者例項上透過資產工作流程所執行。在 AEM as a Cloud Service，資產處理現在是由資產微服務所執行。請參閱 [資產微服務概覽](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html) 以取得詳細資訊。
 * 資產微服務會自動支援標準資產工作流程。
 * 資產工作流程的自訂需要移轉，才能用於 AEM as a Cloud Service。
 
@@ -50,4 +50,4 @@ ht-degree: 100%
 
 * 在識別出自訂資產工作流程模型或啟動器後，請規劃使用[資產工作流程移轉工具](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/asset-workflow-migration-tool.html)。
 * 如需詳細資訊，請參閱[開始使用資產微服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

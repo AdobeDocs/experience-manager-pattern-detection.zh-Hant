@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
-source-wordcount: '530'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 # 協助撰寫 Adobe Experience Manager 說明文件
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ## Adobe 開放原始碼行為準則
 
-本專案已採用 [Adobe 開放原始碼行為準則](code-of-conduct.md)。一旦提供 AEM 說明文件，即表示您同意遵守本行為準則。如發現不良行為，請向 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) 回報。
+本專案已採用 [Adobe 開放原始碼行為準則](code-of-conduct.md)。一旦提供 AEM 說明文件，即表示您同意遵守本行為準則。回報不可接受的行為 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## 協助撰寫指南
 
-雖然我們樂於接受任何改善 AEM 說明文件的貢獻，但仍需要求其內容應盡可能遵守特定準則和標準。請參閱 [AEM 說明文件協助撰寫指南](guidelines.md)取得詳細資訊。
+雖然我們樂於接受任何改善 AEM 說明文件的貢獻，但仍需要求其內容應盡可能遵守特定準則和標準。檢閱 [AEM說明檔案協助撰寫指南](guidelines.md) 以取得詳細資訊。
 
 ## 如何協助撰寫
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ### 建立問題 {#create-an-issue}
 
-您是否對目前的文件有建議或觀察發現，或是想針對描述內容的方式提出疑問？如果符合上述情況，請建立問題。如果您希望貢獻內容，但不願意編輯文件或自行提出提取請求，也可以建立問題。
+您是否對目前的文件有建議或觀察發現，或是想針對描述內容的方式提出疑問？然後建立問題。 如果您希望貢獻內容，但不願意編輯文件或自行提出提取請求，也可以建立問題。
 
 您可以透過建立問題輕鬆描述改善文件的想法，並提供給 AEM Docs 團隊成員審核。只需按一下導覽面板頂端的&#x200B;**「記錄問題」**&#x200B;連結，即可在任何頁面建立問題。
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 
 ### Adobe 員工的貢獻
 
-如果您是 Adobe 員工且想要協助撰寫，請使用企業 Git 中的`AdobeDocs`組織。
+如果您是Adobe員工且有貢獻，請使用 `AdobeDocs` 企業git中的組織。
 
-當然，我們都相當樂見以任何形式協助撰寫，並且將審核您提交至公開存放庫的貢獻。不過，來自 Adobe 員工的提取請求更加易於處理，並且在企業存放庫中可以更快獲得核准。請務必避免於企業存放庫之外談論任何所有權的相關資訊。
+當然，我們都相當樂見以任何形式協助撰寫，並且將審核您提交至公開存放庫的貢獻。不過，來自 Adobe 員工的提取請求更加易於處理，並且在企業存放庫中可以更快獲得核准。請確保僅在企業存放庫中討論任何專有資訊。
 
 ## 更多資訊
 

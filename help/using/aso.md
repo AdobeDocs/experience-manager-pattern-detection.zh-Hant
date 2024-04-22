@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -63,6 +63,6 @@ AEM 系統總覽
 * 不建議對不支援的產品或功能進行 AEM 升級，這可能不受支援。
 * 未處理的資產必須加以處理，並且必須將資產 jcr:content 節點上的 dam:assetState 屬性設定為「已處理」，或者在遷移到 AEMaaCS 之前先從遷移集中移除這些資產。
 * 虛名 URL 可以替換為 Apache Rewrites。
-* 如需解決查詢緩慢的問題，請參閱[文件](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=zh-Hant)。
+* 另請參閱 [檔案](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=zh-Hant) 用於疑難排解緩慢查詢。
 * 請檢閱[發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant)以了解 AEM as a Cloud Service 最新變更。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 93%
 
 ---
 
@@ -49,4 +49,4 @@ ht-degree: 100%
 
 * 請善用 [AEM 現代化工具](https://opensource.adobe.com/aem-modernize-tools/)，將靜態範本移轉至可編輯的範本。
 * 如需可編輯範本的詳細資訊，請參閱[範本](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

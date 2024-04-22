@@ -1,11 +1,11 @@
 ---
 title: OCU
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 93%
 
 ---
 
@@ -41,4 +41,4 @@ ht-degree: 100%
 
 * 短期：安裝相容性套件可能有幫助。
 * 長期：調整客戶程式碼以使用最新版 AEM 元件或 API。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

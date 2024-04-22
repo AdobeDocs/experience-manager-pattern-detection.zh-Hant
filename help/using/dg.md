@@ -1,11 +1,11 @@
 ---
 title: DG
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 * `java.io.inputstream`
    * 使用直接二進位上傳方法，即二進位直接新增至資料存放區。
-   * 對於資產使用案例，請使用 [aem-upload](https://github.com/adobe/aem-upload)。對於其他類型的二進位資料，自訂上傳邏輯可以仿照此相同模式。
+   * 如需資產使用案例，請參閱 [aem-upload](https://github.com/adobe/aem-upload). 對於其他類型的二進位資料，自訂上傳邏輯可以仿照此相同模式。
 
 * `maintenance.task.configuration`
    * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=zh-Hant)文件。
@@ -83,11 +83,11 @@ ht-degree: 100%
    * 如有可能應避免長時間執行工作。
 
 * `unsupported.asset.api`
-   * 不要再使用不受支援的 Asset Manager API，請改為使用 [aem-upload](https://github.com/adobe/aem-upload)。
+   * 不要再使用不受支援的Asset Manager API，請參閱 [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * 與其使用事件監聽程式，建議將事件處理機制重構為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，因為它提供了處理的保證。
 
 * `custom.guava.cache`
    * 如果需要，應該在 AEM 外部建立快取。可以考慮外部快取解決方案。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
