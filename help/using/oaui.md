@@ -1,11 +1,11 @@
 ---
 title: OAUI
-description: 模式偵測器程式碼說明頁面
+description: 模式偵測器程式碼說明頁面……
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 47%
 
 ---
 
@@ -19,9 +19,9 @@ OAuth 使用者例項
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth 使用者例項"
 >abstract="OAUI 程式碼會識別至少有一個 OAuth 相關設定使用者需要正確移轉的模式。當 rep:AuthorizableId 節點底下有一個名為 oauth 的子節點 (採用 /home/user-path/user-node/oauth 的格式)，就會設定使用者的 OAuth。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="AEM as a Cloud Service - 發行說明"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 發行說明"
 
-`OAUI` 會識別至少有一個 OAuth 相關設定使用者需要正確移轉的模式。
+OAUI會識別至少有一個OAuth相關設定使用者需要正確移轉的模式。
 
 當 `rep:AuthorizableId` 節點底下有一個名為 `oauth` 的子節點 (採用 `/home/user-path/user-node/oauth` 的格式)，就會設定使用者的 OAuth。
 
@@ -29,16 +29,16 @@ OAuth 使用者例項
 
 ## 可能影響和風險 {#implications-and-risks}
 
-* 使用 OAuth 設定的外部使用者無法登入作者/發佈例項，直到使用下列程序重新設定。
+* 使用OAuth設定的外部使用者無法登入作者/發佈例項，直到使用以下程式重新設定。
 
 ## 可能的解決方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="實施指導"
->abstract="使用 OAuth 設定的外部使用者無法登入作者/發佈例項，直到將其重新設定為與 AEM as a Cloud Service 相容。AEM as a Cloud Service 只為作者、管理和開發使用者提供 IMS 驗證支援，並為發佈環境提供 SAML 型整合。請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html" text="IMS 支援 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html?lang=zh-Hant#integration-with-an-idp" text="SAML 整合 - 發佈"
+>abstract="使用OAuth設定的外部使用者無法登入作者/發佈執行個體，直到將其重新設定為與AEMas a Cloud Service相容。 AEMas a Cloud Service僅對作者、管理員和開發使用者提供IMS驗證支援，並對發佈環境提供SAML型整合。 請聯繫 Adobe 支援以尋求協助與澄清"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS 支援 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 整合 - 發佈"
 
-* 請聯絡 Adobe 代表以討論使用者移轉選項。
-* 請聯繫我們的 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+* 如果您必須討論使用者移轉選項，請聯絡您的Adobe代表。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
