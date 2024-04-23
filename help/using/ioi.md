@@ -2,10 +2,10 @@
 title: IOI
 description: 模式偵測器程式碼說明頁面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 92%
+source-wordcount: '221'
+ht-degree: 89%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="實施指導"
->abstract="客戶應檢閱其自訂程式碼，以識別這類 API 的使用方式，並將其重構為與 AEM as a Cloud Service 相容。請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>abstract="客戶應檢閱其自訂程式碼，以識別這類 API 的使用方式，並將其重構為與 AEM as a Cloud Service 相容。請聯絡Adobe支援以尋求協助或澄清。"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 使用 Sling Resource API (或 JCR API)，而非低階存取。
 * 避免依賴不屬於任何公用 API 或 SPI 的內部套件。

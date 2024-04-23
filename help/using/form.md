@@ -2,10 +2,10 @@
 title: FORM
 description: 模式偵測器程式碼說明頁面。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 99%
+source-wordcount: '981'
+ht-degree: 98%
 
 ---
 
@@ -67,8 +67,8 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="實施指導"
->abstract="透過 FORMS 程式碼公開的資訊，會提供讓一些功能和 API 相容於 Cloud Service 的取代和其他必要動作相關指導。請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>abstract="透過 FORMS 程式碼公開的資訊，會提供讓一些功能和 API 相容於 Cloud Service 的取代和其他必要動作相關指導。請聯絡Adobe支援以尋求協助或澄清。"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 使用移轉公用程式，將環境中的所有規則指令碼轉換為可重複使用的函數。您可以在視覺規則編輯器中使用可重複使用的函數，繼續取得與規則指令碼相同的結果。(CODE_EDITOR)
 

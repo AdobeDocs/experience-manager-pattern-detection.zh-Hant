@@ -2,10 +2,10 @@
 title: CCOM
 description: 模式偵測器程式碼說明頁面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+source-wordcount: '240'
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 >title="自訂元件"
 >abstract="CCOM 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。"
 
-`CCOM` 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。
+CCOM 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。
 
 此程式碼使用子類型來識別元件類別：
 
@@ -31,17 +31,17 @@ ht-degree: 92%
 
 ## 可能影響和風險 {#implications-and-risks}
 
-* 最佳實務是將自訂元件數目降至最小、善用核心元件，並透過樣式系統使用核心元件以減少技術負債。
+* 最佳實務建議儘量減少自訂元件的數量、使用核心元件，並將核心元件與樣式系統搭配使用，以減少技術債。
 
 ## 可能的解決方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="實施指導"
->abstract="最佳實務是將自訂元件數目降至最小、善用核心元件，並透過樣式系統使用核心元件以減少技術負債。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hant" text="核心元件"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=zh-Hant#page-authoring" text="樣式系統"
+>abstract="最佳實務建議儘量減少自訂元件的數量、使用核心元件，並將核心元件與樣式系統搭配使用，以減少技術債。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction" text="核心元件"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="樣式系統"
 
-* 如需核心元件的詳細資訊，請參閱[核心元件簡介](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hant)。
-* 如需樣式系統的詳細資訊，請參閱[使用樣式系統](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=zh-Hant#page-authoring)。
+* 如需核心元件的詳細資訊，請參閱[核心元件簡介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction)。
+* 如需樣式系統的詳細資訊，請參閱[使用樣式系統](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)。
 * 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

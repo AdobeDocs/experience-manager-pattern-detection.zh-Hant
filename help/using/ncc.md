@@ -2,10 +2,10 @@
 title: NCC
 description: 模式偵測器程式碼說明頁面。
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 91%
+source-wordcount: '194'
+ht-degree: 64%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="不相容變更"
->abstract="NCC 會識別部分 JCR 節點或套件組合以不相容方式變更的狀況。客戶在升級前可能未意識到這種變更。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="重大變更 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant" text="發行說明 - AEM as a Cloud Service"
+>abstract="NCC 會識別部分 JCR 節點或套件組合以不相容方式變更的狀況。客戶在升級前可能未意識到這項變更。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="發行說明 - AEM as a Cloud Service"
 
-`NCC` 會識別部分 JCR 節點或套件組合以不相容方式變更的狀況。客戶在升級前可能未意識到這種變更。
+NCC 會識別部分 JCR 節點或套件組合以不相容方式變更的狀況。客戶在升級前可能未意識到這項變更。
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -34,8 +34,8 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱自訂程式碼，並確保只覆蓋或參考相容的 Sling 元件。請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="覆蓋"
+>abstract="最佳實務是檢閱自訂程式碼，並確保只覆蓋或參考相容的Sling元件。 請聯絡Adobe支援以尋求協助或澄清。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="覆蓋"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 只覆蓋或參考相容的 Sling 元件。

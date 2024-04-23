@@ -2,10 +2,10 @@
 title: INST
 description: 模式偵測器程式碼說明頁面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 96%
+source-wordcount: '447'
+ht-degree: 76%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 96%
 >id="aemcloud_bpa_inst_overview"
 >title="已安裝的成品"
 >abstract="INST 會識別客戶安裝在 AEM 中的自訂和第三方套件和套件組合。報告此資訊以協助表示系統狀態的特性和升級工作的一般範圍。任何第三方套件都必須遵守 AEM as a Cloud Service 開發和封裝指導方針。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="開發指導方針 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html" text="封裝指導方針 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="開發指導方針 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="封裝指導方針 - AEM as a Cloud Service"
 
-`INST` 會識別客戶安裝在 AEM 中的自訂和第三方套件和套件組合。報告此資訊以協助表示系統狀態的特性和升級工作的一般範圍。
+INST 會識別客戶安裝在 AEM 中的自訂和第三方套件和套件組合。報告此資訊以協助表示系統狀態的特性和升級工作的一般範圍。
 
 已安裝多個套件版本時，只會報告最新版。
 
@@ -38,8 +38,8 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="實施指導"
->abstract="客戶無法再使用 CRX 封裝管理員來安裝第三方套件。客戶應檢閱這些已安裝的成品，並須將其重組和最佳化以搭配 AEM as a Cloud Service 使用。任何第三方套件都應透過其建立者或 Adobe 驗證是否相容於 AEM as a Cloud Service。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds" text="將子套件內嵌於容器套件"
+>abstract="客戶無法再使用CRX封裝管理員來安裝協力廠商套件。 客戶應檢閱這些必須建構的安裝成品，並將其最佳化以搭配AEMas a Cloud Service使用。 透過其建立者或Adobe驗證任何協力廠商套件是否與AEMas a Cloud Service相容。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="將子套件內嵌在容器套件中"
 
 
 * 無法使用 AEM as a Cloud Service 中的 CRX 封裝管理員來安裝第三方套件。
@@ -51,12 +51,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="工具和資源"
->abstract="請檢閱 WKND 舊版專案以了解如何將 INST 違規設為相容於 AEM Cloud Service。也請檢閱 Github 上的 INST 違規範例，以了解如何更正並將其部署於 AEM as a Cloud Service。"
+>abstract="請檢閱 WKND 舊版專案以了解如何將 INST 違規設為相容於 AEM Cloud Service。也請檢閱GitHub上的INST違規範例，以瞭解如何更正並部署在AEMas a Cloud Service中。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-舊版專案"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 違規範例 - Github"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST違規範例 — GitHub"
 
-* 應使用 Cloud Manager [部署程序](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html#deployment-process)將第三方套件作為專案的一部分部署到 AEM。
-* 請檢閱如何[將第三方套件內嵌](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages)於 AEM as a Cloud Service 的專案。
-* 第三方套件必須遵守 AEM as a Cloud Service [開發](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html)和[封裝](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html)指導方針。
+* 應使用 Cloud Manager [部署程序](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process)將第三方套件作為專案的一部分部署到 AEM。
+* 請檢閱如何[將第三方套件內嵌](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages)於 AEM as a Cloud Service 的專案。
+* 第三方套件必須遵守 AEM as a Cloud Service [開發](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[封裝](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)指導方針。
 * 請檢閱 [WKND 舊版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst)專案，了解如何更正 [INST 違規](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)，使其與 AEM as a Cloud Service 相容。
 * 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

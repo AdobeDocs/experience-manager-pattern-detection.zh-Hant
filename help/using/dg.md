@@ -2,10 +2,10 @@
 title: DG
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 94%
+source-wordcount: '597'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 94%
 >id="aemcloud_bpa_dg_overview"
 >title="開發人員指導方針"
 >abstract="DG 程式碼會識別 AEM 6.5 和 AEM as a Cloud Service 選定開發指導方針的偏離。遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=zh-Hant" text="AEM 開發 - 指導方針與最佳實務"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=zh-Hant" text="AEM as a Cloud Service 開發指導方針"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 開發 - 指導方針與最佳實務"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 開發指導方針"
 
 
-`DG` 會識別 [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=zh-Hant) 和 [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=zh-Hant) 選定開發指導方針的偏離。遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。
+DG會識別所選開發指導方針的偏離 [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEMas a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。
 
 子類型用於識別偵測到的不同違規類型：
 
@@ -45,7 +45,7 @@ ht-degree: 94%
 
 * `sling.commons.scheduler`
    * 因為 AEM as a Cloud Service 中無法保證執行，所以相依於背景任務 (使用 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html)) 的應用程式可能無法如預期運作。
-   * 對於[背景任務和長時間執行工作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=zh-Hant#background-tasks-and-long-running-jobs)的 AEM as a Cloud Service 開發指導方針建議，執行為已排程任務的程式碼必須假設執行所在的例項隨時都會停機。因此程式碼必須有韌性和可恢復性。
+   * 准則 [背景任務和長時間執行的工作](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) 建議程式碼作為排程工作執行，也必須假設執行所在的例項隨時都會停機。 因此程式碼必須有韌性和可恢復性。
 
 * `unsupported.asset.api`
    * 下列 AssetManager API 在 AEM as a Cloud Service 中被標記為不受支援。
@@ -66,21 +66,21 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="實施指導"
->abstract="遵循 AEM 開發指導方針與最佳實務，客戶應檢閱 Sling Commons Scheduler 的使用實施並將其重組為 Sling 工作、重組其系統維護任務、檢閱任何二進位資料的串流處理並將其程式碼重構為符合 AEM as a Cloud Service。"
+>abstract="檢閱您對Sling Commons Scheduler的使用情況的實作。 將其重新建構為Sling工作、重新建構其系統維護任務、檢閱任何二進位資料的串流，並將其程式碼重構為符合AEMas a Cloud Service。"
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling 工作"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=zh-Hant" text="AEM as a Cloud Service 中的維護任務"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service 中的維護任務"
 
 * `java.io.inputstream`
    * 使用直接二進位上傳方法，即二進位直接新增至資料存放區。
    * 如需資產使用案例，請參閱 [aem-upload](https://github.com/adobe/aem-upload). 對於其他類型的二進位資料，自訂上傳邏輯可以仿照此相同模式。
 
 * `maintenance.task.configuration`
-   * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=zh-Hant)文件。
-   * 請確定[維護任務設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=zh-Hant#maintenance-tasks-configuration-in-source-control)是在原始檔控制系統中進行。
+   * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance)文件。
+   * 請確定[維護任務設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)是在原始檔控制系統中進行。
 
 * `sling.commons.scheduler`
    * 將 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) 取代為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，後者有至少執行一次的保證。
-   * 如有可能應避免長時間執行工作。
+   * 應避免長時間執行的工作。
 
 * `unsupported.asset.api`
    * 不要再使用不受支援的Asset Manager API，請參閱 [aem-upload](https://github.com/adobe/aem-upload).
@@ -89,5 +89,5 @@ ht-degree: 94%
    * 與其使用事件監聽程式，建議將事件處理機制重構為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，因為它提供了處理的保證。
 
 * `custom.guava.cache`
-   * 如果需要，應該在 AEM 外部建立快取。可以考慮外部快取解決方案。
+   * 如有需要，快取應在AEM外部建立。 可以考慮外部快取解決方案。
 * 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

@@ -2,10 +2,10 @@
 title: LOCP
 description: 模式偵測器程式碼說明頁面……
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 61%
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
@@ -34,7 +34,7 @@ LOCP會識別偵測到自訂套件傳送內容給 `/libs`，這是反模式（�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="實施指導"
->abstract="客戶應檢閱其自訂程式碼和套件，以識別是否有內容傳送到 /libs，並將其重構為依賴 /apps 底下的覆蓋內容，使其與 AEM as a Cloud Service 相容。請聯繫 Adobe 支援以尋求協助與澄清。"
+>abstract="客戶應檢閱其自訂程式碼和套件，以識別是否有內容傳送到 /libs，並將其重構為依賴 /apps 底下的覆蓋內容，使其與 AEM as a Cloud Service 相容。請聯絡Adobe支援以尋求協助或澄清。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="覆蓋"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

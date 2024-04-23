@@ -2,10 +2,10 @@
 title: PCX
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 57%
+source-wordcount: '199'
+ht-degree: 53%
 
 ---
 
@@ -38,8 +38,8 @@ PCX會識別結構中有許多節點的頁面。
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱內容結構以降低頁面複雜性，這進而有助於改善頁面轉譯效能。 請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>abstract="最佳實務是檢閱內容結構以降低頁面複雜性，這進而有助於改善頁面轉譯效能。 請聯絡Adobe支援以尋求協助或澄清。"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 執行下列動作，減少頁面中的節點總數：
    * 確認沒有不必要的容器。

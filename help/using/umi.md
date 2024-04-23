@@ -2,10 +2,10 @@
 title: UMI
 description: 模式偵測器程式碼說明頁面……
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 43%
+source-wordcount: '352'
+ht-degree: 40%
 
 ---
 
@@ -47,8 +47,8 @@ UMI會識別某些OSGi設定的修改，這些修改在升級時可能會造成�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱目前的設定，並還原上述設定的任何變更，以避免任何未來升級問題。 請聯繫 Adobe 支援以尋求協助與澄清。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
+>abstract="最佳實務是檢閱目前的設定，並還原上述設定的任何變更，以避免任何未來升級問題。 請聯絡Adobe支援以尋求協助或澄清。"
+>additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 請勿變更或移除上述四個設定。
    * 如果發生下列違規：\

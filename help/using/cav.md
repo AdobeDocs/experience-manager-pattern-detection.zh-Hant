@@ -2,10 +2,10 @@
 title: CAV
 description: 模式偵測器程式碼說明頁面。
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 47%
+source-wordcount: '318'
+ht-degree: 45%
 
 ---
 
@@ -37,7 +37,7 @@ Sling請求處理會定義資源的內容、其 `sling:resourceType` 屬性是�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="實施指導"
->abstract="由CAS識別的模式，其中存在不同的內容區域違規，應進行審查。 應避免最終和內部內容分類區域。 請聯繫 Adobe 支援以尋求協助與澄清。"
+>abstract="由CAS識別的模式，其中存在不同的內容區域違規，應進行審查。 應避免最終和內部內容分類區域。 請聯絡Adobe支援以尋求協助或澄清。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="永續升級"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

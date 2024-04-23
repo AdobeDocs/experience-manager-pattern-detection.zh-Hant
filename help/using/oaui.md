@@ -2,10 +2,10 @@
 title: OAUI
 description: 模式偵測器程式碼說明頁面……
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 47%
+source-wordcount: '229'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ OAUI會識別至少有一個OAuth相關設定使用者需要正確移轉的模�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="實施指導"
->abstract="使用OAuth設定的外部使用者無法登入作者/發佈執行個體，直到將其重新設定為與AEMas a Cloud Service相容。 AEMas a Cloud Service僅對作者、管理員和開發使用者提供IMS驗證支援，並對發佈環境提供SAML型整合。 請聯繫 Adobe 支援以尋求協助與澄清"
+>abstract="使用OAuth設定的外部使用者無法登入作者/發佈執行個體，直到將其重新設定為與AEMas a Cloud Service相容。 AEMas a Cloud Service僅對作者、管理員和開發使用者提供IMS驗證支援，並對發佈環境提供SAML型整合。 請聯絡Adobe支援以尋求協助或澄清。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS 支援 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 整合 - 發佈"
 
