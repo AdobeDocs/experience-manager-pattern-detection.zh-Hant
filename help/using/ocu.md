@@ -2,10 +2,10 @@
 title: OCU
 description: 模式偵測器程式碼說明頁面。
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 91%
+source-wordcount: '277'
+ht-degree: 64%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_overview"
 >title="過時的程式碼使用方式"
->abstract="OCU 會識別部分 JCR 節點 (例如 Sling 或 AEM 元件，或是 API OSGi 匯出) 以不相容方式變更或移除的狀況。客戶在升級前可能未意識到這種變更。這些節點可能會升級為不相容的版本或完全無法使用。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="重大變更 - AEM as a Cloud Service"
+>abstract="OCU 會識別部分 JCR 節點 (例如 Sling 或 AEM 元件，或是 API OSGi 匯出) 以不相容方式變更或移除的狀況。客戶在升級前可能未意識到這項變更。 這些節點可能會升級為不相容的版本或完全無法使用。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 
-`OCU` 會識別部分 JCR 節點 (例如 Sling 或 AEM 元件，或是 API OSGi 匯出) 以不相容方式變更或移除的狀況。客戶在升級前可能未意識到這種變更。這些節點可能會升級為不相容的版本或完全無法使用。
+`OCU`  識別部分JCR節點(例如Sling或AEM元件，或是API OSGi匯出)以不相容方式變更或移除的狀況。 客戶在升級前可能未意識到這項變更。 這些節點可能會升級為不相容的版本或完全無法使用。
 
 由於預設不會安裝舊版，因此客戶應用程式可能無法正確運作。
 
@@ -40,5 +40,5 @@ ht-degree: 91%
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 短期：安裝相容性套件可能有幫助。
-* 長期：調整客戶程式碼以使用最新版 AEM 元件或 API。
+* 長期：調整客戶程式碼以使用最新版AEM元件或API。
 * 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

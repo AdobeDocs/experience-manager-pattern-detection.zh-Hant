@@ -2,10 +2,10 @@
 title: INST
 description: 模式偵測器程式碼說明頁面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 76%
+source-wordcount: '446'
+ht-degree: 72%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 76%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="開發指導方針 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="封裝指導方針 - AEM as a Cloud Service"
 
-INST 會識別客戶安裝在 AEM 中的自訂和第三方套件和套件組合。報告此資訊以協助表示系統狀態的特性和升級工作的一般範圍。
+`INST`  識別客戶安裝在AEM中的自訂和第三方套件和套件組合。 報告此資訊以協助表示系統狀態的特性和升級工作的一般範圍。
 
 已安裝多個套件版本時，只會報告最新版。
 

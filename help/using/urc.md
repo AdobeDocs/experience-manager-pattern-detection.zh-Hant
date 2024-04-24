@@ -2,9 +2,9 @@
 title: URC
 description: 模式偵測器程式碼說明頁面。
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 24%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 24%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="支援的執行模式"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="執行模式"
 
-URC會識別基於AEMas a Cloud Service不支援之執行模式名稱之設定的使用。
+`URC`  會識別基於AEMas a Cloud Service不支援之執行模式名稱之設定的使用。
 
 ## 可能影響和風險 {#implications-and-risks}
 

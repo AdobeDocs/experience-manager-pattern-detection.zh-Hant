@@ -2,10 +2,10 @@
 title: FORM
 description: 模式偵測器程式碼說明頁面。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 98%
+ht-degree: 72%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="FORMS 程式碼會識別從 Adobe Experience Manager Forms 移轉至 Adobe Experience Manager Forms as a Cloud Service 相關的可能問題。請檢閱相關的可能影響和風險，並在移轉至 Cloud Service 之前解決這些問題。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="可能影響和風險"
+>abstract="FORMS 程式碼會識別從 Adobe Experience Manager Forms 移轉至 Adobe Experience Manager Forms as a Cloud Service 相關的可能問題。請檢閱可能的相關後果和風險，並在移轉至Cloud Service之前解決這些問題。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能影響和風險"
 
-`FORMS` 會識別從 [!DNL Adobe Experience Manager Forms] 移轉至 [!DNL Adobe Experience Manager Form]s as a [!DNL Cloud Service] 相關的可能問題。請在移轉至 [!DNL Cloud Service] 之前解決這些問題。
+`FORMS`  會識別從移轉相關的可能問題 [!DNL Adobe Experience Manager Forms] 至 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. 請在移轉至 [!DNL Cloud Service] 之前解決這些問題。
 
 下列子類型可協助您識別不同類型的問題：
 
@@ -38,9 +38,9 @@ ht-degree: 98%
 
 * 規則編輯器功能的程式碼編輯器功能無法使用。(CODE_EDITOR)
 
-* 電子郵件支援 (SMTP 連接埠) 預設為停用。(EMAIL_SERVICE_CONFIGURATION)
+* 電子郵件支援（SMTP連線埠）預設為停用。 (EMAIL_SERVICE_CONFIGURATION)
 
-* **[!UICONTROL 電子郵件 PDF]** 提交動作無法使用。(EMAIL_PDF_SUBMIT_ACTION)
+* 此 **[!UICONTROL 電子郵件PDF]** 提交動作無法使用。 (EMAIL_PDF_SUBMIT_ACTION)
 
 * 不支援 XFA 型最適化表單。(XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 提交至 Forms Workflow]** 提交動作無法使用。在 AEM 6.5 Forms 和舊版，提交動作用於將最適化表單資料提交至舊版 AEM Forms on JEE Workflow 和 LiveCycle Workflow。(LC_WORKFLOW_SUBMISSION)
 
-* 互動式通訊功能無法使用。(FP_PROFILE_INTERACTIVE_COMMUNICATIONS)。
+* 互動式通訊功能無法使用。 (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)。
 
 * 中繼資料 Accordion 無法使用。(METADATA_ACCORDION_FORM_CONTAINER)
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 * [!DNL AEM Forms] 應用程式不可用於 [!DNL Cloud Services]。(AEM_FORMS_APP)
 
-* [文件服務](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=zh-Hant#deployment-topology)步驟不可用於 AEM Workflow。(WORKFLOW_DOCSERVICES)
+* [檔案服務](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/install-aem-forms/osgi-installation/install-configure-document-services#deployment-topology) 步驟在AEM工作流程中無法使用。 (WORKFLOW_DOCSERVICES)
 
 ## 可能的解決方案 {#solutions}
 
@@ -72,30 +72,30 @@ ht-degree: 98%
 
 * 使用移轉公用程式，將環境中的所有規則指令碼轉換為可重複使用的函數。您可以在視覺規則編輯器中使用可重複使用的函數，繼續取得與規則指令碼相同的結果。(CODE_EDITOR)
 
-* 請聯絡支援團隊，為您的環境啟用電子郵件 (開啟 SMTP 連接埠) 功能。預設只會啟用傳出 HTTP 和 HTTPS 連線。(EMAIL_SERVICE_CONFIGURATION, Email step)
+* 請連絡支援團隊，以便為您的環境啟用電子郵件功能（開啟SMTP連線埠）。 預設只會啟用傳出HTTP和HTTPS連線。 (EMAIL_SERVICE_CONFIGURATION, Email step)
 
 * 請使用&#x200B;**[!UICONTROL 電子郵件]**&#x200B;提交動作而非&#x200B;**[!UICONTROL 電子郵件 PDF]**。**[!UICONTROL 電子郵件]**&#x200B;提交動作會提供傳送附件和將記錄文件 (DoR) 附加於電子郵件的選項。(EMAIL_PDF_SUBMIT_ACTION)
 
-* 提交的資料包含 Adobe Sign 合約 ID。需要時您可以使用 Sign 合約 ID 來擷取 Sign 合約 PDF。(FORM_SIGN_INTEGRATION)
+* 提交的資料包含 Adobe Sign 合約 ID。如有必要，您可以使用「簽署合約ID」來擷取「簽署合約」PDF。 (FORM_SIGN_INTEGRATION)
 
-* 從現有的最適化表單移除簽名步驟。設定最適化表單以使用[瀏覽器內簽名體驗](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)。它會顯示 Adobe Sign 合約，以便在提交最適化表單時於瀏覽器中簽署合約。瀏覽器內簽名體驗有助於提供更快的簽名體驗，為簽署者節省寶貴時間。(SIGNATURE_STEP)
+* 從現有的最適化表單移除簽名步驟。設定最適化表單以使用[瀏覽器內簽名體驗](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)。它會顯示 Adobe Sign 合約，以便在提交最適化表單時於瀏覽器中簽署合約。瀏覽器內簽名體驗有助於提供更快的簽名體驗，為簽署者節省寶貴時間。(SIGNATURE_STEP)
 
-* 將最適化表單移至 [!DNL Cloud Service] 環境之前，請從現有的最適化表單移除驗證步驟。(VERIFY_STEP)
+* 將最適化表單移至之前，請從現有的最適化Forms移除驗證步驟 [!DNL Cloud Service] 環境。 (VERIFY_STEP)
 
-* 修改現有的最適化表單以使用[提交至 REST 端點](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint)、[傳送電子郵件](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email)、[使用表單資料模型提交](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)和[叫用 AEM 工作流程](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)提交動作。
+* 編輯現有的最適化表單，以便 [提交至REST端點](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-to-rest-endpoint)， [傳送電子郵件](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#send-email)， [使用表單資料模型提交](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#submit-using-form-data-model)、和 [叫用AEM工作流程](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) 提交動作。
 
-* 您可以開發 AEM 工作流程，並修改現有的最適化表單以使用 [AEM 工作流程](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)提交動作將資料傳送至 AEM 工作流程，而不使用&#x200B;**[!UICONTROL 提交至 Forms Workflow]** 提交動作。您可以開發自訂提交動作，將資料、附件或記錄文件 (DoR) 傳送至 LiveCycle 程序，而不使用[!UICONTROL 提交至 Forms Workflow]。(LC_WORKFLOW_SUBMISSION)
+* 您可以開發AEM Workflow並編輯現有的最適化表單以使用 [AEM工作流程](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow) 提交動作以傳送資料至AEM工作流程，而非使用 **[!UICONTROL 提交至Forms Workflow]** 提交動作。 您可以開發自訂提交動作，將資料、附件或記錄文件 (DoR) 傳送至 LiveCycle 程序，而不使用[!UICONTROL 提交至 Forms Workflow]。(LC_WORKFLOW_SUBMISSION)
 
 * 請查看每月發行說明，以了解互動式通訊功能可用性相關資訊。請勿將互動式通訊、郵件和相關字典移轉至 Cloud Service 環境 (該功能尚不可使用)。(FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * 中繼資料 Accordion 沒有替代項目。將表單移轉至 Cloud Service 之前，請將它從表單中移除。(METADATA_ACCORDION_FORM_CONTAINER)
 
-* 請使用 Google reCaptcha 服務，而不使用 Adobe Experience Manager 所提供的驗證碼服務。(FORMS_CAPTCHA)
+* 使用Google reCAPTCHA，而非Adobe Experience Manager提供的驗證碼服務。 (FORMS_CAPTCHA)
 
-* 請勿移轉使用文件服務工作流程步驟的 AEM 工作流程模型。此外，如果最適化表單將使用者資料傳送至使用文件服務工作流程步驟的工作流程模型，請勿移轉或更新這些最適化表單，或在移轉表單之前先將提交動作變更為[支援的提交動作](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)。(WORKFLOW_DOCSERVICES)
+* 請勿移轉使用檔案服務工作流程步驟的AEM Workflow模型。 此外，如果最適化Forms將使用者資料傳送至使用檔案服務的工作流程模型，請勿移轉或更新這些資料。工作流程步驟或變更 **`Submit Action`** 至 [支援的一個](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) 移轉表單之前。 (WORKFLOW_DOCSERVICES)
 
 * 最適化表單提供回應式設計。這些表單會根據基礎裝置變更外觀、設計和互動。您可以在行動裝置上繼續使用最適化表單。請查看每月發行說明，以了解 [!DNL AEM Forms] 應用程式可用性相關資訊。(AEM_FORMS_APP)
 
 * 未提供開箱即用的 XFA 型最適化表單支援。如果您打算使用 XFA 型最適化表單，請聯絡 Adobe 支援並附上使用案例和特定要求的詳細資料。(XFA_BASED_FORM, XDP_BASED_FORM)
 
-請聯繫 [Adobe 支援](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以澄清或解決問題。
+連絡人 [Adobe支援](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 若您需要澄清或解決問題。

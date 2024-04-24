@@ -1,10 +1,10 @@
 ---
 title: LOCP
-description: 模式偵測器程式碼說明頁面……
+description: 模式偵測器程式碼說明頁面。
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 57%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 57%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="永續升級"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 資源合併"
 
-LOCP會識別偵測到自訂套件傳送內容給 `/libs`，這是反模式（但ACL情況為例外）。
+`LOCP`  識別偵測到自訂套件傳送內容給 `/libs`，這是反模式（但ACL情況為例外）。
 
 ## 可能影響和風險 {#implications-and-risks}
 

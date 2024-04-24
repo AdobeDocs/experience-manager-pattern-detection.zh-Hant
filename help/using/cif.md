@@ -2,9 +2,9 @@
 title: CIF
 description: 模式偵測器程式碼說明頁面。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 52%
 
 ---
@@ -21,7 +21,7 @@ Commerce Integration Framework Classic
 >abstract="CIF會識別不相容於AEMas a Cloud Service的Commerce integration framework使用傳統版本。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
-CIF CIF會識別不相容於AEMas a Cloud Service的Commerce integration framework使用傳統版本。 每個的訊息 `CIF` 尋找可識別該使用方式並提供額外資訊。
+`CIF`  識別與AEMas a Cloud Service不相容的Commerce integration framework使用方式傳統版本。 每個的訊息 `CIF` 尋找可識別該使用方式並提供額外資訊。
 
 子類型用於識別不同類型的資訊：
 

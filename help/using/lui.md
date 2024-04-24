@@ -2,10 +2,10 @@
 title: LUI
 description: 模式偵測器程式碼說明頁面。
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 58%
+source-wordcount: '703'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 58%
 >abstract="LUI 會識別 AEM 更新版本和 AEM as a Cloud Service 中不建議或不支援之已棄用使用者介面元素的使用。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 
-LUI 會識別 AEM 更新版本和 AEM as a Cloud Service 中不建議或不支援之已棄用使用者介面元素的使用。
+`LUI`  會識別AEM更新版本和AEMas a Cloud Service中不建議或不支援之已棄用使用者介面元素的使用。
 
 子類型用於識別應該或必須升級的不同使用者介面元素類型：
 

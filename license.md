@@ -1,5 +1,5 @@
 ---
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 34%
@@ -9,7 +9,7 @@ ht-degree: 34%
 
 © Copyright 2021 Adobe. All rights reserved.
 
-凡取得本軟體及相關檔案檔案（以下稱「軟體」）副本的任何人，均有權無償且無限制買賣本軟體。 包括但不限於使用、複製、修改、合併、發佈、散佈、轉授權及/或銷售軟體副本的權利。 此外，若要允許擁有本軟體之人員執行此作業，須受下列條件限制：
+凡取得本軟體及相關檔案檔案（以下稱「軟體」）副本的任何人，均有權無償且無限制買賣本軟體。 包括但不限於使用、複製、編輯、合併、發佈、散佈、轉授權及/或銷售軟體復本的權利。 此外，若要允許擁有本軟體之人員執行此作業，須受下列條件限制：
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 

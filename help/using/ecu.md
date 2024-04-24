@@ -2,10 +2,10 @@
 title: ECU
 description: 模式偵測器程式碼說明頁面。
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 ## 背景 {#background}
 
-ECU會識別以違反內容分類規則的方式使用不同內容區域的模式。
+`ECU`  識別以違反內容分類規則的方式使用不同內容區域的模式。
 
 Sling請求處理會定義資源的內容、其 `sling:resourceType` 屬性是用來決定轉譯內容所用的指令碼。 (如需詳細資訊，請參閱[找到指令碼](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。)Sling 也透過「覆蓋」和「覆寫」提供存取和合併資源的技術。在 [Sling 資源合併](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)和[覆蓋](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays)中予以說明。
 

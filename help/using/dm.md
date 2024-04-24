@@ -2,9 +2,9 @@
 title: DM
 description: 瞭解模式偵測器程式碼如何識別AEM Assets - Dynamic Media的使用。
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 52%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 開發 - 指導方針與最佳實務"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 開發指導方針"
 
-`DM` (Dynamic Media)會識別AEM Assets Dynamic Media的使用。 Dynamic Media模式是由執行模式所偵測。
+`DM` (Dynamic Media)識別AEM Assets Dynamic Media的使用。 Dynamic Media模式是由執行模式所偵測。
 
 此程式碼使用子類型：
 
@@ -48,4 +48,4 @@ Dynamic Media
 * `dynamic.media.runmode`
    * 如需詳細資訊，請參閱 [設定Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
-* 請聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 若您需要澄清或解決問題。
+* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 若您需要澄清或解決問題。

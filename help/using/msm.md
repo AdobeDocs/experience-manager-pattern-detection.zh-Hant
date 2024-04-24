@@ -2,9 +2,9 @@
 title: MSM
 description: 模式偵測器程式碼說明頁面。
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 >abstract="MSM會識別AEM多站點管理員功能的一般資訊。 提供此資訊以協助表示系統特性。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 
-MSM會識別AEM多站點管理員功能的一般資訊。 提供此資訊以協助表示系統特性。
+`MSM`  識別AEM多站點管理員功能的一般資訊。 提供此資訊以協助表示系統特性。
 
 子類型用於識別不同類型的資訊：
 

@@ -2,9 +2,9 @@
 title: DOPI
 description: 模式偵測器程式碼說明頁面。
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 43%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 43%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="有序索引 - 已棄用"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing" text="編製索引 - AEM as a Cloud Service"
 
-DOPI會識別有序屬性索引定義的使用(`primaryType=oak:QueryIndexDefinition` 和 `type="ordered"`)，這些元件自6.1之後已淘汰，並在6.2中移除。
+`DOPI`  識別有序屬性索引定義的使用(`primaryType=oak:QueryIndexDefinition` 和 `type="ordered"`)一節，自AEM 6.1起即已棄用，並在AEM 6.2中移除。
 
 ## 可能影響和風險 {#implications-and-risks}
 
@@ -45,6 +45,6 @@ DOPI會識別有序屬性索引定義的使用(`primaryType=oak:QueryIndexDefini
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-舊版專案"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI違規範例 — GitHub"
 
-* 修改索引定義，使其成為（或取代為）支援的索引定義。 (請參閱 [Oak 查詢和編製索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing))。
+* 編輯索引定義，使其成為（或取代為）支援的索引定義。 (請參閱 [Oak 查詢和編製索引](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing))。
 * 請檢閱 [WKND 舊版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi)專案，了解如何更正 [DOPI 違規](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi)，使其與 AEM as a Cloud Service 相容。
 * 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

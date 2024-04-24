@@ -2,9 +2,9 @@
 title: CTEM
 description: 模式偵測器程式碼說明頁面。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 68%
 >title="自訂範本"
 >abstract="CTEM 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。"
 
-CTEM會識別AEM上已安裝的自訂範本。 提供這項資訊是為了最佳實務評估目的。
+`CTEM`  會識別AEM上已安裝的自訂範本。 提供這項資訊是為了最佳實務評估目的。
 
 範本由的主要型別值識別 `cq:Template`. 此程式碼使用子類型來識別範本類別：
 

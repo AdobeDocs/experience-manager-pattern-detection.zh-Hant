@@ -2,9 +2,9 @@
 title: WRK
 description: 模式偵測器程式碼說明頁面。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 62%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 62%
 >abstract="WRK 程式碼會識別與工作流程模型或啟動器相關的發現。因為在升級為 AEM as a Cloud Service 時必須移轉自訂資產工作流程模型，所以報告了這些發現。在 AEM as a Cloud Service，資產處理現在是由資產微服務所執行。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="資產微服務"
 
-WRK會識別與工作流程模型或啟動器相關的發現。 因為在升級為 AEM as a Cloud Service 時必須移轉自訂資產工作流程模型，所以報告了這些發現。
+`WRK`  會識別與工作流程模型或啟動器相關的發現。 因為在升級為 AEM as a Cloud Service 時必須移轉自訂資產工作流程模型，所以報告了這些發現。
 
 子類型用於識別目前偵測到的工作流程類型。
 

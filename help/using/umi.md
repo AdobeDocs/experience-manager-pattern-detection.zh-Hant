@@ -1,11 +1,11 @@
 ---
 title: UMI
-description: 模式偵測器程式碼說明頁面……
+description: 模式偵測器程式碼說明頁面。
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 40%
+source-wordcount: '351'
+ht-degree: 41%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 40%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 發行說明"
 
-UMI會識別某些OSGi設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。
+`UMI`  會識別某些OSGi設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。
 
 會檢查下列設定是否修改：
 

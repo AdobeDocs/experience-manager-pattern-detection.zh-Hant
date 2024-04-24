@@ -2,10 +2,10 @@
 title: REP
 description: 模式偵測器程式碼說明頁面。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 74%
+source-wordcount: '414'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 74%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="開發指導方針"
 
-REP 會識別已啟用的複寫代理。由於在升級為 AEM as a Cloud Service 時可能存在應解決的問題，因此報告了這些複寫代理。
+`REP`  識別已啟用的復寫代理。 由於在升級為 AEM as a Cloud Service 時可能存在應解決的問題，因此報告了這些複寫代理。
 
 子類型用於識別不同類型的資訊：
 

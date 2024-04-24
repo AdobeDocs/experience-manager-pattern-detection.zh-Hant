@@ -2,10 +2,10 @@
 title: URS
 description: 模式偵測器程式碼說明頁面。
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '377'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 55%
 
 ## 背景 {#background}
 
-URS 會識別不支援的存放庫結構和節點特性案例。自 AEM 6.4 起已經提供存放庫內容重組的指導方針。透過明確界定 AEM 產品程式碼和客戶程式碼的階層，避免兩者之間的衝突，`/etc` 中的內容會重組到存放庫的其他檔案夾，遵守下列高階規則：
+`URS`  會識別不支援的存放庫結構和節點特性案例。 自 AEM 6.4 起已經提供存放庫內容重組的指導方針。透過明確界定 AEM 產品程式碼和客戶程式碼的階層，避免兩者之間的衝突，`/etc` 中的內容會重組到存放庫的其他檔案夾，遵守下列高階規則：
 
 * AEM產品程式碼永遠放在 `/libs`，自訂程式碼不可覆寫。
 * 自訂程式碼應放在 `/apps`， `/content`、和 `/conf`.

@@ -2,10 +2,10 @@
 title: MI
 description: 模式偵測器程式碼說明頁面。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 54%
+source-wordcount: '196'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 54%
 >title="設定錯誤問題"
 >abstract="MI 會識別 AEM 執行個體的設定問題"
 
-MI設定錯誤問題會識別AEM執行個體上的設定問題。
+`MI` （設定錯誤問題）識別AEM執行個體上的設定問題。
 
 子類型用於識別不同類型的資訊，例如：
 

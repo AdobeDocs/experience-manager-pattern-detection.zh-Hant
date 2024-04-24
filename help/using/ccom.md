@@ -2,10 +2,10 @@
 title: CCOM
 description: 模式偵測器程式碼說明頁面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 69%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 >title="自訂元件"
 >abstract="CCOM 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。"
 
-CCOM 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。
+`CCOM` 識別AEM上已安裝的自訂元件。 提供這項資訊是為了最佳實務評估目的。
 
 此程式碼使用子類型來識別元件類別：
 

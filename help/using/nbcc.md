@@ -2,10 +2,10 @@
 title: NBCC
 description: 模式偵測器程式碼說明頁面。
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 62%
+source-wordcount: '203'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 62%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="發行說明 - AEM as a Cloud Service"
 
-NBCC 會識別部分 JCR 節點或套件組合以不相容方式變更的狀況。客戶在升級前可能未意識到這項變更。
+`NBCC`  會識別部分JCR節點或套件組合以不相容方式變更的狀況。 客戶在升級前可能未意識到這項變更。
 
 ## 可能影響和風險 {#implications-and-risks}
 

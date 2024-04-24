@@ -2,10 +2,10 @@
 title: PCX
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 53%
+source-wordcount: '198'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 53%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 發行說明"
 
-PCX會識別結構中有許多節點的頁面。
+`PCX`  會識別結構中有許多節點的頁面。
 
 子類型用於識別不同類型的資訊：
 

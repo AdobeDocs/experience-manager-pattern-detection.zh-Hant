@@ -1,10 +1,10 @@
 ---
 title: OAUI
-description: 模式偵測器程式碼說明頁面……
+description: 模式偵測器程式碼說明頁面。
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ OAuth 使用者例項
 >abstract="OAUI 程式碼會識別至少有一個 OAuth 相關設定使用者需要正確移轉的模式。當 rep:AuthorizableId 節點底下有一個名為 oauth 的子節點 (採用 /home/user-path/user-node/oauth 的格式)，就會設定使用者的 OAuth。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 發行說明"
 
-OAUI會識別至少有一個OAuth相關設定使用者需要正確移轉的模式。
+`OAUI`  識別至少有一個OAuth相關設定使用者需要正確移轉的模式。
 
 當 `rep:AuthorizableId` 節點底下有一個名為 `oauth` 的子節點 (採用 `/home/user-path/user-node/oauth` 的格式)，就會設定使用者的 OAuth。
 

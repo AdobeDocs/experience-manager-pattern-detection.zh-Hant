@@ -2,10 +2,10 @@
 title: ACV
 description: 模式偵測器程式碼說明頁面。
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 70%
+source-wordcount: '478'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +22,7 @@ Assets 內容驗證器
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="重大變更 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 發行說明"
 
-ACV Assets的內容驗證器會識別資產內容中缺少的必要節點和違規行為。 這可能會導致 Experience Manager as a Cloud Service 中的某些 Assets 功能失敗。
+`ACV` （資產內容驗證器）識別資產內容中缺少的必要節點和違規行為。 這可能會導致 Experience Manager as a Cloud Service 中的某些 Assets 功能失敗。
 
 子類型用於識別不同類型的資訊，例如：
 
@@ -54,5 +54,5 @@ ACV Assets的內容驗證器會識別資產內容中缺少的必要節點和違�
 * 對於缺少原始轉譯的資產，請在移轉前重新上傳資產或予以刪除。
 * 缺少子資產原始轉譯無需採取任何動作。
 * 如果有衝突節點，應先解決或刪除這些節點，再移轉至AEMas a Cloud Service。
-* 如果您計劃處理很多大型 PSD 或 PSB 檔案，請聯絡 Adobe 客戶支援。Experience Manager可能無法處理超過30000 x 23000畫素的高解析度PSB檔案。 另請參閱 [檔案](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
+* 如果您計畫處理大量大型Adobe或PSB檔案，請聯絡「PSD客戶支援」。 Experience Manager可能無法處理超過30000 x 23000畫素的高解析度PSB檔案。 另請參閱 [檔案](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
 * 聯絡 [Experience Manager客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。

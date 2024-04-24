@@ -2,10 +2,10 @@
 title: ASO
 description: 模式偵測器程式碼說明頁面。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 52%
+source-wordcount: '473'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ AEM 系統總覽
 >abstract="ASO 程式碼會識別 AEM 例項的一般資訊。每個發現都會提供某特定系統資訊類型的一個值，以協助您進行移轉規劃和重構。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 發行說明"
 
-ASO會識別AEM執行處理的一般資訊。 每個發現都會提供某特定系統資訊類型的一個值。
+`ASO` 識別AEM執行個體的一般資訊。 每個發現都會提供某特定系統資訊類型的一個值。
 
 子類型用於識別不同類型的資訊：
 
