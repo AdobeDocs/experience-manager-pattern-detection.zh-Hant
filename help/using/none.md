@@ -2,9 +2,9 @@
 title: 無
 description: 模式偵測器程式碼說明頁面。
 source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '27'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 48%
 
 ## 可能的解決方案 {#solutions}
 
-* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 必須回報錯誤。
+* 聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)報告錯誤。
