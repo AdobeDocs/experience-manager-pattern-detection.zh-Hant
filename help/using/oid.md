@@ -5,7 +5,7 @@ exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 48%
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ Oak 索引定義
 * `index.rule.violation`：不相容於 AEM as a Cloud Service 的自訂 Oak 索引
 * `standard.index.modification`：對標準 Oak 索引的修改。
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_guidance"
@@ -54,5 +54,5 @@ Oak 索引定義
 * 若要部署新的或自訂的Oak索引定義，請依照AEMas a Cloud Service操作 [封裝指導方針](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure).
 * 自訂AEM標準索引和新的自訂Oak索引定義應該遵循 [內容編制索引指導方針](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) 適用於AEMas a Cloud Service。
 * 請檢閱 [WKND 舊版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid)專案，了解如何更正 [OID 違規](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid)，使其與 AEM as a Cloud Service 相容。
-* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
+* 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
 * 使用 [索引轉換器](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) 將現有的自訂Oak索引定義移轉至AEMas a Cloud Service相容的自訂Oak索引定義。

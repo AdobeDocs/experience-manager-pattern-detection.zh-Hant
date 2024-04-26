@@ -4,7 +4,7 @@ description: 模式偵測器程式碼說明頁面的範本。
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 38%
 提供此程式碼代表的一或多個問題的說明。
 回答問題：「這是什麼？」
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 提供在不採取任何因應措施時可能發生之影響和風險的說明。
 回答問題：「為什麼我應該關心？」
@@ -33,4 +33,4 @@ ht-degree: 38%
 
 * 可能的解決方案 #1
 * 可能的解決方案 #2
-* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
+* 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

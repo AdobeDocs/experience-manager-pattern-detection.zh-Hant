@@ -5,7 +5,7 @@ exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 66%
+ht-degree: 73%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 * `custom.overlay.foundation`：元件路徑包含 &quot;wcm/foundation/components/&quot; 或 &quot;foundation/components/&quot;，這表示它覆蓋基礎元件。
 * `custom`：自訂元件不會繼承或覆蓋核心或基礎元件。
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 * 最佳實務建議儘量減少自訂元件的數量、使用核心元件，並將核心元件與樣式系統搭配使用，以減少技術債。
 
@@ -39,9 +39,9 @@ ht-degree: 66%
 >id="aemcloud_bpa_ccom_guidance"
 >title="實施指導"
 >abstract="最佳實務建議儘量減少自訂元件的數量、使用核心元件，並將核心元件與樣式系統搭配使用，以減少技術債。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction" text="核心元件"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/introduction" text="核心元件"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="樣式系統"
 
-* 如需核心元件的詳細資訊，請參閱[核心元件簡介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction)。
+* 如需核心元件的詳細資訊，請參閱[核心元件簡介](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/introduction)。
 * 如需樣式系統的詳細資訊，請參閱[使用樣式系統](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)。
-* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
+* 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

@@ -5,7 +5,7 @@ exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 53%
+ht-degree: 57%
 
 ---
 
@@ -18,8 +18,8 @@ AEM 系統總覽
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
 >title="AEM 系統總覽"
->abstract="ASO 程式碼會識別 AEM 例項的一般資訊。每個發現都會提供某特定系統資訊類型的一個值，以協助您進行移轉規劃和重構。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 發行說明"
+>abstract="ASO 程式碼會識別 AEM 執行個體的一般資訊。每個發現都會提供某特定系統資訊類型的一個值，以協助您進行移轉規劃和重構。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 發行說明"
 
 `ASO` 識別AEM執行個體的一般資訊。 每個發現都會提供某特定系統資訊類型的一個值。
 
@@ -36,14 +36,14 @@ AEM 系統總覽
 * `cqtag.count`：CQ 標記資產數目。
 * `smarttag.count`：智慧標記資產數目。
 * `ccom.version`：核心元件套件的版本。
-* `instance.type`：AEM 例項類型 (編寫|發佈)。
+* `instance.type`：AEM 執行個體類型 (編寫|發佈)。
 * `unprocessed.asset.count`：未處理的資產數目。
 * `vanity.url.count`：虛名 URL 的數量。
 * `index.size`：總計可移轉 Lucene 指數大小。
 * `workflow.count`：處於執行和過時狀態的編寫工作流程數量。
 * `jvm.arguments`：啟動 AEM 時新增到命令列的 JVM 引數。
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 * AEM版本、節點數、群組成員資格、節點存放區、資料存放區實施型別、CQ標籤數、智慧標籤數、核心元件版本、AEM例項型別和未處理的資產計數僅供參考。
 * 更多的虛名 URL (>1000) 可能會給 Dispatcher 和查詢成本昂貴的 Publish 伺服器帶來負擔。
@@ -63,6 +63,6 @@ AEM 系統總覽
 * 不建議對不支援的產品或功能進行AEM升級，這可能不受支援。
 * 未處理的資產必須加以處理，而且 `dam:assetState` 上的屬性 `jcr:content` 資產節點必須設為「已處理」。 或者，您應該在移轉至AEMaaCS之前，從移轉集中移除這些資產。
 * 虛名 URL 可以替換為 Apache Rewrites。
-* 另請參閱 [檔案](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) 用於疑難排解緩慢查詢。
-* 請參閱 [發行說明](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) 如果您想進一步瞭解AEMas a Cloud Service的最新變更。
-* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
+* 如需解決查詢緩慢的問題，請參閱[文件](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)。
+* 請參閱 [發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) 如果您想進一步瞭解AEMas a Cloud Service的最新變更。
+* 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

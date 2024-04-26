@@ -5,7 +5,7 @@ exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 67%
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ Assets 內容驗證器
 >title="Assets 內容驗證器"
 >abstract="ACV 會識別資產內容中缺少的必要節點。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="重大變更 - Experience Manager as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 發行說明"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 發行說明"
 
 `ACV` （資產內容驗證器）識別資產內容中缺少的必要節點和違規行為。 這可能會導致 Experience Manager as a Cloud Service 中的某些 Assets 功能失敗。
 
@@ -33,7 +33,7 @@ Assets 內容驗證器
 * `psb.file.large`：識別大小超過2 GB的大型PSB檔案(dc：format ： application/vnd.3gpp.pic-bw-small)。
 * `invalid.asset.name`：識別名稱含無效字元的資產 [* / : [\] | # % { } ? ＆]。
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 * 這可能會導致某些依賴 Experience Manager as a Cloud Service 繼承屬性的 Assets 功能失敗。
 * AEM Assets 依賴原始轉譯的存在。如果缺少原始轉譯，Cloud Service中的資產處理會進入回圈。 AEMaaCS 不支援產生子資產。
@@ -54,5 +54,5 @@ Assets 內容驗證器
 * 對於缺少原始轉譯的資產，請在移轉前重新上傳資產或予以刪除。
 * 缺少子資產原始轉譯無需採取任何動作。
 * 如果有衝突節點，應先解決或刪除這些節點，再移轉至AEMas a Cloud Service。
-* 如果您計畫處理大量大型Adobe或PSB檔案，請聯絡「PSD客戶支援」。 Experience Manager可能無法處理超過30000 x 23000畫素的高解析度PSB檔案。 另請參閱 [檔案](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
-* 聯絡 [Experience Manager客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
+* 如果您計畫處理大量大型Adobe或PSB檔案，請聯絡「PSD客戶支援」。 Experience Manager可能無法處理超過30000 x 23000畫素的高解析度PSB檔案。 請參閱[文件](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick)。
+* 請聯絡 [Experience Manager 客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

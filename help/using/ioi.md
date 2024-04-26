@@ -5,7 +5,7 @@ exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 64%
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 64%
 
 `com.adobe.granite.repository` 會使用其中部分的套件，在啟動期間設定 AEM 的存放庫。另一個範例是 `com.adobe.granite.maintenance.oak` Adobe 套件組合，它會包裝並提供 Oak 維護任務。
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 * 在未來的 AEM 版本中，內部匯出可能會移除，導致相依性中斷和直接相依於 Oak 的套件組合無作用。
 * 內部匯出的 API 可能會變更。
@@ -39,4 +39,4 @@ ht-degree: 64%
 
 * 使用 Sling Resource API (或 JCR API)，而非低階存取。
 * 避免依賴不屬於任何公用 API 或 SPI 的內部套件。
-* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
+* 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

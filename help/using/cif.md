@@ -5,7 +5,7 @@ exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -28,7 +28,7 @@ Commerce Integration Framework Classic
 * `commerce.integration.framework.detected`：不相容於 AEM as a Cloud Service 的 Commerce Integration Framework Classic 版本。
 
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_guidance"

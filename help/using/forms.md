@@ -5,7 +5,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 72%
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
 >abstract="FORMS 程式碼會識別從 Adobe Experience Manager Forms 移轉至 Adobe Experience Manager Forms as a Cloud Service 相關的可能問題。請檢閱可能的相關後果和風險，並在移轉至Cloud Service之前解決這些問題。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能影響和風險"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能的影響和風險"
 
 `FORMS`  會識別從移轉相關的可能問題 [!DNL Adobe Experience Manager Forms] 至 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. 請在移轉至 [!DNL Cloud Service] 之前解決這些問題。
 
@@ -30,9 +30,9 @@ ht-degree: 72%
 * `unsupported.feature`：您的環境使用了一些 Cloud Service 尚未支援的功能。請勿將這類功能或資產移轉至 Cloud Service 環境。請查看每月發行說明，以了解功能可用性相關資訊。
 * `unsupported.api`：您的環境有一些 Cloud Service 尚未支援的 API。在移轉至 Cloud Service 之前，請在您的程式碼中停用、取代或移除這些 API。請查看每月發行說明，以了解功能可用性相關資訊。
 
-請參閱[可能影響和風險](#implications-and-risks)和[可能的解決方案](#solutions)小節，以了解讓一些功能和 API 相容於 Cloud Service 的取代和其他必要動作相關資訊。
+請參閱[可能的影響和風險](#implications-and-risks)和[可能的解決方案](#solutions)小節，以了解讓一些功能和 API 相容於 Cloud Service 的取代和其他必要動作相關資訊。
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 請在移轉至 [!DNL Adobe Experience Manager Forms as a Cloud Service] 之前解決下列問題。未解決下列影響和風險時，部分功能在 Cloud Service 環境中無法如預期運作。
 

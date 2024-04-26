@@ -5,7 +5,7 @@ exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 76%
+ht-degree: 82%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 76%
 >id="aemcloud_bpa_dg_overview"
 >title="開發人員指導方針"
 >abstract="DG 程式碼會識別 AEM 6.5 和 AEM as a Cloud Service 選定開發指導方針的偏離。遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 開發 - 指導方針與最佳實務"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 開發指導方針"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 開發 - 指導方針與最佳實務"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 開發指導方針"
 
 
-`DG`  會識別所選開發指導方針的偏離 [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEMas a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。
+`DG`  會識別所選開發指導方針的偏離 [AEM 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEMas a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。
 
 子類型用於識別偵測到的不同違規類型：
 
@@ -34,7 +34,7 @@ ht-degree: 76%
 * `javax.jcr.observation.EventListener`：在應用程式的程式碼中使用事件監聽程式。
 * `custom.guava.cache`：在應用程式的程式碼中使用 Guava 快取。
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 * `java.io.inputstream`
    * 使用 `java.io.InputStream` 串流處理二進位資料，可能會消耗記憶體資源到影響效能的程度。由於 AEM as a Cloud Service 中所用容器的記憶體有限，這個問題特別大。
@@ -72,7 +72,7 @@ ht-degree: 76%
 
 * `java.io.inputstream`
    * 使用直接二進位上傳方法，即二進位直接新增至資料存放區。
-   * 如需資產使用案例，請參閱 [aem-upload](https://github.com/adobe/aem-upload). 對於其他類型的二進位資料，自訂上傳邏輯可以仿照此相同模式。
+   * 對於資產使用案例，請參閱 [aem-upload](https://github.com/adobe/aem-upload)。對於其他類型的二進位資料，自訂上傳邏輯可以仿照此相同模式。
 
 * `maintenance.task.configuration`
    * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance)文件。
@@ -83,11 +83,11 @@ ht-degree: 76%
    * 應避免長時間執行的工作。
 
 * `unsupported.asset.api`
-   * 不要再使用不受支援的Asset Manager API，請參閱 [aem-upload](https://github.com/adobe/aem-upload).
+   * 不要再使用不受支援的 Asset Manager API，請參閱 [aem-upload](https://github.com/adobe/aem-upload)。
 
 * `javax.jcr.observation.EventListener`
    * 與其使用事件監聽程式，建議將事件處理機制重構為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，因為它提供了處理的保證。
 
 * `custom.guava.cache`
    * 如有需要，快取應在AEM外部建立。 可以考慮外部快取解決方案。
-* 聯絡 [AEM支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
+* 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

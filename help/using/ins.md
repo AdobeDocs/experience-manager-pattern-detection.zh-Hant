@@ -5,7 +5,7 @@ exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 60%
 
 * `uri`：識別 AEM 中無效的命名空間 URI。
 
-## 可能影響和風險 {#implications-and-risks}
+## 可能的影響和風險 {#implications-and-risks}
 
 * 無法復寫內容（跨階層）或複製內容（跨階層） `env`，方式 `/crx/packMgr`或內容副本)。
 
@@ -39,4 +39,4 @@ ht-degree: 60%
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 根據 [JCR 規格](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html)修復命名空間定義。請依照[此處](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)所提的步驟操作
-* 聯絡 [Experience Manager客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html) 以澄清或解決問題。
+* 請聯絡 [Experience Manager 客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
