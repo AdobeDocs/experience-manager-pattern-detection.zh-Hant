@@ -5,7 +5,7 @@ exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 82%
+ht-degree: 89%
 
 ---
 
@@ -66,16 +66,16 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="實施指導"
->abstract="檢閱您對Sling Commons Scheduler的使用情況的實作。 將其重新建構為Sling工作、重新建構其系統維護任務、檢閱任何二進位資料的串流，並將其程式碼重構為符合AEMas a Cloud Service。"
+>abstract="檢閱您在使用 Sling Commons Scheduler 方面的實施。將這些重組為 Sling Jobs、重組其系統維護任務，檢閱任何二進位資料的串流，並重構其程式碼以符合 AEM as a Cloud Service 的要求。"
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling 工作"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service 中的維護任務"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service 中的維護任務"
 
 * `java.io.inputstream`
    * 使用直接二進位上傳方法，即二進位直接新增至資料存放區。
    * 對於資產使用案例，請參閱 [aem-upload](https://github.com/adobe/aem-upload)。對於其他類型的二進位資料，自訂上傳邏輯可以仿照此相同模式。
 
 * `maintenance.task.configuration`
-   * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance)文件。
+   * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/operations/maintenance)文件。
    * 請確定[維護任務設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)是在原始檔控制系統中進行。
 
 * `sling.commons.scheduler`

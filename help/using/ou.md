@@ -5,7 +5,7 @@ exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 70%
+ht-degree: 81%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_overview"
 >title="過時的使用方式"
->abstract="OU 會識別部分 JCR 節點 (例如 Sling 或 AEM 元件，或是 API OSGi 匯出) 以不相容方式變更或移除的狀況。客戶在升級前可能未意識到這項變更。 這些節點可能會升級為不相容的版本或完全無法使用。"
+>abstract="OU 會識別部分 JCR 節點 (例如 Sling 或 AEM 元件，或是 API OSGi 匯出) 以不相容方式變更或移除的狀況。客戶在升級前可能未意識到這種變更。這些節點可能會升級為不相容的版本或完全無法使用。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 
-`OU`  識別部分JCR節點(例如Sling或AEM元件，或是API OSGi匯出)以不相容方式變更或移除的狀況。 客戶在升級前可能未意識到這項變更。 這些節點可能會升級為不相容的版本或完全無法使用。
+`OU`  識別部分JCR節點(例如Sling或AEM元件，或是API OSGi匯出)以不相容方式變更或移除的狀況。 客戶在升級前可能未意識到這種變更。這些節點可能會升級為不相容的版本或完全無法使用。
 
 由於預設不會安裝舊版，因此客戶應用程式可能無法正確運作。
 
@@ -35,7 +35,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱並調整客戶程式碼以使用最新版 AEM 元件或 API。請聯絡Adobe支援以尋求協助或澄清。"
+>abstract="最佳實務是檢閱並調整客戶程式碼以使用最新版 AEM 元件或 API。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

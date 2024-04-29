@@ -5,7 +5,7 @@ exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="FORMS 程式碼會識別從 Adobe Experience Manager Forms 移轉至 Adobe Experience Manager Forms as a Cloud Service 相關的可能問題。請檢閱可能的相關後果和風險，並在移轉至Cloud Service之前解決這些問題。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能的影響和風險"
+>abstract="FORMS 程式碼會識別從 Adobe Experience Manager Forms 移轉至 Adobe Experience Manager Forms as a Cloud Service 相關的可能問題。請檢閱相關的可能影響和風險，並在移轉至 Cloud Service 之前解決這些問題。"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能的影響和風險"
 
 `FORMS`  會識別從移轉相關的可能問題 [!DNL Adobe Experience Manager Forms] 至 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. 請在移轉至 [!DNL Cloud Service] 之前解決這些問題。
 
@@ -67,7 +67,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="實施指導"
->abstract="透過 FORMS 程式碼公開的資訊，會提供讓一些功能和 API 相容於 Cloud Service 的取代和其他必要動作相關指導。請聯絡Adobe支援以尋求協助或澄清。"
+>abstract="透過 FORMS 程式碼公開的資訊，會提供讓一些功能和 API 相容於 Cloud Service 的取代和其他必要動作相關指導。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 使用移轉公用程式，將環境中的所有規則指令碼轉換為可重複使用的函數。您可以在視覺規則編輯器中使用可重複使用的函數，繼續取得與規則指令碼相同的結果。(CODE_EDITOR)

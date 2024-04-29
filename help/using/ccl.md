@@ -5,7 +5,7 @@ exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
 >title="實施指導"
->abstract="應檢閱由 CCL 所識別之 AEM 的新增用戶端程式庫，確保沒有重複並使用最新版。請聯絡Adobe支援以尋求協助或澄清。"
+>abstract="應檢閱由 CCL 所識別之 AEM 的新增用戶端程式庫，確保沒有重複並使用最新版。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

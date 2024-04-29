@@ -5,7 +5,7 @@ exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 72%
+ht-degree: 94%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="內部 Oak 匯入"
->abstract="IOI 程式碼會識別客戶對內部 Oak 套件的使用，透過 OSGi 匯入這些套件。它們沒有特定版本匯出，僅供其他Oak套件組合或低階AEM服務使用。"
+>abstract="IOI 程式碼會識別客戶對內部 Oak 套件的使用，透過 OSGi 匯入這些套件。這些套件會在沒有特定版本的情況下匯出，僅供其他 Oak 套件組合或低階 AEM 服務使用。"
 
-`IOI`  識別客戶對內部Oak套件的使用，透過OSGi匯入這些套件。 它們沒有特定版本匯出，僅供其他Oak套件組合或低階AEM服務使用。
+`IOI`  識別客戶對內部Oak套件的使用，透過OSGi匯入這些套件。 這些套件會在沒有特定版本的情況下匯出，僅供其他 Oak 套件組合或低階 AEM 服務使用。
 
 `com.adobe.granite.repository` 會使用其中部分的套件，在啟動期間設定 AEM 的存放庫。另一個範例是 `com.adobe.granite.maintenance.oak` Adobe 套件組合，它會包裝並提供 Oak 維護任務。
 
@@ -34,7 +34,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="實施指導"
->abstract="客戶應檢閱其自訂程式碼，以識別這類 API 的使用方式，並將其重構為與 AEM as a Cloud Service 相容。請聯絡Adobe支援以尋求協助或澄清。"
+>abstract="客戶應檢閱其自訂程式碼，以識別這類 API 的使用方式，並將其重構為與 AEM as a Cloud Service 相容。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 使用 Sling Resource API (或 JCR API)，而非低階存取。

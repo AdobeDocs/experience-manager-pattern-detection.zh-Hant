@@ -5,7 +5,7 @@ exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Sling 請求處理會定義如何將資源的內容 (尤其是其 `sling:resourc
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="實施指導"
->abstract="應檢閱 CAS 所識別存在不同內容區域違規的模式。應避免最終和內部內容分類區域。請聯絡Adobe支援以尋求協助或澄清。"
+>abstract="應檢閱 CAS 所識別存在不同內容區域違規的模式。應避免最終和內部內容分類區域。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="永續升級"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

@@ -5,7 +5,7 @@ exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 61%
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 61%
 >id="aemcloud_bpa_urs_overview"
 >title="不支援的存放庫結構"
 >abstract="URS 會識別不支援的存放庫結構和節點特性案例。這會顯示下列相關資訊：避免 AEM 產品程式碼和客戶程式碼之間的衝突、/etc 中的內容重組到存放庫的其他檔案夾等等。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="存放庫重組"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="存放庫重組"
 
 ## 背景 {#background}
 
@@ -46,11 +46,11 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱您的程式碼專案。 請務必遵守AEM專案結構指導方針，避免依賴較舊/不支援之存放庫路徑的程式碼(這可能會在AEMas a Cloud Service中導致不良行為)。 請聯絡Adobe支援以尋求協助或澄清。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 專案結構指導方針"
+>abstract="最佳實務是檢閱您的程式碼專案。確保它遵守 AEM 專案結構準則，避免依賴較舊/不受支援之存放庫路徑的程式碼 (這可能會在 AEM as a Cloud Service 中導致不良行為)。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 專案結構指導方針"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
-* 請參閱[存放庫重組](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring)以取得為 AEM as a Cloud Service 做準備的指導。
-* 另請參閱 [AEM專案結構](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 如果您想進一步瞭解存放庫的可變和不可變區域。
+* 請參閱[存放庫重組](https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring)以取得為 AEM as a Cloud Service 做準備的指導。
+* 另請參閱 [AEM專案結構](https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 如果您想進一步瞭解存放庫的可變和不可變區域。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
 * 使用 [存放庫現代化工具](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) 將內容和程式碼分割為獨立套件，以與Adobe Experience Manager as a Cloud Service定義的專案結構相容，藉此重組現有的專案套件。

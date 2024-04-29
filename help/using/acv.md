@@ -5,7 +5,7 @@ exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ Assets 內容驗證器
 >id="aemcloud_bpa_acv_overview"
 >title="Assets 內容驗證器"
 >abstract="ACV 會識別資產內容中缺少的必要節點。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="重大變更 - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/assets/overview" text="重大變更 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 發行說明"
 
 `ACV` （資產內容驗證器）識別資產內容中缺少的必要節點和違規行為。 這可能會導致 Experience Manager as a Cloud Service 中的某些 Assets 功能失敗。
@@ -47,7 +47,7 @@ Assets 內容驗證器
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="實施指導"
->abstract="Adobe建議檢閱內容結構，以防止依賴繼承屬性的工作流程損壞。 請聯絡客戶服務以尋求協助。"
+>abstract="Adobe 建議檢閱內容結構，以防止依賴繼承屬性的工作流程損壞。請聯絡客戶服務以尋求協助。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 如果檔案夾缺少子節點，請分析該檔案夾。如果檔案夾數目在可控範圍內，請手動建立節點，否則請使用指令碼。

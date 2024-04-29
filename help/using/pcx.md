@@ -5,7 +5,7 @@ exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="實施指導"
->abstract="最佳做法是檢閱內容結構以降低頁面複雜度，這有助於改進頁面轉譯效能。請聯絡Adobe支援以尋求協助或澄清。"
+>abstract="最佳做法是檢閱內容結構以降低頁面複雜度，這有助於改進頁面轉譯效能。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 執行以下操作減少頁面內的節點總數：

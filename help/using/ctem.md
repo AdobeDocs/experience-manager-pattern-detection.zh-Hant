@@ -5,7 +5,7 @@ exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 78%
+ht-degree: 87%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="實施指導"
->abstract="最佳實務是將所有靜態範本移至可編輯的範本。客戶可以使用現有的AEM現代化工具，將靜態範本移轉至可編輯的範本。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可編輯的範本"
+>abstract="最佳實務是將所有靜態範本移至可編輯的範本。客戶可以使用現有的 AEM 現代化工具，將靜態範本移轉至可編輯的範本。"
+>additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可編輯的範本"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 現代化工具"
 
 * 最佳實務是將所有靜態範本移至可編輯的範本。
@@ -43,10 +43,10 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="工具和資源"
->abstract="借助 AEM 現代化套件，客戶可以操縱頁面結構，從靜態範本移至可編輯的範本。目的是協助客戶從功能有限的舊版功能轉換為強大現代的 AEM 供應項目。這些是可設定的、可感知設定和可擴充的工具。請聯絡Adobe支援以尋求協助或澄清。"
+>abstract="借助 AEM 現代化套件，客戶可以操縱頁面結構，從靜態範本移至可編輯的範本。目的是協助客戶從功能有限的舊版功能轉換為強大現代的 AEM 供應項目。這些是可設定的、可感知設定和可擴充的工具。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="頁面結構轉換器"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 使用 [AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/) 將靜態範本移轉至可編輯的範本。
-* 如需可編輯範本的詳細資訊，請參閱[範本](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)。
+* 如需可編輯範本的詳細資訊，請參閱[範本](https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-65/content/implementing/developing/platform/templates/templates)。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
