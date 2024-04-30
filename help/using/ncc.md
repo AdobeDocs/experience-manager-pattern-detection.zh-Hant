@@ -35,7 +35,7 @@ ht-degree: 91%
 >id="aemcloud_bpa_ncc_guidance"
 >title="實施指導"
 >abstract="最佳實務是檢閱自訂程式碼，並確保只覆蓋或參考相容的 Sling 元件。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="覆蓋"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="覆蓋"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 只覆蓋或參考相容的 Sling 元件。

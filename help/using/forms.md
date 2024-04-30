@@ -19,7 +19,7 @@ ht-degree: 75%
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
 >abstract="FORMS 程式碼會識別從 Adobe Experience Manager Forms 移轉至 Adobe Experience Manager Forms as a Cloud Service 相關的可能問題。請檢閱相關的可能影響和風險，並在移轉至 Cloud Service 之前解決這些問題。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能的影響和風險"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能的影響和風險"
 
 `FORMS`  會識別從移轉相關的可能問題 [!DNL Adobe Experience Manager Forms] 至 [!DNL Adobe Experience Manager Forms] as a [!DNL Cloud Service]. 請在移轉至 [!DNL Cloud Service] 之前解決這些問題。
 

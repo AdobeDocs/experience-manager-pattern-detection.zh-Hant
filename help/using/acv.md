@@ -19,7 +19,7 @@ Assets 內容驗證器
 >id="aemcloud_bpa_acv_overview"
 >title="Assets 內容驗證器"
 >abstract="ACV 會識別資產內容中缺少的必要節點。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/assets/overview" text="重大變更 - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/overview" text="重大變更 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 發行說明"
 
 `ACV` （資產內容驗證器）識別資產內容中缺少的必要節點和違規行為。 這可能會導致 Experience Manager as a Cloud Service 中的某些 Assets 功能失敗。

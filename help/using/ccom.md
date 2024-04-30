@@ -40,8 +40,8 @@ ht-degree: 84%
 >title="實施指導"
 >abstract="最佳實務是將自訂元件數目降至最小、使用核心元件，並透過樣式系統使用核心元件以減少技術負債。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/introduction" text="核心元件"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="樣式系統"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="樣式系統"
 
 * 如需核心元件的詳細資訊，請參閱[核心元件簡介](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/introduction)。
-* 如需樣式系統的詳細資訊，請參閱[使用樣式系統](https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)。
+* 如需樣式系統的詳細資訊，請參閱[使用樣式系統](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

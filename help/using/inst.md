@@ -20,7 +20,7 @@ ht-degree: 95%
 >title="已安裝的成品"
 >abstract="INST 會識別客戶安裝在 AEM 中的自訂和第三方套件和套件組合。報告此資訊以協助表示系統狀態的特性和升級工作的一般範圍。任何第三方套件都必須遵守 AEM as a Cloud Service 開發和封裝指導方針。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="開發指導方針 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="封裝指導方針 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="封裝指導方針 - AEM as a Cloud Service"
 
 `INST`  識別客戶安裝在AEM中的自訂和第三方套件和套件組合。 報告此資訊以協助表示系統狀態的特性和升級工作的一般範圍。
 
@@ -39,7 +39,7 @@ ht-degree: 95%
 >id="aemcloud_bpa_inst_guidance"
 >title="實施指導"
 >abstract="客戶無法再使用 CRX 封裝管理員來安裝第三方套件。客戶應檢閱這些已安裝且必須重組的成品，並且將這些成品最佳化以搭配 AEM as a Cloud Service 使用。向建立者或 Adobe 驗證任何第三方套件是否與 AEM as a Cloud Service 相容。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="將子套件內嵌於容器套件"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="將子套件內嵌於容器套件"
 
 
 * 無法使用 AEM as a Cloud Service 中的 CRX 封裝管理員來安裝第三方套件。
@@ -57,6 +57,6 @@ ht-degree: 95%
 
 * 應使用 Cloud Manager [部署程序](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process)將第三方套件作為專案的一部分部署到 AEM。
 * 請檢閱如何[將第三方套件內嵌](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages)於 AEM as a Cloud Service 的專案。
-* 第三方套件必須遵守 AEM as a Cloud Service [開發](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[封裝](https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)指導方針。
+* 第三方套件必須遵守 AEM as a Cloud Service [開發](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[封裝](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)指導方針。
 * 請檢閱 [WKND 舊版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst)專案，了解如何更正 [INST 違規](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)，使其與 AEM as a Cloud Service 相容。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

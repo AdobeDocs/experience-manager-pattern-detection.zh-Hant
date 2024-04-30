@@ -33,7 +33,7 @@ ht-degree: 87%
 >id="aemcloud_bpa_ctem_guidance"
 >title="實施指導"
 >abstract="最佳實務是將所有靜態範本移至可編輯的範本。客戶可以使用現有的 AEM 現代化工具，將靜態範本移轉至可編輯的範本。"
->additional-url="https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可編輯的範本"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可編輯的範本"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 現代化工具"
 
 * 最佳實務是將所有靜態範本移至可編輯的範本。
@@ -48,5 +48,5 @@ ht-degree: 87%
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 使用 [AEM現代化工具](https://opensource.adobe.com/aem-modernize-tools/) 將靜態範本移轉至可編輯的範本。
-* 如需可編輯範本的詳細資訊，請參閱[範本](https://experienceleague.adobe.com/en/docs/zh-hant/experience-manager-65/content/implementing/developing/platform/templates/templates)。
+* 如需可編輯範本的詳細資訊，請參閱[範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
