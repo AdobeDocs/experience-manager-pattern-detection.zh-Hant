@@ -2,10 +2,10 @@
 title: CDW
 description: 模式偵測器程式碼說明頁面。
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: d1c652a8a45a081661ffe4443f85fcc932947541
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 93%
+source-wordcount: '139'
+ht-degree: 61%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_overview"
 >title="自訂對話框 Widget"
->abstract="CDW 可識別應該更新的自訂對話框 Widget，以便使其與 AEM as a Cloud Service 相容。"
+>abstract="CDW可識別應該更新的自訂對話方塊Widget，以便使其與AEMas a Cloud Service相容。"
 
-`CDW`  （自訂對話方塊Widget）識別自訂傳統對話方塊Widget。 這些 Widget 應該更新為與 AEM as a Cloud Service 相容。
+`CDW`  (`Custom Dialog Widgets`)識別自訂Classic對話方塊Widget。 應該更新這些Widget，以便與AEMas a Cloud Service相容。
 
 子類型是用來識別資訊，例如：
 
@@ -38,5 +38,5 @@ ht-degree: 93%
 >abstract="請聯絡客戶服務以尋求協助。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
-* 自訂傳統對話框 Widget 應該從 ExtJS 轉換為 [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html)。
+* 自訂傳統對話方塊Widget應該從ExtJS轉換為 [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
 * 請聯絡 [Experience Manager 客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
