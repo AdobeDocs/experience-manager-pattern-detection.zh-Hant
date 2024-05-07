@@ -3,9 +3,9 @@ title: INS
 description: 模式偵測器程式碼說明頁面。
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 77%
 >title="無效命名空間"
 >abstract="INS 會識別 AEM 執行個體的命名空間問題"
 
-`INS`  （無效的名稱空間）會識別AEM執行個體上的名稱空間問題。
+`INS` (無效命名空間) 會識別 AEM 執行個體的命名空間問題。
 
 子類型用於識別不同類型的資訊，例如：
 
@@ -28,7 +28,7 @@ ht-degree: 77%
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* 無法復寫內容（跨階層）或複製內容（跨階層） `env`，方式 `/crx/packMgr`或內容副本)。
+* 無法複製內容 (跨層) 或複製內容 (跨 `env`，透過 `/crx/packMgr` 或內容複製)。
 
 ## 可能的解決方案 {#solutions}
 

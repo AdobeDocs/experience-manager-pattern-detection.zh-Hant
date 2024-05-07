@@ -3,9 +3,9 @@ title: CCOM
 description: 模式偵測器程式碼說明頁面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 84%
 >title="自訂元件"
 >abstract="CCOM 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。"
 
-`CCOM` 識別AEM上已安裝的自訂元件。 提供這項資訊是為了最佳實務評估目的。
+`CCOM` 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。
 
 此程式碼使用子類型來識別元件類別：
 
@@ -31,7 +31,7 @@ ht-degree: 84%
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* 最佳實務建議儘量減少自訂元件的數量、使用核心元件，並將核心元件與樣式系統搭配使用，以減少技術債。
+* 最佳實務是將自訂元件數目降至最小、使用核心元件，並透過樣式系統使用核心元件以減少技術負債。
 
 ## 可能的解決方案 {#solutions}
 

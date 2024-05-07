@@ -3,9 +3,9 @@ title: UMI
 description: 模式偵測器程式碼說明頁面。
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - 發行說明"
 
-`UMI`  會識別某些OSGi設定的修改，這些修改在升級時可能會造成問題，包括升級失敗或降低功能。
+`UMI` 會識別某些 OSGi 設定的修改，這些修改在升級時會造成問題，包括升級失敗或降低功能。
 
 會檢查下列設定是否修改：
 
@@ -47,7 +47,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="實施指導"
->abstract="最佳做法是檢閱目前的設定並還原上述設定的任何變更，以避免任何未來升級問題。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
+>abstract="最佳做法是檢閱目前的設定並還原上述設定的任何變更，以避免任何未來升級問題。請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 請勿變更或移除上述四個設定。

@@ -3,9 +3,9 @@ title: MSM
 description: 模式偵測器程式碼說明頁面。
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >abstract="MSM 會識別 AEM 多站點管理員功能的一般資訊。提供此資訊以協助表示系統特性。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 
-`MSM`  識別AEM多站點管理員功能的一般資訊。 提供此資訊以協助表示系統特性。
+`MSM` 會識別 AEM 多站點管理員功能的一般資訊。提供此資訊以協助表示系統特性。
 
 子類型用於識別不同類型的資訊：
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱所有自訂的 MSM 轉出設定和自訂轉出動作，並確保它們在 AEM as a Cloud Service 上運作正常。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
+>abstract="最佳實務是檢閱所有自訂的 MSM 轉出設定和自訂轉出動作，並確保它們在 AEM as a Cloud Service 上運作正常。請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

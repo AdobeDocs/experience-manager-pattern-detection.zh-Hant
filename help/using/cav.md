@@ -3,9 +3,9 @@ title: CAV
 description: 模式偵測器程式碼說明頁面。
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >abstract="CAV 程式碼會識別以違反內容分類規則的方式使用不同內容區域的模式。此違規資訊提供覆蓋的總覽，在移至 AEM as a Cloud Service 之後，這些受限內容可能需要變更。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 資源合併"
 
-`CAV` 識別以違反內容分類規則的方式使用不同內容區域的模式。
+`CAV` 會識別以違反內容分類規則的方式使用不同內容區域的模式。
 
 Sling 請求處理會定義如何將資源的內容 (尤其是其 `sling:resourceType` 屬性) 用於決定轉譯內容時所用的指令碼。如需詳細資訊，請參閱[找到指令碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。Sling 也透過「覆蓋」和「覆寫」提供存取和合併資源的技術。在 [Sling 資源合併](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)和[覆蓋](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/overlays)中予以說明。
 
@@ -37,7 +37,7 @@ Sling 請求處理會定義如何將資源的內容 (尤其是其 `sling:resourc
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="實施指導"
->abstract="應檢閱 CAS 所識別存在不同內容區域違規的模式。應避免最終和內部內容分類區域。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
+>abstract="應檢閱 CAS 所識別存在不同內容區域違規的模式。應避免最終和內部內容分類區域。請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="永續升級"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

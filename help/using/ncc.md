@@ -3,9 +3,9 @@ title: NCC
 description: 模式偵測器程式碼說明頁面。
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="發行說明 - AEM as a Cloud Service"
 
-`NCC`  會識別部分JCR節點或套件組合以不相容方式變更的狀況。 客戶在升級前可能未意識到這種變更。
+`NCC` 會識別部分 JCR 節點或套件組合以不相容方式變更的狀況。客戶在升級前可能未意識到這種變更。
 
 ## 可能的影響和風險 {#implications-and-risks}
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱自訂程式碼，並確保只覆蓋或參考相容的 Sling 元件。請聯絡 Adob&#x200B;&#x200B;e 支援人員，取得協助或說明。"
+>abstract="最佳實務是檢閱自訂程式碼，並確保只覆蓋或參考相容的 Sling 元件。請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="覆蓋"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

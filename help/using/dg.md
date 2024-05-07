@@ -3,9 +3,9 @@ title: DG
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 開發指導方針"
 
 
-`DG`  會識別所選開發指導方針的偏離 [AEM 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEMas a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). 遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。
+`DG` 會識別 [AEM 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) 和 [AEM as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) 選定開發指導方針的偏離。遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。
 
 子類型用於識別偵測到的不同違規類型：
 
@@ -45,7 +45,7 @@ ht-degree: 89%
 
 * `sling.commons.scheduler`
    * 因為 AEM as a Cloud Service 中無法保證執行，所以相依於背景任務 (使用 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html)) 的應用程式可能無法如預期運作。
-   * 准則 [背景任務和長時間執行的工作](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) 建議程式碼作為排程工作執行，也必須假設執行所在的例項隨時都會停機。 因此程式碼必須有韌性和可恢復性。
+   * 對於[背景任務和長時間執行工作](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)的指導方針建議，執行為已排程任務的程式碼也必須假設執行所在的執行個體隨時都會停機。因此程式碼必須有韌性和可恢復性。
 
 * `unsupported.asset.api`
    * 下列 AssetManager API 在 AEM as a Cloud Service 中被標記為不受支援。
@@ -76,11 +76,11 @@ ht-degree: 89%
 
 * `maintenance.task.configuration`
    * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/maintenance)文件。
-   * 請確定[維護任務設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)是在原始檔控制系統中進行。
+   * 請確定[維護任務設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)是在原始檔控制系統中進行。
 
 * `sling.commons.scheduler`
    * 將 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) 取代為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，後者有至少執行一次的保證。
-   * 應避免長時間執行的工作。
+   * 如有可能應避免長時間執行工作。
 
 * `unsupported.asset.api`
    * 不要再使用不受支援的 Asset Manager API，請參閱 [aem-upload](https://github.com/adobe/aem-upload)。
@@ -89,5 +89,5 @@ ht-degree: 89%
    * 與其使用事件監聽程式，建議將事件處理機制重構為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，因為它提供了處理的保證。
 
 * `custom.guava.cache`
-   * 如有需要，快取應在AEM外部建立。 可以考慮外部快取解決方案。
+   * 如果需要，應該在 AEM 外部建立快取。可以考慮外部快取解決方案。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

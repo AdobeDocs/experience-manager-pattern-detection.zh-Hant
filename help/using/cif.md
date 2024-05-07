@@ -3,9 +3,9 @@ title: CIF
 description: 模式偵測器程式碼說明頁面。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Commerce Integration Framework Classic
 >abstract="CIF 會識別不相容於 AEM as a Cloud Service 的 Commerce Integration Framework Classic 版本使用方式。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Content and Commerce"
 
-`CIF`  識別與AEMas a Cloud Service不相容的Commerce integration framework使用方式傳統版本。 每個的訊息 `CIF` 尋找可識別該使用方式並提供額外資訊。
+`CIF` 會識別不相容於 AEM as a Cloud Service 的 Commerce Integration Framework Classic 版本使用方式。每個 `CIF` 發現的訊息都會識別該使用方式並提供額外資訊。
 
 子類型用於識別不同類型的資訊：
 
@@ -46,7 +46,7 @@ Commerce Integration Framework Classic
 >abstract="本指南幫助識別 Experience Manager Cloud Service 移轉時必須更新的區域。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="CIF 移轉指南"
 
-* 若為Experience Manageras a Cloud Service，CIF附加元件是Adobe Commerce和協力廠商商務解決方案唯一支援的商務整合解決方案。 Experience Manager as a Cloud Service 上會自動部署 CIF 附加元件，客戶不需手動部署。請參閱 [AEM Commerce as a Cloud Service 快速入門](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/getting-started)。
-* 為了支援部署CIF的專案，Adobe提供 [AEM CIF核心元件](https://github.com/adobe/aem-core-cif-components).
-* CIF附加元件也適用於AEM 6.5，提供方式為 [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). 它是相容的，提供和適用於 Experience Manager as a Cloud Service 的 CIF 附加元件相同的功能，不需調整。
-* Classic CIF 及其相依性已不再可用。依賴此CIF版本(使用com.adobe.cq.commerce.api Java™ API)的程式碼必須調整為CIF附加元件及其原則。
+* CIF 附加元件是 Experience Manager as a Cloud Service 唯一支援用於 Adobe Commerce 和第三方商務解決方案的商務整合解決方案。Experience Manager as a Cloud Service 上會自動部署 CIF 附加元件，客戶不需手動部署。請參閱 [AEM Commerce as a Cloud Service 快速入門](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/getting-started)。
+* 為支援部署 CIF 的專案，Adobe 提供了 [AEM CIF 核心元件](https://github.com/adobe/aem-core-cif-components)。
+* [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)也提供了適用於 AEM 6.5 的 CIF 附加元件。它是相容的，提供和適用於 Experience Manager as a Cloud Service 的 CIF 附加元件相同的功能，不需調整。
+* Classic CIF 及其相依性已不再可用。依賴此 CIF 版本 (使用 com.adobe.cq.commerce.api Java™ API) 的程式碼必須調整為 CIF 附加元件及其原則。
