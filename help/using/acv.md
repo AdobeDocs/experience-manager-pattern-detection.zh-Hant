@@ -2,10 +2,10 @@
 title: ACV
 description: 模式偵測器程式碼說明頁面。
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
 
@@ -22,23 +22,23 @@ Assets 內容驗證器
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/overview" text="重大變更 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - 發行說明"
 
-`ACV` (Assets 內容驗證器) 會識別資產內容中缺少的必要節點和違規行為。這可能會導致 Experience Manager as a Cloud Service 中的某些 Assets 功能失敗。
+`ACV` （資產內容驗證器）識別資產內容中缺少的必要節點和違規。 這類事情可能會導致Experience Manageras a Cloud Service上的某些Assets功能失敗。
 
 子類型用於識別不同類型的資訊，例如：
 
 * `missing.jcrcontent`：識別存放庫中有缺少必要節點的檔案夾。識別存放庫中有任何缺少的內容，有助於防止任何損壞的功能或使用案例。
-* `missing.original.rendition`：識別存放庫中有缺少必要原始轉譯的資產。請注意預覽 PDF 頁面不需要在 AEMaaCS 中產生子資產。因此，對於 PDF 資產，將禁止報告缺少原始轉譯的子資產。
+* `missing.original.rendition`：識別存放庫中有缺少必要原始轉譯的資產。預覽PDF頁面不需要在AEMaaCS中產生子資產。 因此，對於PDF資產，將禁止報告缺少原始轉譯的子資產。
 * `metadata.descendants.violation`：識別在存放庫的資產中繼資料節點下具有超過 100 個子系的資產。
 * `conflict.node`：識別 /content/dam/ 路徑下的存放庫中是否存在衝突節點。
-* `psb.file.large`：識別大於 2 GB 的大型 PSB 檔案 (dc:format: application/vnd.3gpp.pic-bw-small)。
-* `invalid.asset.name`：識別名稱含無效字元的資產 [* / : [\] | # % { } ? ＆]。
+* `psb.file.large`：識別大型PSB檔案(`dc:format : application/vnd.3gpp.pic-bw-small`)大於2 GB。
+* `invalid.asset.name`：識別包含無效字元的資產[`* / : [ \ ] | # % { } ? &`] 在名稱中。
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* 這可能會導致某些依賴 Experience Manager as a Cloud Service 繼承屬性的 Assets 功能失敗。
+* 這可能會導致某些依賴Experience Manageras a Cloud Service繼承屬性的Assets功能失敗。
 * AEM Assets 依賴原始轉譯的存在。如果缺少原始轉譯，Cloud Service 的資產處理會進入迴圈。AEMaaCS 不支援產生子資產。
-* 中繼資料節點下的大量子系可能會減慢載入包含違反此規則之資產的檔案夾的速度。
-* 衝突節點的存在可能導致 AEM as a Cloud Service 上擷取失敗。
+* 中繼資料節點下的大量子系可能會減慢下載包含違規資產的資料夾的速度。
+* 存在衝突節點可能會導致AEMas a Cloud Service上的擷取失敗。
 * Experience Manager 可能無法處理高解析度的 PSB 檔案。如果未對 Experience Manager 伺服器進行適當的基準測試，使用 ImageMagick 處理大型檔案的客戶可能會碰到效能問題。
 * 資產名稱有無效字元可能會導致遷移到 AEM as a Cloud Service 失敗。
 
