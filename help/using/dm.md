@@ -2,10 +2,10 @@
 title: DM
 description: 了解模式偵測器程式碼如何識別 AEM Assets - Dynamic Media 的使用方式。
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '173'
+ht-degree: 78%
 
 ---
 
@@ -18,11 +18,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DM 程式碼會識別 AEM Assets Dynamic Media 在目前實施中的使用方式。Dynamic Media 模式是由執行模式所偵測。"
+>abstract="DM 程式碼會識別 AEM Assets Dynamic Media 在目前實施中的使用方式。執行模式會偵測Dynamic Media模式。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM開發 — 指導方針與最佳作法"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 開發指導方針"
 
-`DM` (Dynamic Media) 會識別 AEM Assets Dynamic Media 的使用。Dynamic Media 模式是由執行模式所偵測。
+`DM` (Dynamic Media) 會識別 AEM Assets Dynamic Media 的使用。執行模式會偵測Dynamic Media模式。
 
 此程式碼使用子類型：
 

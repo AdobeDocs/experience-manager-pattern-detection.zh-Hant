@@ -2,10 +2,10 @@
 title: WRK
 description: 模式偵測器程式碼說明頁面。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 92%
+source-wordcount: '325'
+ht-degree: 56%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="工作流程"
->abstract="WRK 程式碼會識別與工作流程模型或啟動器相關的發現。因為在升級為 AEM as a Cloud Service 時必須移轉自訂資產工作流程模型，所以報告了這些發現。在 AEM as a Cloud Service，資產處理現在是由資產微服務所執行。"
+>abstract="WRK 程式碼會識別與工作流程模型或啟動器相關的發現。報告這些識別，因為當升級為AEMas a Cloud Service時，必須移轉自訂資產工作流程模型。 透過AEMas a Cloud Service，資產微服務會執行資產處理。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="資產微服務"
 
-`WRK` 會識別與工作流程模型或啟動器相關的發現。因為在升級為 AEM as a Cloud Service 時必須移轉自訂資產工作流程模型，所以報告了這些發現。
+`WRK` 會識別與工作流程模型或啟動器相關的發現。報告這些識別，因為當升級為AEMas a Cloud Service時，必須移轉自訂資產工作流程模型。
 
 子類型用於識別目前偵測到的工作流程類型。
 
@@ -32,10 +32,10 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="實施指導"
->abstract="資產微服務會自動支援標準資產工作流程。因此，最佳實務是檢閱所有自訂資產工作流程模式或啟動器，以了解移轉至 AEM as a Cloud Service 後是否需要這些模式或啟動器。資產工作流程的自訂須透過資產工作流程移轉工具進行移轉，才能用於 AEM as a Cloud Service。"
+>abstract="資產微服務會自動支援標準資產工作流程。因此，最佳實務是檢閱所有自訂資產工作流程模型或啟動器。 檢閱時，您可以檢視轉換為AEMas a Cloud Service後是否需要這些值。 資產工作流程的自訂需要在資產工作流程移轉工具的協助下移轉，以便與AEMas a Cloud Service搭配使用"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="快速入門 - 資產微服務"
 
-* 資產處理傳統上是在 AEM 製作執行個體上透過資產工作流程所執行。在 AEM as a Cloud Service，資產處理現在是由資產微服務所執行。如需詳細資訊，請參閱[資產微服務概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview)。
+* 資產處理傳統上是在 AEM 製作執行個體上透過資產工作流程所執行。透過AEMas a Cloud Service，資產微服務會執行資產處理。 如需詳細資訊，請參閱[資產微服務概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview)。
 * 資產微服務會自動支援標準資產工作流程。
 * 資產工作流程的自訂需要移轉，才能用於 AEM as a Cloud Service。
 
