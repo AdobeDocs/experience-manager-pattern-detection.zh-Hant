@@ -2,10 +2,10 @@
 title: DG
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 98%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 ## 可能的影響和風險 {#implications-and-risks}
 
 * `java.io.inputstream`
-   * 使用 `java.io.InputStream` 串流處理二進位資料，可能會消耗記憶體資源到影響效能的程度。由於 AEM as a Cloud Service 中所用容器的記憶體有限，這個問題特別大。
+   * 使用 `java.io.InputStream` 串流處理二進位資料，可能會消耗記憶體資源到影響效能的程度。此問題是由於AEMas a Cloud Service中使用的容器中可用的記憶體有限所導致。
 
 * `maintenance.task.configuration`
    * 以前需要明確設定的部分維護任務，現在是在 AEM as a Cloud Service 內自動設定和管理的。
@@ -48,14 +48,14 @@ ht-degree: 98%
    * 對於[背景任務和長時間執行工作](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)的指導方針建議，執行為已排程任務的程式碼也必須假設執行所在的執行個體隨時都會停機。因此程式碼必須有韌性和可恢復性。
 
 * `unsupported.asset.api`
-   * 下列 AssetManager API 在 AEM as a Cloud Service 中被標記為不受支援。
+   * 下列AssetManager API在AEMas a Cloud Service中被標籤為不受支援。
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * 依賴於事件監聽程式的應用程式可能無法如預期般運作，因為無法保證執行。
+   * 相依於事件接聽程式的應用程式可能無法如預期運作，因為無法保證執行。
 
 * `custom.guava.cache`
    * 使用 Guava 快取可能會導致 AEM 出現性能問題。
