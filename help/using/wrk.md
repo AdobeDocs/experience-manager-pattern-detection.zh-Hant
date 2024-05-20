@@ -2,10 +2,10 @@
 title: WRK
 description: 模式偵測器程式碼說明頁面。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="工具和資源"
->abstract="在識別出自訂資產工作流程模型或啟動器後，檢閱並規劃使用資產工作流程移轉工具。請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="在識別出自訂資產工作流程模型或啟動器後，檢閱並規劃使用資產工作流程移轉工具。 請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="資產工作流程移轉工具"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

@@ -2,10 +2,10 @@
 title: CTEM
 description: 模式偵測器程式碼說明頁面。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="自訂範本"
->abstract="CTEM 會識別 AEM 上已安裝的自訂元件。提供這項資訊是為了最佳實務評估目的。"
+>abstract="CTEM會識別AEM上安裝的自訂元件。 提供這項資訊是為了最佳實務評估目的。"
 
-`CTEM` 會識別 AEM 上已安裝的自訂範本。提供這項資訊是為了最佳實務評估目的。
+`CTEM`  識別AEM上安裝的自訂範本。 提供這項資訊是為了最佳實務評估目的。
 
-範本是由主要類型值 `cq:Template` 所識別。此程式碼使用子類型來識別範本類別：
+範本的主要型別值為 `cq:Template`，有助於身分識別。 此程式碼使用子類型來識別範本類別：
 
-* `custom.editable.template`：範本的路徑開頭不是 &quot;/apps&quot;。
-* `custom.static.template`：範本的路徑開頭是 &quot;/apps&quot;。
+* `custom.editable.template`：範本的路徑開頭不是 `/apps`.
+* `custom.static.template`：範本的路徑開頭為 `/apps`.
 
 ## 可能的影響和風險 {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="實施指導"
->abstract="最佳實務是將所有靜態範本移至可編輯的範本。客戶可以使用現有的 AEM 現代化工具，將靜態範本移轉至可編輯的範本。"
+>abstract="最佳實務建議將所有靜態範本移至可編輯範本。 客戶可以使用現有的 AEM 現代化工具，將靜態範本移轉至可編輯的範本。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="可編輯的範本"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM 現代化工具"
 
-* 最佳實務是將所有靜態範本移至可編輯的範本。
+* 最佳實務建議將所有靜態範本移至可編輯範本。
 
 ## 可能的解決方案 {#solutions}
 

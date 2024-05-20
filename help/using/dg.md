@@ -2,10 +2,10 @@
 title: DG
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_dg_overview"
 >title="開發人員指導方針"
 >abstract="DG 程式碼會識別 AEM 6.5 和 AEM as a Cloud Service 選定開發指導方針的偏離。遵循最佳實務可以改進系統的可維護性和效能。儘管其中部分的偏離可能在其他應用程式 (包括舊版 AEM) 內容中不成問題，但在 AEM as a Cloud Service 中使用時則可能會造成問題。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM 開發 - 指導方針與最佳實務"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM開發 — 指導方針與最佳作法"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service 開發指導方針"
 
 
