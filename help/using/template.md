@@ -1,10 +1,10 @@
 ---
 title: 範本
 description: 模式偵測器程式碼說明頁面的範本。
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 85%
 
 ---
 

@@ -2,10 +2,10 @@
 title: CAV
 description: 模式偵測器程式碼說明頁面。
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '317'
-ht-degree: 100%
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 74%
 
 ---
 
@@ -18,14 +18,21 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="內容區域違規"
->abstract="CAV 程式碼會識別以違反內容分類規則的方式使用不同內容區域的模式。此違規資訊提供覆蓋的總覽，在移至 AEM as a Cloud Service 之後，這些受限內容可能需要變更。"
+>abstract="CAV 程式碼會識別以違反內容分類規則的方式使用不同內容區域的模式。此違規資訊會提供覆蓋的總覽，限制在內容移至AEMas a Cloud Service後可能需要變更的內容。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 資源合併"
 
 `CAV` 會識別以違反內容分類規則的方式使用不同內容區域的模式。
 
-Sling 請求處理會定義如何將資源的內容 (尤其是其 `sling:resourceType` 屬性) 用於決定轉譯內容時所用的指令碼。如需詳細資訊，請參閱[找到指令碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。Sling 也透過「覆蓋」和「覆寫」提供存取和合併資源的技術。在 [Sling 資源合併](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)和[覆蓋](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/overlays)中予以說明。
+Sling 請求處理會定義如何將資源的內容 (尤其是其 `sling:resourceType` 屬性) 用於決定轉譯內容時所用的指令碼。如需詳細資訊，請參閱[找到指令碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。Sling也透過覆蓋和覆寫提供存取和合併資源的技術。 這些技巧的說明是 [Sling資源合併](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) 和 [覆蓋](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 
-為了讓客戶更安全輕鬆地了解 `/libs` 的哪些區域可安全使用和覆蓋，`/libs` 中的內容已經透過 &quot;mixin&quot; 屬性進行分類：公用、抽象、最終和內部。每個分類表示如何使用、繼承或覆蓋內容的相關規則。請參閱[永續升級](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)以取得詳細說明。
+讓客戶更安全、更輕鬆地瞭解 `/libs` 可以安全使用和覆蓋，內容在 `/libs` 會使用「mixin」屬性分類：
+
+* 公開
+* 抽象
+* 最後
+* 內部
+
+每個分類表示如何使用、繼承或覆蓋內容的相關規則。請參閱[永續升級](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)以取得詳細說明。
 
 ## 可能的影響和風險 {#implications-and-risks}
 

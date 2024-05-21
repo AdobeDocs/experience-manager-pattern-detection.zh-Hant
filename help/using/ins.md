@@ -2,10 +2,10 @@
 title: INS
 description: 模式偵測器程式碼說明頁面。
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '107'
-ht-degree: 100%
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 87%
 
 ---
 
@@ -38,5 +38,5 @@ ht-degree: 100%
 >abstract="請聯絡客戶服務以尋求協助。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
-* 根據 [JCR 規格](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html)修復命名空間定義。請依照[此處](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)所提的步驟操作
+* 根據以下說明修正名稱空間定義： [JCR規格](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). 請依照上述步驟操作 [此處](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
 * 請聯絡 [Experience Manager 客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
