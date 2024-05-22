@@ -2,10 +2,10 @@
 title: UMI
 description: 模式偵測器程式碼說明頁面。
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '351'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 87%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 100%
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config`：確認自訂記錄器的 `org.apache.sling.commons.log.file` 屬性是否指向 `logs/error.log` 檔案以外的內容。
+* `org.apache.sling.commons.log.LogManager.factory.config` ：識別 `org.apache.sling.commons.log.file` 自訂記錄器的屬性指向 `logs/error.log` 檔案。
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* 變更或移除設定可能會造成下列錯誤：
+* 變更或移除設定可能會造成下列問題：
    * 升級可能會變得停滯 (例如遺失的 `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` 出現在 `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids` 中)。
    * 升級後授權問題可能隨之而來 (`org.apache.sling.engine.impl.auth.SlingAuthenticator`)。
    * 某些功能可能無法如預期運作。例如變更 `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` 可能會導致 JSP 檔案未編譯，最終結果是失去功能。
-   * 外部器設定 `com.day.cq.commons.impl.ExternalizerImpl` 的值是由 AEM as a Cloud Service 中的 Cloud Manager 環境變數所設定。
+   * Externalizer設定的值 `com.day.cq.commons.impl.ExternalizerImpl` 在AEMas a Cloud Service中使用cloud manager環境變數設定。
    * AEM as a Cloud Service 不支援自訂記錄檔。無法從 AEM as a Cloud Service 存取寫入自訂命名記錄的記錄。
 
 ## 可能的解決方案 {#solutions}

@@ -2,10 +2,10 @@
 title: ASO
 description: 模式偵測器程式碼說明頁面。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 85%
 
 ---
 
@@ -32,7 +32,7 @@ AEM 系統總覽
 * `data.store`：資料存放區實施類型 (FileDataStore、S3DataStore、AzureDataStore)。
 * `maintenance.task`：維護任務。
 * `slow.query`：緩慢查詢。
-* `group.membership`：群組中的使用者和子群組數目 (僅限直接/已宣告的成員)。
+* `group.membership`：群組中的使用者和子群組數目（僅限直接/已宣告的成員）。
 * `cqtag.count`：CQ 標記資產數目。
 * `smarttag.count`：智慧標記資產數目。
 * `ccom.version`：核心元件套件的版本。
@@ -46,10 +46,10 @@ AEM 系統總覽
 ## 可能的影響和風險 {#implications-and-risks}
 
 * AEM 版本、節點數、群組成員資格、節點存放區、資料存放區實施類型、CQ 標記數、智慧標記數、核心元件版本和 AEM 執行個體類型和未處理資產計數僅供參考。
-* 更多的虛名 URL (>1000) 可能會給 Dispatcher 和查詢成本昂貴的 Publish 伺服器帶來負擔。
+* 較多的虛名URL （超過1000）可能會使具有昂貴查詢的Dispatcher和Publish伺服器承受負載。
 * 自訂應用程式可能依賴 AEM as a Cloud Service 中未提供的產品或功能。
 * 升級若包含不支援的功能，可能會導致升級失敗和應用程式無作用。
-* 處於執行或過時狀態的編寫工作流程數量過大可能會降低性能。
+* 大量處於執行中或過時狀態的作者工作流程可能會降低效能。
 * 查詢緩慢可能會降低系統效能。
 
 ## 可能的解決方案 {#solutions}
@@ -61,7 +61,7 @@ AEM 系統總覽
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 不建議對不支援的產品或功能進行 AEM 升級，這可能不受支援。
-* 未處理的資產必須加以處理，並且必須將資產 `jcr:content` 節點上的 `dam:assetState` 屬性設定為「已處理」。或者，您應該在移轉到 AEMaaCS 之前，從移轉集中刪除這些資產。
+* 未處理的資產必須加以處理，而且 `dam:assetState` 上的屬性 `jcr:content` 資產節點必須設為「已處理」。 或者，您應該在移轉到 AEMaaCS 之前，從移轉集中刪除這些資產。
 * 虛名 URL 可以替換為 Apache Rewrites。
 * 如需解決查詢緩慢的問題，請參閱[文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)。
 * 請參閱[發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current)以了解 AEM as a Cloud Service 的最新變更。
