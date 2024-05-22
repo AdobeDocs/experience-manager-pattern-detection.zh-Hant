@@ -2,10 +2,10 @@
 title: IOI
 description: 模式偵測器程式碼說明頁面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '219'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 60%
 
 ---
 
@@ -18,15 +18,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="內部 Oak 匯入"
->abstract="IOI 程式碼會識別客戶對內部 Oak 套件的使用，透過 OSGi 匯入這些套件。這些套件會在沒有特定版本的情況下匯出，僅供其他 Oak 套件組合或低階 AEM 服務使用。"
+>abstract="IOI程式碼會識別客戶對內部Oak套件的使用，透過OSGi匯入這些套件。 它們會匯出而不使用任何特定版本。 Oak套件組合或低階AEM服務只會取用它們。"
 
-`IOI` 會識別客戶對內部 Oak 套件的使用，透過 OSGi 匯入這些套件。這些套件會在沒有特定版本的情況下匯出，僅供其他 Oak 套件組合或低階 AEM 服務使用。
-
-`com.adobe.granite.repository` 會使用其中部分的套件，在啟動期間設定 AEM 的存放庫。另一個範例是 `com.adobe.granite.maintenance.oak` Adobe 套件組合，它會包裝並提供 Oak 維護任務。
+`IOI` 會識別客戶對內部 Oak 套件的使用，透過 OSGi 匯入這些套件。它們會匯出而不使用任何特定版本。 Oak套件組合或低階AEM服務只會取用它們。
+其中有些區域是由 `com.adobe.granite.repository`，會在啟動期間設定AEM的存放庫。 另一個範例是 `com.adobe.granite.maintenance.oak` Adobe 套件組合，它會包裝並提供 Oak 維護任務。
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* 在未來的 AEM 版本中，內部匯出可能會移除，導致相依性中斷和直接相依於 Oak 的套件組合無作用。
+* 在未來的AEM版本中，內部匯出可能會移除，導致相依性中斷和直接相依於Oak的套件組合無作用。
 * 內部匯出的 API 可能會變更。
 
 ## 可能的解決方案 {#solutions}
