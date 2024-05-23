@@ -5,7 +5,7 @@ exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_overview"
 >title="/libs 覆寫自訂套件"
->abstract="LOCP會識別偵測到自訂套件傳送內容給 `/libs`，這是反模式（除非有ACL）。"
+>abstract="LOCP 會識別偵測到自訂套件傳送內容至 `/libs` 的情況，而這是反模式 (但有 ACL 的情況例外)。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="永續升級"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 資源合併"
 
@@ -34,7 +34,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="實施指導"
->abstract="客戶應檢閱其自訂程式碼和套件，以識別內容是否傳送至 `/libs`. 如有必要，請將其重構為依賴/apps下的覆蓋內容，並使其與AEMas a Cloud Service相容。 請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="客戶應檢閱其自訂程式碼和套件，以確定內容是否已傳送到 `/libs`。如有必要，請將其重構，使 /apps 底下的內容依賴覆蓋，並且與 AEM as a Cloud Service 相容。請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="覆蓋"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

@@ -5,7 +5,7 @@ exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 57%
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="複寫代理"
->abstract="REP 會識別已啟用的複寫代理。由於在升級至AEMas a Cloud Service時可能存在應解決的問題，因此報告了這些代理程式。 AEM as a Cloud Service 使用 Sling 內容發佈，將內容從製作環境散發到發佈環境。在AEM執行階段之外，使用Adobe Developer上Adobe I/O Runtime的管道服務來完成此發佈。 此工作流程會在布建的AEMas a Cloud Service環境中自動設定。"
+>abstract="REP 會識別已啟用的複寫代理。由於在升級為 AEM as a Cloud Service 時可能有應該解決的問題，因此會提供這些代理的報告。AEM as a Cloud Service 使用 Sling 內容發佈，將內容從製作環境散發到發佈環境。這是使用 Adobe Developer 上的 Adobe I/O Runtime 管道服務，在 AEM 執行時間以外完成分發。在所佈建的 AEM as a Cloud Service 環境中會自動設定這個工作流程。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="開發指導方針"
 
@@ -31,7 +31,7 @@ ht-degree: 57%
 * `standard.replication.agent.modification`：識別已啟用的修改後標準復寫代理。
 * `custom.replication.agent.detection`：識別已啟用的自訂複寫代理。
 
-AEM as a Cloud Service 使用 [Sling 內容發佈](https://sling.apache.org/documentation/bundles/content-distribution.html)，將內容從製作環境散發到發佈環境。在AEM執行階段之外，使用Adobe Developer上Adobe I/O Runtime的管道服務來完成此發佈。 此工作流程會在布建的AEMas a Cloud Service環境中自動設定。
+AEM as a Cloud Service 使用 [Sling 內容發佈](https://sling.apache.org/documentation/bundles/content-distribution.html)，將內容從製作環境散發到發佈環境。這是使用 Adobe Developer 上的 Adobe I/O Runtime 管道服務，在 AEM 執行時間以外完成分發。在所佈建的 AEM as a Cloud Service 環境中會自動設定這個工作流程。
 
 ## 可能的影響和風險 {#implications-and-risks}
 

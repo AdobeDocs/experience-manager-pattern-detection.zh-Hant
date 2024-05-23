@@ -5,7 +5,7 @@ exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 68%
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="已棄用的有序屬性索引"
->abstract="DOPI程式碼會識別有序屬性索引定義的使用(`primaryType=oak:QueryIndexDefinition` 和 `type="ordered"`)。 定義在AEM 6.1中已過時，在AEM 6.2中已移除。"
+>abstract="DOPI 代碼會識別使用有序屬性索引定義 (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`) 的情況。在 AEM 6.1 已棄用該定義，並在 AEM 6.2 刪除。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="有序索引 - 已棄用"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/indexing" text="編製索引 - AEM as a Cloud Service"
 
@@ -41,7 +41,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="工具和資源"
->abstract="請檢閱 WKND 舊版專案以了解如何將 DOPI 違規設為相容於 AEM Cloud Service。也請檢閱GitHub上的DOPI違規範例。 它有助於您瞭解如何將舊版排序索引轉換為AEMas a Cloud Service支援的Lucene型索引。"
+>abstract="請檢閱 WKND 舊版專案以了解如何將 DOPI 違規設為相容於 AEM Cloud Service。亦請檢閱 GitHub 上的 DOPI 違規範例。您可以藉此了解如何將舊的有序索引轉換為 AEM as a Cloud Service 所支援的 Lucene 型索引。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-舊版專案"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI 違規範例 - GitHub"
 

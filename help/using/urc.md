@@ -5,7 +5,7 @@ exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱應用程式中使用的所有執行模式是否受支援。 此外，請確定它們遵循執行模式解析指導方針"
+>abstract="最佳實踐是檢查您的應用程式所使用的所有執行模式是否受到支援。並且，確保它們遵循執行模式解析指導方針"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="執行模式解析指導方針"
 
 * 可用於在 AEM as a Cloud Service 中執行各種模式的名稱集是有限的。
@@ -40,7 +40,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="工具和資源"
->abstract="請檢閱 WKND 舊版專案以了解如何將 URC 違規設為相容於 AEM Cloud Service。也請檢閱GitHub上的URC違規範例，以瞭解如何更新自訂執行模式型OSGi設定以遵守AEMas a Cloud Service。"
+>abstract="請檢閱 WKND 舊版專案以了解如何將 URC 違規設為相容於 AEM Cloud Service。亦請檢閱 GitHub 上的 URC 違規範例，了解如何更新基於自訂執行模式的 OSGi 設定以符合 AEM as a Cloud Service。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-舊版專案"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 違規範例 - GitHub"
 

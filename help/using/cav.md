@@ -5,7 +5,7 @@ exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 74%
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="內容區域違規"
->abstract="CAV 程式碼會識別以違反內容分類規則的方式使用不同內容區域的模式。此違規資訊會提供覆蓋的總覽，限制在內容移至AEMas a Cloud Service後可能需要變更的內容。"
+>abstract="CAV 程式碼會識別以違反內容分類規則的方式使用不同內容區域的模式。此違規資訊會簡要說明覆蓋，這是在移至 AEM as a Cloud Service 之後可能需要變更的受限內容。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling 資源合併"
 
 `CAV` 會識別以違反內容分類規則的方式使用不同內容區域的模式。

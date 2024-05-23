@@ -5,7 +5,7 @@ exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Oak 索引定義
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="工具和資源"
->abstract="請檢閱 WKND 舊版專案以了解如何在專案中解決 OID 違規。也請檢閱GitHub上的OID違規範例。 它有助於您瞭解如何使用「索引轉換工具」轉換舊版索引，並使其與AEMas a Cloud Service相容。"
+>abstract="請檢閱 WKND 舊版專案以了解如何在專案中解決 OID 違規。亦請檢閱 GitHub 上的 OID 違規範例。您可以藉此了解如何使用索引轉換器工具來轉換舊索引，並使其與 AEM as a Cloud Service 相容。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND-舊版專案"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="OID 違規範例 - GitHub"
 

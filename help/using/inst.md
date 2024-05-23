@@ -5,7 +5,7 @@ exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="已安裝的成品"
->abstract="INST會識別客戶安裝在AEM中的自訂和第三方套件和套件組合。 報告此類套件和套件組合以協助表示系統狀態的特性和升級工作的一般範圍。 任何第三方套件都必須遵守 AEM as a Cloud Service 開發和封裝指導方針。"
+>abstract="INST 會識別客戶安裝在 AEM 中的自訂與協力廠商套件和套件組合。這類套件和套件組合會提供報告，以利描述系統狀態與升級工作的一般範圍。任何第三方套件都必須遵守 AEM as a Cloud Service 開發和封裝指導方針。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="開發指導方針 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="封裝指導方針 - AEM as a Cloud Service"
 
@@ -51,7 +51,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="工具和資源"
->abstract="請檢閱 WKND 舊版專案以了解如何將 INST 違規設為相容於 AEM Cloud Service。也請檢閱GitHub上的INST違規範例，以瞭解如何更正此問題並部署於AEMas a Cloud Service。"
+>abstract="請檢閱 WKND 舊版專案以了解如何將 INST 違規設為相容於 AEM Cloud Service。亦請檢閱 GitHub 上的 INST 違規範例，了解如何修正這個問題並將其部署到 AEM as a Cloud Service。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-舊版專案"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 違規範例 - GitHub"
 
