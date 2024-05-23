@@ -2,10 +2,10 @@
 title: OU
 description: 模式偵測器程式碼說明頁面。
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 96%
 
 ---
 
