@@ -3,9 +3,9 @@ title: CIF
 description: 模式偵測器程式碼說明頁面。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -3,7 +3,7 @@ title: CCOM
 description: 模式偵測器程式碼說明頁面。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
 ht-degree: 100%
 
