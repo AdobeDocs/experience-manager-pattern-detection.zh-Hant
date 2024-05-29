@@ -3,9 +3,9 @@ title: NBCC
 description: 模式偵測器程式碼說明頁面。
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_overview"
 >title="不向後相容變更"
->abstract="NBCC會識別部分JCR節點或套件組合以不相容方式變更的狀況。 客戶在升級前可能未意識到這種變更。"
+>abstract="NBCC 會識別部分 JCR 節點或套件組合以不相容方式變更的狀況。客戶在升級前可能未意識到這種變更。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="重大變更 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="發行說明 - AEM as a Cloud Service"
 
-`NBCC`  識別部分JCR節點或套件組合以不相容方式變更的狀況。 客戶在升級前可能未意識到這種變更。
+`NBCC` 會識別部分 JCR 節點或套件組合以不相容方式變更的狀況。客戶在升級前可能未意識到這種變更。
 
 ## 可能的影響和風險 {#implications-and-risks}
 
@@ -39,5 +39,5 @@ ht-degree: 67%
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 只覆蓋或參考向後相容的 Sling 元件。
-* 考慮調整來自的資源 `/libs` 或AEM升級後的套件組合。
+* 考慮在 AEM 升級後調整來自 `/libs` 或套件組合的資源。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

@@ -3,9 +3,9 @@ title: CCL
 description: 模式偵測器程式碼說明頁面。
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 >title="自訂用戶端程式庫"
 >abstract="CCL 會識別 AEM 上已安裝的用戶端程式庫。提供這項資訊是為了最佳實務評估目的。"
 
-`CCL` 識別AEM上已安裝的使用者端程式庫。 提供這項資訊是為了最佳實務評估目的。
+`CCL` 會識別 AEM 上已安裝的用戶端程式庫。提供這項資訊是為了最佳實務評估目的。
 
 此程式碼使用一個子類型：
 
@@ -28,7 +28,7 @@ ht-degree: 76%
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* 應檢閱已新增至AEM的使用者端程式庫，確保沒有重複並使用最新版本。
+* 應檢閱已新增至 AEM 的用戶端程式庫，確保沒有重複並使用最新版。
 
 ## 可能的解決方案 {#solutions}
 

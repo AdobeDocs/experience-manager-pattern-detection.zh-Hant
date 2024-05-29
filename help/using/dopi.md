@@ -3,9 +3,9 @@ title: DOPI
 description: 模式偵測器程式碼說明頁面。
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="有序索引 - 已棄用"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/indexing" text="編製索引 - AEM as a Cloud Service"
 
-`DOPI`  識別有序屬性索引定義的使用(`primaryType=oak:QueryIndexDefinition` 和 `type="ordered"`)。 這些定義在AEM 6.1中已過時，在AEM 6.2中已移除。
+`DOPI` 會識別使用有序屬性索引定義 (`primaryType=oak:QueryIndexDefinition` AND `type="ordered"`) 的情況。在 AEM 6.1 已棄用這些定義，並在 AEM 6.2 刪除。
 
 ## 可能的影響和風險 {#implications-and-risks}
 

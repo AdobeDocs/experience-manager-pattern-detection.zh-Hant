@@ -3,9 +3,9 @@ title: OCU
 description: 模式偵測器程式碼說明頁面。
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

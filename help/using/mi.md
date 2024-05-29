@@ -3,9 +3,9 @@ title: MI
 description: 模式偵測器程式碼說明頁面。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 85%
 子類型用於識別不同類型的資訊，例如：
 
 * `sling.job.max.parallel`：識別最大並行設定為 -1 的 Sling 工作。
-* `missing.maintenance.configuration`：識別缺少的維護任務設定。
+* `missing.maintenance.configuration`：識別缺少維護任務設定。
 
 ## 可能的影響和風險 {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * 值 -1 將替換為可用處理器的數量。因此，這可能會導致AEM執行個體發生效能問題。
+   * 值 -1 將替換為可用處理器的數量。因此，這可能會導致 AEM 執行個體出現性能問題。
 * `missing.maintenance.configuration`
-   * 缺少維護任務設定可能會導致效能損失或執行個體損毀。
+   * 缺少維護任務設定可能會導致性能損失或執行個體損毀。
 
 ## 可能的解決方案 {#solutions}
 

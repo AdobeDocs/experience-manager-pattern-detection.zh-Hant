@@ -3,9 +3,9 @@ title: PCX
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱內容結構以降低頁面複雜性。 反過來，這有助於改善頁面轉譯效能。 請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="最佳實務是檢閱內容結構以降低頁面複雜性。如此可協助提高頁面轉譯效能。請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 執行以下操作減少頁面內的節點總數：
