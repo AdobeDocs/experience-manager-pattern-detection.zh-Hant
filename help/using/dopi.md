@@ -3,7 +3,7 @@ title: DOPI
 description: 模式偵測器程式碼說明頁面。
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 

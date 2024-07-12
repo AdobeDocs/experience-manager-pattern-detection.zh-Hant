@@ -3,7 +3,7 @@ title: CCL
 description: 模式偵測器程式碼說明頁面。
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
