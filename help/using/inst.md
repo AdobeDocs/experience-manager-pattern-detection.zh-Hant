@@ -2,10 +2,10 @@
 title: INST
 description: 模式偵測器程式碼說明頁面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
 * 相依於第三方套件的應用程式可能無法如預期運作，直到正確部署可搭配 AEM as a Cloud Service 使用。
 * 若未針對 AEM as a Cloud Service 進行最佳化，第三方廠商套件可能會導致不良行為。
 
+此外，請注意這些特定的子型別：
+
+* `guava.bundle` - AEM 6.5 LTS不支援立即可用的Guava，且升級後將無法使用套件。
+
 ## 可能的解決方案 {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ ht-degree: 100%
 * 第三方套件必須遵守 AEM as a Cloud Service [開發](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)和[封裝](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)指導方針。
 * 請檢閱 [WKND 舊版](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst)專案，了解如何更正 [INST 違規](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)，使其與 AEM as a Cloud Service 相容。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
+* 對於`guava.bundle`子型別，請安裝Guava或在自訂程式碼中使用Guava時移除使用方式。

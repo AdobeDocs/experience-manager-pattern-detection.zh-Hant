@@ -6,16 +6,17 @@ user-guide-description: 了解 Adobe Experience Manager 模式偵測。
 feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
-source-git-commit: 60d4f353a4252fc8c318d606ca67d618e69fe4a4
+source-git-commit: e050b9190f67fd6ccfac31490c4bf2a60d47731f
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 100%
+source-wordcount: '55'
+ht-degree: 90%
 
 ---
 
 
 # Experience Manager 模式偵測指南 {#table-of-contents}
 
++ [AC](ac.md)
 + [ACV](acv.md)
 + [ASO](aso.md)
 + [CAV](cav.md)
@@ -44,7 +45,11 @@ ht-degree: 100%
 + [OU](ou.md)
 + [PCX](pcx.md)
 + [[!DNL REP]](rep.md)
++ [SCR](scr.md)
++ [SIF](sif.md)
++ [SPI](spi.md)
 + [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
++ [WRF](wrf.md)
 + [WRK](wrk.md)

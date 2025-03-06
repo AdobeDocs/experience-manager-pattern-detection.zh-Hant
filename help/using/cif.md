@@ -2,10 +2,10 @@
 title: CIF
 description: 模式偵測器程式碼說明頁面。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 76%
 
 ---
 
@@ -50,3 +50,16 @@ Commerce Integration Framework Classic
 * 為支援部署 CIF 的專案，Adobe 提供了 [AEM CIF 核心元件](https://github.com/adobe/aem-core-cif-components)。
 * [軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)也提供了適用於 AEM 6.5 的 CIF 附加元件。它是相容的，提供和適用於 Experience Manager as a Cloud Service 的 CIF 附加元件相同的功能，不需調整。
 * Classic CIF 及其相依性已不再可用。依賴此 CIF 版本 (使用 com.adobe.cq.commerce.api Java™ API) 的程式碼必須調整為 CIF 附加元件及其原則。
+
+此外，尋找以下不同子型別的可能解決方案：
+
+* `commerce.bundles.detected` — 這些套件組合將在升級期間解除安裝
+* `commerce.packages.detected` — 這些套件將在升級期間刪除
+* `commerce.packages.dependency` — 從自訂套件中移除對Commerce的任何相依性
+* `commerce.nodes.detected` — 更新自訂程式碼以不建立CQ Commerce節點
+* `commerce.configs.detected` — 請勿在自訂程式碼中使用CQ Commerce設定屬性
+* `commerce.users.detected` — 請勿在自訂程式碼中使用CQ Commerce服務使用者
+* `commerce.overlays.detected` — 移除CQ Commerce覆蓋圖使用方式
+* `commerce.paths.detected` — 在確定AEM上未使用這些路徑後，移除商務路徑
+* `commerce.resource.type.detected` — 移除Commerce資源型別使用狀況
+* `commerce.usage` — 移除自訂程式碼中的CQ Commerce API。
