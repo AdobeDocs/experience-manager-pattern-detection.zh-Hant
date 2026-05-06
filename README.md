@@ -1,16 +1,10 @@
 ---
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: b766ec44ce5d52669d0fd782a7c88475c5f740a9
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 88%
+source-wordcount: '7'
+ht-degree: 0%
 
 ---
-# Adobe Experience Manager 模式偵測
+# 已封存
 
-此Adobe Experience Manager模式偵測存放庫。
-
-歡迎您協助撰寫本說明文件。請參閱下列資源：
-
-* [contributing.md](contributing.md) 如何協助撰寫本說明文件的概述。
-* [Guidelines.md](guidelines.md) 預期貢獻內容以及如何協助編寫說明文件的概述。
-* [code-of-conduct.md](code-of-conduct.md) 在您協助編寫本文件專案時，Adobe 期望的行為標準概述。
+此存放庫已移轉至<https://github.com/Adobe-Enterprise-Docs/experience-manager-pattern-detection.en>。
