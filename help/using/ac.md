@@ -1,7 +1,8 @@
 ---
 title: AC
 description: 模式偵測器程式碼說明頁面。
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 4c6ac075-5ba6-4511-97c6-a9b496d4677a
+source-git-commit: 9c2f5452ff694e11a49c7b38efa61acc65924dd6
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 7%
@@ -25,3 +26,4 @@ AC會識別與AEM 6.5 LTS不相容的Assets套件組合使用方式
 * `asset.overlays.detected` — 需要移除在Assets評等和目錄元件上建立的覆蓋圖。
 * `asset.resource.type.detected` — 移除自訂程式碼中Assets評等元件resourcetype的任何使用方式。
 * `asset.paths.detected` — 移動這些路徑底下的任何客戶內容，並在確定這些路徑未用於AEM後予以移除。
+
