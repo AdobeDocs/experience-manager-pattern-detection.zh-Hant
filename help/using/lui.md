@@ -5,7 +5,7 @@ exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -26,20 +26,20 @@ ht-degree: 93%
 子類型用於識別應該或必須升級的不同使用者介面元素類型：
 
 * `legacy.dialog.classic`：基於 ExtJS 的 Classic UI 對話框必須變更為 Coral。
-   * 當對話框名稱是 `dialog` 或 `design_dialog`，並在
- `jcr:primaryType` 屬性值或`xtype`  屬性值是 `cq:Dialog` 時，會偵測到子類型。
+   * 當對話方塊名稱是`dialog`或`design_dialog`且當
+`jcr:primaryType`屬性值或`xtype`屬性值是`cq:Dialog`。
 * `legacy.dialog.coral2`： `Coral 2` 對話方塊應更新為使用 `Coral 3`。
    * 當對話方塊及其子內容節點名稱為
       * `cq:dialog/content`、
       * `cq:design_dialog/content`、
       * `cq:dialog.coral2/content`、
       * 或 `cq:design_dialog.coral2/content`
-且 `sling:resourceType` 屬性值不包含 `granite/ui/components/coral/foundation` 時，會偵測到子類型。
+且`sling:resourceType`屬性值不包含`granite/ui/components/coral/foundation`。
 * `legacy.custom.component`：從 `foundation/components` 繼承而來的元件應更新為使用核心元件。
    * 當 `jcr:primaryType` 屬性值是 `cq:Component`，而且
      `sling:resourceSuperType` 屬性值包含「foundation / components」時，會偵測到子類型。 或者超級類型元件鏈結的任何
-     `sling:resourceSuperType` 屬性值包含
-「foundation / components」時，會偵測到子類型。
+     超級型別元件鏈結包含的`sling:resourceSuperType`屬性值
+&quot;foundation /元件。&quot;
 * `legacy.static.template`：靜態範本應升級為可編輯的範本。
    * 當 `jcr:primaryType` 屬性值是 `cq:Template` 時會偵測到子類型。
 * `content.fragment.template`：內容片段範本應建立片段模型，以取代片段範本。
@@ -78,5 +78,5 @@ ht-degree: 93%
    * 從設計與設計對話框轉換為可編輯的範本原則
 * 請檢閱專案的自訂元件程式庫，並轉變為標準[核心元件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/introduction)集 (如有可能)，以加快開發時間並降低應用程式維護成本。
 * 建立具有與舊範本相同功能的內容片段模型，並在將來使用這些模型建立內容片段。 如需更多詳細資訊，請參閱[內容片段模型](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models)。
-* `I18n`詞典必須透過CI / CD管道來自Git。[檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
+* `I18n` 字典必須透過 CI / CD 管道從 Git 取得。 [文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

@@ -34,8 +34,8 @@ ht-degree: 84%
 * `javax.jcr.observation.EventListener`：在應用程式的程式碼中使用事件監聽程式。
 * `custom.guava.cache`：在應用程式的程式碼中使用 Guava 快取。
 * `java.api`：部分Java API已從Java 11移除至Java 17。
-* `configuration.admin`：存取設定的自訂程式碼將會標幟。
-* `guava.api`： AEM 6.5 LTS上不支援立即可用的Guava。
+* `configuration.admin`：將標籤存取設定的自訂程式碼。
+* `guava.api`：在AEM 6.5 LTS上不支援立即可用的Guava。
 * `com.day.cq.dam.scene7.api.model`： `package com.day.cq.dam.scene7.api.model`有重大版本變更。
 
 ## 可能的影響和風險 {#implications-and-risks}
@@ -74,7 +74,7 @@ ht-degree: 84%
    * 由於AEM 6.5 LTS不支援Guava，因此使用Guava的自訂程式碼將不會啟用。
 
 * `com.day.cq.dam.scene7.api.model`
-   * 由於主要版本變更，無法解析自訂套件組合中匯入的套件`com.day.cq.dam.scene7.api.model`。
+   * 由於主要版本變更，無法解析自訂套件組合中的匯入套件`com.day.cq.dam.scene7.api.model`。
 
 
 ## 可能的解決方案 {#solutions}
@@ -115,4 +115,4 @@ ht-degree: 84%
    * 如果您在自訂程式碼中使用Guava，請安裝Guava或移除使用方式。
 
 * `com.day.cq.dam.scene7.api.model`
-   * 將匯入的套件`com.day.cq.dam.scene7.api.model`的版本範圍更新為&#x200B;**3.0.4**。
+   * 將匯入的封裝`com.day.cq.dam.scene7.api.model`的版本範圍更新為&#x200B;**3.0.4**。
