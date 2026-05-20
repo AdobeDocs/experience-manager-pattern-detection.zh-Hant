@@ -2,7 +2,7 @@
 title: INST
 description: 模式偵測器程式碼說明頁面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 92%
