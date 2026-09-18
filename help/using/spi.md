@@ -1,13 +1,12 @@
 ---
 title: SPI
 description: 模式偵測器程式碼說明頁面。
-source-git-commit: e050b9190f67fd6ccfac31490c4bf2a60d47731f
+exl-id: 39f2d04e-c6e4-4da6-b000-0115bc2b87bf
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 8%
-
 ---
-
 # SPI {#spi}
 
 ## 背景 {#background}

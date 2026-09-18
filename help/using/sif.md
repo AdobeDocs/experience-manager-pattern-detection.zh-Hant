@@ -1,13 +1,12 @@
 ---
 title: SIF
 description: 模式偵測器程式碼說明頁面。
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: c0a5c565-16e7-407b-befc-5a2966089da1
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 7%
-
 ---
-
 # SIF {#sif}
 
 ## 背景 {#background}
