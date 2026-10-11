@@ -2,13 +2,17 @@
 title: PCX
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
-
 ---
-
 # PCX {#pcx}
 
 頁面複雜度
@@ -42,9 +46,9 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 執行以下操作減少頁面內的節點總數：
-   * 確認沒有不必要的容器。
-   * 測試是否能以較少的容器實現相同的版面。
-   * 簡化頁面內容。
-   * 減少節點結構的深度。
-   * 為了簡單起見，重構任何包含的體驗片段。
+  * 確認沒有不必要的容器。
+  * 測試是否能以較少的容器實現相同的版面。
+  * 簡化頁面內容。
+  * 減少節點結構的深度。
+  * 為了簡單起見，重構任何包含的體驗片段。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

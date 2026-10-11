@@ -2,13 +2,17 @@
 title: URC
 description: 模式偵測器程式碼說明頁面。
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
-
 ---
-
 # URC {#urc}
 
 不支援的執行模式設定
@@ -29,10 +33,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="實施指導"
->abstract="最佳實踐是檢查您的應用程式所使用的所有執行模式是否受到支援。 並且，確保它們遵循執行模式解析指導方針"
+>abstract="最佳做法是檢查您的應用程式所使用的所有執行模式是否受到支援。 並且，確保它們遵循執行模式解析指導方針"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="執行模式解析指導方針"
 
-* 可用於在 AEM as a Cloud Service 中執行各種模式的名稱集是有限的。
+* 在 AEM as a Cloud Service 中可用於執行各種模式的名稱集合有限。
 * 基於不支援之執行模式名稱的設定，在部署到 AEM as a Cloud Service 時沒有任何作用。
 
 ## 可能的解決方案 {#solutions}

@@ -2,13 +2,17 @@
 title: URS
 description: 模式偵測器程式碼說明頁面。
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
-
 ---
-
 # URS {#urs}
 
 不支援的存放庫結構
@@ -21,7 +25,7 @@ ht-degree: 100%
 
 ## 背景 {#background}
 
-`URS` 會識別 URS (不支援的存放庫結構) 和節點特性的案例。 自 AEM 6.4 起已經提供存放庫內容重組的指導方針。 透過明確界定 AEM 產品程式碼和客戶程式碼的階層，避免兩者之間的所有衝突，`/etc` 中的內容會重組到存放庫的其他檔案夾。 這樣做會遵守以下高階規則：
+`URS` 會識別 URS (不支援的存放庫結構) 和節點特性的案例。 自 AEM 6.4 起已經提供存放庫內容重組的指導方針。 透過明確界定 AEM 產品程式碼和客戶程式碼的階層，避免兩者之間的所有衝突，`/etc` 中的內容會重組到存放庫的其他檔案夾。 這樣做時，請遵守以下高階規則：
 
 * AEM 產品程式碼永遠都會放在 `/libs` 中，自訂程式碼不得覆寫。
 * 自訂程式碼應放在 `/apps`、`/content` 和 `/conf` 中。
@@ -46,7 +50,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱您的程式碼專案。 確保它遵守 AEM 專案結構準則，避免依賴較舊或不受支援之存放庫路徑的程式碼 (這可能會在 AEM as a Cloud Service 中導致不良行為)。 請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="最佳做法是檢閱您的程式碼專案。 確保它遵守 AEM 專案結構準則，避免依賴較舊或不受支援之存放庫路徑的程式碼 (這可能會在 AEM as a Cloud Service 中導致不良行為)。 請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM 專案結構指導方針"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

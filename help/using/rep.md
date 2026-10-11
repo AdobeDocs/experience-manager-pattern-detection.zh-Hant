@@ -2,13 +2,17 @@
 title: REP
 description: 模式偵測器程式碼說明頁面。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
-
 ---
-
 # [!DNL REP] {#rep}
 
 複寫代理
@@ -36,19 +40,19 @@ AEM as a Cloud Service 使用 [Sling 內容發佈](https://sling.apache.org/docu
 ## 可能的影響和風險 {#implications-and-risks}
 
 * 複寫設定已隨著 AEM as a Cloud Service 有所改變。 應檢閱所有目前的複寫代理程式。 檢閱可幫助您了解：
-   * 標準功能可以取代哪些功能、
-   * 哪些設定必須移至程式碼、
-   * 以及哪些不受支援。
+  * 標準功能可以取代哪些功能、
+  * 哪些設定必須移至程式碼、
+  * 以及哪些不受支援。
 * 在升級到 AEM as a Cloud Service 時，應檢閱自訂程式碼或工作流程中的任何複寫代理使用。
-* AEM as a Cloud Service 最初不支援反向複寫。
-* 無需設定單獨的 Dispatcher 排清代理程式。 相反地，這是在 AEM as a Cloud Service 環境中自動設定。
+* AEM as a Cloud Service 一開始不支援反向複寫。
+* 無需設定單獨的 Dispatcher 清除代理程式。 相反地，這是在 AEM as a Cloud Service 環境中自動設定。
 
 ## 可能的解決方案 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱、重構和最佳化直接相依於複寫代理的自訂功能，使其與 AEM as a Cloud Service 相容。 請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="最佳做法是檢閱、重構和最佳化直接相依於複寫代理的自訂功能，使其與 AEM as a Cloud Service 相容。 請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication" text="複寫 - AEM as a Cloud Service"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

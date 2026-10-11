@@ -2,13 +2,17 @@
 title: OU
 description: 模式偵測器程式碼說明頁面。
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
-
 ---
-
 # OU {#ou}
 
 過時的使用方式
@@ -35,7 +39,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ou_guidance"
 >title="實施指導"
->abstract="最佳實務是檢閱並調整客戶程式碼以使用最新版 AEM 元件或 API。 請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="最佳做法是檢閱並調整客戶程式碼以使用最新版 AEM 元件或 API。 請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
