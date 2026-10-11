@@ -2,13 +2,17 @@
 title: IOI
 description: 模式偵測器程式碼說明頁面。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # IOI {#ioi}
 
 內部 Oak 匯入
@@ -25,7 +29,7 @@ ht-degree: 100%
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* 在未來的 AEM 版本中，內部匯出可能會移除，導致相依性中斷和直接相依於 Oak 的套件組合無作用。
+* 在未來的 AEM 版本中，內部匯出可能會移除，導致相依性中斷，以及直接相依於 Oak 的套件組合變成非使用中。
 * 內部匯出的 API 可能會變更。
 
 ## 可能的解決方案 {#solutions}
@@ -33,7 +37,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="實施指導"
->abstract="客戶應檢閱其自訂程式碼，以識別這類 API 的使用方式，並將其重構為與 AEM as a Cloud Service 相容。 請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="客戶應檢閱其自訂程式碼，以識別這類 API 的使用情況，並將其重構為與 AEM as a Cloud Service 相容。 請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 使用 Sling Resource API (或 JCR API)，而非低階存取。

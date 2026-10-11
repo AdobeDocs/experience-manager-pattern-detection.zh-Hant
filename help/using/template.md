@@ -1,13 +1,14 @@
 ---
 title: 範本
 description: 模式偵測器程式碼說明頁面的範本。
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 
 # [!DNL TEMPLATE] {#template}
 
@@ -28,7 +29,7 @@ ht-degree: 100%
 
 ## 可能的解決方案 {#solutions}
 
-提供可能減輕或解決問題之步驟的說明。避免在其他地方可找到的重複資訊，盡可能參考 Adobe 公開資訊。
+提供可能減輕或解決問題之步驟的說明。 避免在其他地方可找到的重複資訊，盡可能參考 Adobe 公開資訊。
 回答問題：「我能做什麼？」
 
 * 可能的解決方案 #1

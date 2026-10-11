@@ -2,13 +2,17 @@
 title: ACV
 description: 模式偵測器程式碼說明頁面。
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
-
 ---
-
 # ACV {#acv}
 
 Assets 內容驗證器
@@ -26,8 +30,8 @@ Assets 內容驗證器
 
 子類型用於識別不同類型的資訊，例如：
 
-* `missing.jcrcontent`：識別存放庫中有缺少必要節點的檔案夾。 識別存放庫中有任何缺少的內容，有助於防止任何損壞的功能或使用案例。
-* `missing.original.rendition`：識別存放庫中有缺少必要原始轉譯的資產。 預覽 PDF 頁面不需要在 AEMaaCS 中產生子資產。 因此，對於 PDF 資產，將禁止報告缺少原始轉譯的子資產。
+* `missing.jcrcontent`：識別存放庫中有缺少必要節點的檔案夾。 識別存放庫中任何缺少的內容，有助於防止任何損壞的功能或使用案例。
+* `missing.original.rendition`：識別存放庫中有缺少必要原始轉譯的資產。 預覽 PDF 頁面不需要在 AEMaaCS 中產生子資產。 因此，對於 PDF 資產，會抑制報告缺少原始轉譯的子資產。
 * `metadata.descendants.violation`：識別在存放庫的資產中繼資料節點下具有超過 100 個子系的資產。
 * `conflict.node`：識別 /content/dam/ 路徑下的存放庫中是否存在衝突節點。
 * `psb.file.large`：識別大小大於 2 GB 的大型 PSB 檔案 (`dc:format : application/vnd.3gpp.pic-bw-small`)。
@@ -52,7 +56,7 @@ Assets 內容驗證器
 
 * 如果檔案夾缺少子節點，請分析該檔案夾。 如果檔案夾數目在可控範圍內，請手動建立節點，否則請使用指令碼。
 * 對於缺少原始轉譯的資產，請在移轉前重新上傳資產或予以刪除。
-* 缺少子資產原始轉譯無需採取任何動作。
+* 對於缺少原始轉譯的子資產，無需採取任何動作。
 * 如果有衝突節點，應在移轉到 AEM as a Cloud Service 之前解決或刪除這些節點。
 * 如果您計劃處理很多大型 PSD 或 PSB 檔案，請聯絡 Adobe 客戶支援。 Experience Manager 可能無法處理超過 30000 x 23000 像素的高解析度 PSB 檔案。 請參閱[文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick)。
 * 請聯絡 [Experience Manager 客戶服務團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。

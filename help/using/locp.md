@@ -2,13 +2,17 @@
 title: LOCP
 description: 模式偵測器程式碼說明頁面。
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
-
 ---
-
 # LOCP {#locp}
 
 /libs 覆寫自訂套件
@@ -34,7 +38,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="實施指導"
->abstract="客戶應檢閱其自訂程式碼和套件，以確定內容是否已傳送到 `/libs`。 如有必要，請將其重構，使 /apps 底下的內容依賴覆蓋，並且與 AEM as a Cloud Service 相容。 請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="客戶應檢閱其自訂程式碼和套件，以確定內容是否已傳送到 `/libs`。 如有必要，請將其重構為依賴覆蓋 /apps 底下的內容，並且與 AEM as a Cloud Service 相容。 請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="覆蓋"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

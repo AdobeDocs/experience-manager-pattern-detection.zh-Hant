@@ -2,13 +2,17 @@
 title: INST
 description: 模式偵測器程式碼說明頁面。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 92%
-
 ---
-
 # INST {#inst}
 
 已安裝的成品
@@ -26,7 +30,7 @@ ht-degree: 92%
 
 已安裝多個套件版本時，只會報告最新版。
 
-偵測到的套件和套件組合不一定針對 AEM as a Cloud Service 進行最佳化。 任何第三方套件都應透過其建立者或 Adobe 驗證是否相容於 AEM as a Cloud Service。
+偵測到的套件和套件組合不一定針對 AEM as a Cloud Service 進行最佳化。 任何第三方套件都應由其建立者或 Adobe 驗證是否與 AEM as a Cloud Service 相容。
 
 子類型用於識別不同類型的資訊：
 
@@ -38,12 +42,12 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="實施指導"
->abstract="客戶無法再使用 CRX 封裝管理員來安裝第三方套件。 客戶應檢閱這些已安裝且必須重組的成品，並且將這些成品最佳化以搭配 AEM as a Cloud Service 使用。 向建立者或 Adobe 驗證任何第三方套件是否與 AEM as a Cloud Service 相容。"
+>abstract="客戶無法再使用 CRX 封裝管理器來安裝第三方套件。 客戶應檢閱這些已安裝且必須重組的成品，並且將這些成品最佳化以搭配 AEM as a Cloud Service 使用。 向建立者或 Adobe 驗證任何第三方套件是否與 AEM as a Cloud Service 相容。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="將子套件嵌入於容器套件"
 
 
-* 無法使用 AEM as a Cloud Service 中的 CRX 封裝管理員來安裝第三方套件。
-* 相依於第三方套件的應用程式可能無法如預期運作，直到正確部署可搭配 AEM as a Cloud Service 使用。
+* 無法使用 AEM as a Cloud Service 中的 CRX 封裝管理器來安裝第三方套件。
+* 相依於第三方套件的應用程式，在正確部署以搭配 AEM as a Cloud Service 運作之前，可能無法如預期運作。
 * 若未針對 AEM as a Cloud Service 進行最佳化，第三方廠商套件可能會導致不良行為。
 
 此外，請注意這些特定的子型別：
@@ -55,7 +59,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="工具和資源"
->abstract="請檢閱 WKND 舊版專案以了解如何將 INST 違規設為相容於 AEM Cloud Service。 亦請檢閱 GitHub 上的 INST 違規範例，了解如何修正這個問題並將其部署到 AEM as a Cloud Service。"
+>abstract="請檢閱 WKND 舊版專案以了解如何將 INST 違規設為相容於 AEM Cloud Service。 亦請檢閱 GitHub 上的 INST 違規範例，了解如何修正這個問題，並在 AEM as a Cloud Service 中部署修正內容。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-舊版專案"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 違規範例 - GitHub"
 

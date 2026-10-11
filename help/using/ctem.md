@@ -2,13 +2,17 @@
 title: CTEM
 description: 模式偵測器程式碼說明頁面。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
-
 ---
-
 # CTEM {#ctem}
 
 自訂範本
@@ -43,7 +47,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="工具和資源"
->abstract="借助 AEM 現代化套件，客戶可以操縱頁面結構，從靜態範本移至可編輯的範本。 目的是協助客戶從功能有限的舊版功能轉換為強大現代的 AEM 供應項目。 這些是可設定的、可感知設定和可擴充的工具。 請聯絡 Adobe 支援人員，取得協助或說明。"
+>abstract="借助 AEM 現代化套件，客戶可以將頁面結構從靜態定義轉換為可編輯範本。 其目的是協助客戶從功能有限的舊版功能轉換至功能強大且現代化的 AEM 產品。 這些工具可設定、可識別設定，且可擴充。 請聯絡 Adobe 支援人員，取得協助或說明。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="頁面結構轉換器"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 

@@ -2,13 +2,14 @@
 title: FORM
 description: 模式偵測器程式碼說明頁面。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 96%
-
 ---
-
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
@@ -18,7 +19,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="FORMS 程式碼會識別從 AEM (Adobe Experience Manager) Forms 移轉至 AEM Forms as a Cloud Service 相關的可能問題。 請檢閱相關的可能影響和風險，並在移轉至 Cloud Service 之前解決這些問題。"
+>abstract="FORMS 代碼會識別與從 AEM (Adobe Experience Manager) Forms 移轉至 AEM Forms as a Cloud Service 相關的可能問題。 請檢閱相關的可能影響和風險，並在移轉至 Cloud Service 之前解決這些問題。"
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="可能的影響和風險"
 
 `FORMS` 會識別從 [!DNL Adobe Experience Manager Forms] 移轉至 [!DNL Adobe Experience Manager Forms]s as a [!DNL Cloud Service] 相關的可能問題。 請在移轉至 [!DNL Cloud Service] 之前解決這些問題。
@@ -42,7 +43,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 電子郵件PDF]**&#x200B;提交動作無法使用。(EMAIL_PDF_SUBMIT_ACTION)
 
-* 不支援 XFA 型最適化表單。 (XFA_BASED_FORM, XDP_BASED_FORM)
+* 尚不支援 XFA 型自適應表單。 (XFA_BASED_FORM, XDP_BASED_FORM)
 
 * 在表單提交時就會立即叫用提交動作，而不會等候所有簽署者完成簽署。 因此傳送給簽署者的 Adobe Sign 合約 PDF 不可供提交動作使用或處理。 (FORM_SIGN_INTEGRATION)
 
@@ -72,13 +73,13 @@ ht-degree: 96%
 
 * 使用移轉公用程式，將環境中的所有規則指令碼轉換為可重複使用的函數。 您可以在視覺規則編輯器中使用可重複使用的函數，繼續取得與規則指令碼相同的結果。 (CODE_EDITOR)
 
-* 請聯絡支援團隊，為您的環境啟用電子郵件 (開啟 SMTP 連接埠) 功能。 預設只會啟用傳出 HTTP 和 HTTPS 連線。 (EMAIL_SERVICE_CONFIGURATION, Email step)
+* 請聯絡支援團隊，以便他們為您的環境啟用電子郵件 (開啟 SMTP 連接埠) 功能。 預設只會啟用傳出 HTTP 和 HTTPS 連線。 (EMAIL_SERVICE_CONFIGURATION, Email step)
 
 * 請使用&#x200B;**[!UICONTROL 電子郵件]**&#x200B;提交動作而非&#x200B;**[!UICONTROL 電子郵件 PDF]**。 **[!UICONTROL 電子郵件]**&#x200B;提交動作會提供傳送附件和將記錄文件 (DoR) 附加於電子郵件的選項。 (EMAIL_PDF_SUBMIT_ACTION)
 
 * 提交的資料包含 Adobe Sign 合約 ID。 必要時，您可以使用 Sign 合約 ID 來擷取 Sign 合約 PDF。 (FORM_SIGN_INTEGRATION)
 
-* 從現有的最適化表單移除簽名步驟。 設定最適化表單以使用[瀏覽器內簽名體驗](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)。 它會顯示 Adobe Sign 合約，以便在提交最適化表單時於瀏覽器中簽署合約。 瀏覽器內簽名體驗有助於提供更快的簽名體驗，為簽署者節省寶貴時間。 (SIGNATURE_STEP)
+* 從現有的自適應表單移除簽名步驟。 設定最適化表單以使用[瀏覽器內簽名體驗](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684)。 它會顯示 Adobe Sign 合約，以便在提交最適化表單時於瀏覽器中簽署合約。 瀏覽器內簽名體驗有助於提供更快的簽名體驗，為簽署者節省寶貴時間。 (SIGNATURE_STEP)
 
 * 將調適型表單移至 [!DNL Cloud Service] 環境之前，請從現有的調適型表單移除驗證步驟。 (VERIFY_STEP)
 
@@ -86,7 +87,7 @@ ht-degree: 96%
 
 * 您可以開發 AEM 工作流程，並編輯現有的調適型表單，以使用 [AEM 工作流程](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions#invoke-an-aem-workflow)提交動作將資料傳送至 AEM 工作流程，而不使用&#x200B;**[!UICONTROL 提交至 Forms Workflow]** 提交動作。 您可以開發自訂提交動作，將資料、附件或記錄文件 (DoR) 傳送至 LiveCycle 程序，而不使用[!UICONTROL 提交至 Forms Workflow]。 (LC_WORKFLOW_SUBMISSION)
 
-* 請查看每月發行說明，以了解互動式通訊功能可用性相關資訊。 請勿將互動式通訊、郵件和相關字典移轉至 Cloud Service 環境 (該功能尚不可使用)。 (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* 請查看每月發行說明，以了解互動式通訊功能可用性相關資訊。 在該功能可供使用之前，請勿將互動式通訊、郵件和相關字典移轉至 Cloud Service 環境。 (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
 * 中繼資料 Accordion 沒有替代項目。 將其從表單中移除，然後再移轉至Cloud Service。(METADATA_ACCORDION_FORM_CONTAINER)
 

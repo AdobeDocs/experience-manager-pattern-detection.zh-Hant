@@ -2,13 +2,17 @@
 title: ECU
 description: 模式偵測器程式碼說明頁面。
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
-
+source-wordcount: '290'
+ht-degree: 97%
 ---
-
 # ECU {#ecu}
 
 已棄用：無關的內容使用方式 (取代為 CAV，內容區域違規)
@@ -17,7 +21,7 @@ ht-degree: 100%
 
 `ECU` 會識別以違反內容分類規則的方式使用不同內容區域的模式。
 
-Sling 請求處理會定義如何將資源的內容 (尤其是其 `sling:resourceType` 屬性) 用於決定轉譯內容時所用的指令碼。(如需詳細資訊，請參閱[找到指令碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。)Sling 也透過「覆蓋」和「覆寫」提供存取和合併資源的技術。這些技術在 [Sling 資源合併](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)部份和[覆蓋](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/overlays)中有說明。
+Sling 請求處理會定義如何將資源的內容 (尤其是其 `sling:resourceType` 屬性) 用於決定轉譯內容時所用的指令碼。 （如需詳細資訊，請參閱[尋找指令碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)。） Sling 也透過「覆蓋」和「覆寫」提供存取和合併資源的技術。 這些技術在 [Sling 資源合併](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger)部份和[覆蓋](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/overlays)中有說明。
 
 為了讓客戶更安全輕鬆地了解 `/libs` 的哪些區域可安全使用和覆蓋，`/libs` 中的內容已經透過 &quot;mixin&quot; 屬性進行分類：
 
@@ -26,7 +30,7 @@ Sling 請求處理會定義如何將資源的內容 (尤其是其 `sling:resourc
 * 最終
 * 內部
 
-每個分類表示如何使用、繼承或覆蓋內容的相關規則。請參閱[永續升級](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)以取得詳細說明。
+每個分類表示如何使用、繼承或覆蓋內容的相關規則。 請參閱[永續升級](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)以取得詳細說明。
 
 ## 可能的影響和風險 {#implications-and-risks}
 

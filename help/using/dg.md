@@ -2,13 +2,17 @@
 title: DG
 description: 模式偵測器程式碼說明頁面。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 84%
-
 ---
-
 # DG {#dg}
 
 開發人員指導方針
@@ -41,40 +45,40 @@ ht-degree: 84%
 ## 可能的影響和風險 {#implications-and-risks}
 
 * `java.io.inputstream`
-   * 使用 `java.io.InputStream` 串流處理二進位資料，可能會消耗記憶體資源到影響效能的程度。 這個問題是因為 AEM as a Cloud Service 中所用容器的記憶體有限所致。
+  * 使用 `java.io.InputStream` 串流處理二進位資料，可能會消耗記憶體資源到影響效能的程度。 這個問題是因為 AEM as a Cloud Service 中所用容器的記憶體有限所致。
 
 * `maintenance.task.configuration`
-   * 以前需要明確設定的部分維護任務，現在是在 AEM as a Cloud Service 內自動設定和管理的。
-   * AEM as a Cloud Service 中的維護任務設定必須移至原始檔控制系統。
+  * 以前需要明確設定的部分維護任務，現在是在 AEM as a Cloud Service 內自動設定和管理的。
+  * AEM as a Cloud Service 中的維護任務設定必須移至原始碼控制系統。
 
 * `sling.commons.scheduler`
-   * 因為 AEM as a Cloud Service 中無法保證執行，所以相依於背景任務 (使用 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html)) 的應用程式可能無法如預期運作。
-   * 對於[背景任務和長時間執行工作](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)的指導方針建議，執行為已排程任務的程式碼也必須假設執行所在的執行個體隨時都會停機。 因此程式碼必須有韌性和可恢復性。
+  * 因為 AEM as a Cloud Service 中無法保證執行，所以相依於背景任務 (使用 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html)) 的應用程式可能無法如預期運作。
+  * 對於[背景任務和長時間執行工作](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)的指導方針建議，執行為已排程任務的程式碼也必須假設執行所在的執行個體隨時都會停機。 因此程式碼必須有韌性和可恢復性。
 
 * `unsupported.asset.api`
-   * 下列 AssetManager API 在 AEM as a Cloud Service 中被標記為不受支援。
-      * createAssetForBinary
-      * getAssetForBinary
-      * removeAssetForBinary
-      * createAsset
+  * 下列 AssetManager API 在 AEM as a Cloud Service 中被標記為不受支援。
+    * createAssetForBinary
+    * getAssetForBinary
+    * removeAssetForBinary
+    * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * 依賴於事件監聽程式的應用程式可能無法如預期般運作，因為無法保證執行。
+  * 依賴於事件監聽程式的應用程式可能無法如預期般運作，因為無法保證執行。
 
 * `custom.guava.cache`
-   * 使用 Guava 快取可能會導致 AEM 出現效能問題。
+  * 使用 Guava 快取可能會導致 AEM 出現效能問題。
 
 * `java.api`
-   * 若使用JRE17上的AEM 6.5 LTS，這些移除的Java API將無法使用，且將無法使用。
+  * 若使用JRE17上的AEM 6.5 LTS，這些移除的Java API將無法使用，且將無法使用。
 
 * `configuration.admin`
-   * 您應檢視使用情形，確認未使用任何不支援的設定，例如social。
+  * 您應檢視使用情形，確認未使用任何不支援的設定，例如social。
 
 * `guava.api`
-   * 由於AEM 6.5 LTS不支援Guava，因此使用Guava的自訂程式碼將不會啟用。
+  * 由於AEM 6.5 LTS不支援Guava，因此使用Guava的自訂程式碼將不會啟用。
 
 * `com.day.cq.dam.scene7.api.model`
-   * 由於主要版本變更，無法解析自訂套件組合中的匯入套件`com.day.cq.dam.scene7.api.model`。
+  * 由於主要版本變更，無法解析自訂套件組合中的匯入套件`com.day.cq.dam.scene7.api.model`。
 
 
 ## 可能的解決方案 {#solutions}
@@ -87,32 +91,32 @@ ht-degree: 84%
 >additional-url="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/maintenance" text="AEM as a Cloud Service 中的維護任務"
 
 * `java.io.inputstream`
-   * 使用直接二進位上傳方法，即二進位直接新增至資料存放區。
-   * 對於資產使用案例，請參閱 [aem-upload](https://github.com/adobe/aem-upload)。 對於其他類型的二進位資料，自訂上傳邏輯可以仿照此相同模式。
+  * 使用直接二進位上傳方法，即二進位直接新增至資料存放區。
+  * 對於資產使用案例，請參閱 [aem-upload](https://github.com/adobe/aem-upload)。 對於其他類型的二進位資料，自訂上傳邏輯可以仿照此相同模式。
 
 * `maintenance.task.configuration`
-   * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/maintenance)文件。
-   * 請確定[維護任務設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)是在原始檔控制系統中進行。
+  * 請檢閱 AEM as a Cloud Service [維護任務](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/operations/maintenance)文件。
+  * 請確定[維護任務設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control)是在原始檔控制系統中進行。
 
 * `sling.commons.scheduler`
-   * 將 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) 取代為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，後者有至少執行一次的保證。
-   * 如有可能應避免長時間執行工作。
+  * 將 [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) 取代為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，後者有至少執行一次的保證。
+  * 如有可能應避免長時間執行工作。
 
 * `unsupported.asset.api`
-   * 不要再使用不受支援的 Asset Manager API，請參閱 [aem-upload](https://github.com/adobe/aem-upload)。
+  * 不要再使用不受支援的 Asset Manager API，請參閱 [aem-upload](https://github.com/adobe/aem-upload)。
 
 * `javax.jcr.observation.EventListener`
-   * 與其使用事件監聽程式，建議將事件處理機制重構為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，因為它提供了處理的保證。
+  * 與其使用事件監聽程式，建議將事件處理機制重構為 [Sling 工作](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)，因為它提供了處理的保證。
 
 * `custom.guava.cache`
-   * 如果需要，應該在 AEM 外部建立快取。 可以考慮外部快取解決方案。
+  * 如果需要，應該在 AEM 外部建立快取。 可以考慮外部快取解決方案。
 * 請聯絡 [AEM 支援團隊](https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html)以釐清或解決問題。
 
 * `configuration.admin`
-   * 移除不支援功能（例如Social）的任何設定用法。
+  * 移除不支援功能（例如Social）的任何設定用法。
 
 * `guava.api`
-   * 如果您在自訂程式碼中使用Guava，請安裝Guava或移除使用方式。
+  * 如果您在自訂程式碼中使用Guava，請安裝Guava或移除使用方式。
 
 * `com.day.cq.dam.scene7.api.model`
-   * 將匯入的封裝`com.day.cq.dam.scene7.api.model`的版本範圍更新為&#x200B;**3.0.4**。
+  * 將匯入的封裝`com.day.cq.dam.scene7.api.model`的版本範圍更新為&#x200B;**3.0.4**。

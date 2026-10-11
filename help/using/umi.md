@@ -2,13 +2,17 @@
 title: UMI
 description: 模式偵測器程式碼說明頁面。
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
-
 ---
-
 # UMI {#umi}
 
 升級設定錯誤問題
@@ -35,12 +39,12 @@ ht-degree: 100%
 
 ## 可能的影響和風險 {#implications-and-risks}
 
-* 變更或移除設定可能會造成以下錯誤：
-   * 升級可能會變得停滯 (例如遺失的 `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` 出現在 `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids` 中)。
-   * 升級後授權問題可能隨之而來 (`org.apache.sling.engine.impl.auth.SlingAuthenticator`)。
-   * 某些功能可能無法如預期運作。 例如變更 `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` 可能會導致 JSP 檔案未編譯，最終結果是失去功能。
-   * 外部器設定 `com.day.cq.commons.impl.ExternalizerImpl` 的值是透過 AEM as a Cloud Service 中的 Cloud Manager 環境變數所設定。
-   * AEM as a Cloud Service 不支援自訂記錄檔。 無法從 AEM as a Cloud Service 存取寫入自訂命名記錄的記錄。
+* 變更或移除設定可能會造成以下問題：
+  * 升級可能會變得停滯 (例如遺失的 `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` 出現在 `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids` 中)。
+  * 升級後授權問題可能隨之而來 (`org.apache.sling.engine.impl.auth.SlingAuthenticator`)。
+  * 某些功能可能無法如預期運作。 例如變更 `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` 可能會導致 JSP 檔案未編譯，最終結果是失去功能。
+  * 外部器設定 `com.day.cq.commons.impl.ExternalizerImpl` 的值是透過 AEM as a Cloud Service 中的 Cloud Manager 環境變數所設定。
+  * AEM as a Cloud Service 不支援自訂記錄檔。 無法從 AEM as a Cloud Service 存取寫入自訂命名記錄的記錄。
 
 ## 可能的解決方案 {#solutions}
 
@@ -51,9 +55,9 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud 支援"
 
 * 請勿變更或移除上述四個設定。
-   * 如有下列違規行為：\
-     「遺失 OSGi 設定『`xyz-configuration`』的必要屬性：『[property-1,property-2...]』」。\
-     請確認這些刪除是否合法，因為這些 OSGI 設定是 OOTB，而且可能從未透過 OSGi 設定管理員進行修改/儲存。
+  * 如有下列違規行為：\
+    「遺失 OSGi 設定『`xyz-configuration`』的必要屬性：『[property-1,property-2...]』」。\
+    請確認這些刪除是否合法，因為這些 OSGI 設定是 OOTB，而且可能從未透過 OSGi 設定管理員進行修改/儲存。
 * 如果已經變更設定，應將其還原為預期值。 這些值顯示在 `UMI` 訊息中。
 * 對於 `com.day.cq.commons.impl.ExternalizerImpl`，請參閱[文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developer-tools/externalizer)以了解如何使用 AEM as a Cloud Service 中的 Cloud Manager 環境變數來進行外部器設定。
 * 如果是 `org.apache.sling.commons.log.LogManager.factory.config`，變更 OSGI 設定以將自訂記錄器傳送到 `logs/error.log` 檔案。 請參閱[文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs)以重新指向 `logs/error.log` 檔案。
